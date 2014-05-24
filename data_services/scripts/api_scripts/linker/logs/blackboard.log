@@ -1,0 +1,1080 @@
+[32m[2014-05-14T23:58:46.032Z][info]  Post process started for 536c152e4f51a5e438001dd4 and  Service Asset - Boomi Data Load 2014-05-08 23:37[39m
+[32m[2014-05-14T23:59:06.038Z][info]  Post process started for 536c16004f51a5e43800201d and  Service Asset - Boomi Data Load 2014-05-08 23:40[39m
+[2014-05-14T23:59:46.409Z][debug] Progress: 0 out of 2 for 536c152e4f51a5e438001dd4  Service Asset - Boomi Data Load 2014-05-08 23:37
+[32m[2014-05-14T23:59:46.410Z][info] Done postProcess for 536c152e4f51a5e438001dd4  Service Asset - Boomi Data Load 2014-05-08 23:37[39m
+[32m[2014-05-14T23:59:47.215Z][info]  Post process started for 536c1729a868848b09001ebe and  Service Asset - Boomi Data Load 2014-05-08 23:45[39m
+[2014-05-15T00:00:06.417Z][debug] Progress: 0 out of 2 for 536c16004f51a5e43800201d  Service Asset - Boomi Data Load 2014-05-08 23:40
+[32m[2014-05-15T00:00:06.417Z][info] Done postProcess for 536c16004f51a5e43800201d  Service Asset - Boomi Data Load 2014-05-08 23:40[39m
+[32m[2014-05-15T00:00:07.214Z][info]  Post process started for 536c18584515bd8e09001011 and  Service Asset - Boomi Data Load 2014-05-08 23:50[39m
+[2014-05-15T00:00:47.979Z][debug] Progress: 0 out of 2 for 536c1729a868848b09001ebe  Service Asset - Boomi Data Load 2014-05-08 23:45
+[32m[2014-05-15T00:00:47.979Z][info] Done postProcess for 536c1729a868848b09001ebe  Service Asset - Boomi Data Load 2014-05-08 23:45[39m
+[32m[2014-05-15T00:00:48.766Z][info]  Post process started for 536c19814f51a5e4380024c5 and  Service Asset - Boomi Data Load 2014-05-08 23:55[39m
+[2014-05-15T00:01:07.672Z][debug] Progress: 0 out of 2 for 536c18584515bd8e09001011  Service Asset - Boomi Data Load 2014-05-08 23:50
+[32m[2014-05-15T00:01:07.672Z][info] Done postProcess for 536c18584515bd8e09001011  Service Asset - Boomi Data Load 2014-05-08 23:50[39m
+[32m[2014-05-15T00:01:08.553Z][info]  Post process started for 536c610e749583e938001628 and  Service Asset - Boomi Data Load 2014-05-09 05:01[39m
+[2014-05-15T00:01:49.563Z][debug] Progress: 0 out of 2 for 536c19814f51a5e4380024c5  Service Asset - Boomi Data Load 2014-05-08 23:55
+[32m[2014-05-15T00:01:49.563Z][info] Done postProcess for 536c19814f51a5e4380024c5  Service Asset - Boomi Data Load 2014-05-08 23:55[39m
+[32m[2014-05-15T00:01:50.445Z][info]  Post process started for 536c62271120e2e638000db8 and  Service Asset - Boomi Data Load 2014-05-09 05:05[39m
+[2014-05-15T00:02:09.274Z][debug] Progress: 0 out of 2 for 536c610e749583e938001628  Service Asset - Boomi Data Load 2014-05-09 05:01
+[32m[2014-05-15T00:02:09.275Z][info] Done postProcess for 536c610e749583e938001628  Service Asset - Boomi Data Load 2014-05-09 05:01[39m
+[32m[2014-05-15T00:02:10.059Z][info]  Post process started for 536c6355749583e93800163e and  Service Asset - Boomi Data Load 2014-05-09 05:10[39m
+[2014-05-15T00:02:50.822Z][debug] Progress: 0 out of 2 for 536c62271120e2e638000db8  Service Asset - Boomi Data Load 2014-05-09 05:05
+[32m[2014-05-15T00:02:50.823Z][info] Done postProcess for 536c62271120e2e638000db8  Service Asset - Boomi Data Load 2014-05-09 05:05[39m
+[32m[2014-05-15T00:02:51.602Z][info]  Post process started for 536c6486a868848b09002939 and  Service Asset - Boomi Data Load 2014-05-09 05:15[39m
+[2014-05-15T00:03:10.451Z][debug] Progress: 0 out of 2 for 536c6355749583e93800163e  Service Asset - Boomi Data Load 2014-05-09 05:10
+[32m[2014-05-15T00:03:10.451Z][info] Done postProcess for 536c6355749583e93800163e  Service Asset - Boomi Data Load 2014-05-09 05:10[39m
+[32m[2014-05-15T00:03:11.250Z][info]  Post process started for 536c65b44f51a5e438003141 and  Service Asset - Boomi Data Load 2014-05-09 05:20[39m
+[2014-05-15T00:03:51.974Z][debug] Progress: 0 out of 2 for 536c6486a868848b09002939  Service Asset - Boomi Data Load 2014-05-09 05:15
+[32m[2014-05-15T00:03:51.974Z][info] Done postProcess for 536c6486a868848b09002939  Service Asset - Boomi Data Load 2014-05-09 05:15[39m
+[32m[2014-05-15T00:03:52.765Z][info]  Post process started for 536c66d71120e2e638001046 and  Service Asset - Boomi Data Load 2014-05-09 05:25[39m
+[2014-05-15T00:04:11.963Z][debug] Progress: 0 out of 2 for 536c65b44f51a5e438003141  Service Asset - Boomi Data Load 2014-05-09 05:20
+[32m[2014-05-15T00:04:11.963Z][info] Done postProcess for 536c65b44f51a5e438003141  Service Asset - Boomi Data Load 2014-05-09 05:20[39m
+[32m[2014-05-15T00:04:12.753Z][info]  Post process started for 536c6805a868848b09002cb2 and  Service Asset - Boomi Data Load 2014-05-09 05:30[39m
+[2014-05-15T00:04:53.520Z][debug] Progress: 0 out of 2 for 536c66d71120e2e638001046  Service Asset - Boomi Data Load 2014-05-09 05:25
+[32m[2014-05-15T00:04:53.520Z][info] Done postProcess for 536c66d71120e2e638001046  Service Asset - Boomi Data Load 2014-05-09 05:25[39m
+[32m[2014-05-15T00:04:54.294Z][info]  Post process started for 536c692d4f51a5e438003926 and  Service Asset - Boomi Data Load 2014-05-09 05:35[39m
+[2014-05-15T00:05:13.131Z][debug] Progress: 0 out of 2 for 536c6805a868848b09002cb2  Service Asset - Boomi Data Load 2014-05-09 05:30
+[32m[2014-05-15T00:05:13.131Z][info] Done postProcess for 536c6805a868848b09002cb2  Service Asset - Boomi Data Load 2014-05-09 05:30[39m
+[32m[2014-05-15T00:05:13.930Z][info]  Post process started for 536c6a5e4f51a5e438003bf5 and  Service Asset - Boomi Data Load 2014-05-09 05:40[39m
+[2014-05-15T00:05:54.715Z][debug] Progress: 0 out of 2 for 536c692d4f51a5e438003926  Service Asset - Boomi Data Load 2014-05-09 05:35
+[32m[2014-05-15T00:05:54.715Z][info] Done postProcess for 536c692d4f51a5e438003926  Service Asset - Boomi Data Load 2014-05-09 05:35[39m
+[32m[2014-05-15T00:05:55.507Z][info]  Post process started for 536c6b89749583e9380019b4 and  Service Asset - Boomi Data Load 2014-05-09 05:45[39m
+[2014-05-15T00:06:14.319Z][debug] Progress: 0 out of 2 for 536c6a5e4f51a5e438003bf5  Service Asset - Boomi Data Load 2014-05-09 05:40
+[32m[2014-05-15T00:06:14.319Z][info] Done postProcess for 536c6a5e4f51a5e438003bf5  Service Asset - Boomi Data Load 2014-05-09 05:40[39m
+[32m[2014-05-15T00:06:15.143Z][info]  Post process started for 536c6cb24f51a5e438003f15 and  Service Asset - Boomi Data Load 2014-05-09 05:50[39m
+[2014-05-15T00:06:55.881Z][debug] Progress: 0 out of 2 for 536c6b89749583e9380019b4  Service Asset - Boomi Data Load 2014-05-09 05:45
+[32m[2014-05-15T00:06:55.881Z][info] Done postProcess for 536c6b89749583e9380019b4  Service Asset - Boomi Data Load 2014-05-09 05:45[39m
+[32m[2014-05-15T00:06:56.679Z][info]  Post process started for 536c6de2fb2fc49009001edd and  Service Asset - Boomi Data Load 2014-05-09 05:55[39m
+[2014-05-15T00:07:15.879Z][debug] Progress: 0 out of 2 for 536c6cb24f51a5e438003f15  Service Asset - Boomi Data Load 2014-05-09 05:50
+[32m[2014-05-15T00:07:15.879Z][info] Done postProcess for 536c6cb24f51a5e438003f15  Service Asset - Boomi Data Load 2014-05-09 05:50[39m
+[32m[2014-05-15T00:07:16.818Z][info]  Post process started for 536c6f134f51a5e438004241 and  Service Asset - Boomi Data Load 2014-05-09 06:00[39m
+[2014-05-15T00:07:57.502Z][debug] Progress: 0 out of 2 for 536c6de2fb2fc49009001edd  Service Asset - Boomi Data Load 2014-05-09 05:55
+[32m[2014-05-15T00:07:57.502Z][info] Done postProcess for 536c6de2fb2fc49009001edd  Service Asset - Boomi Data Load 2014-05-09 05:55[39m
+[32m[2014-05-15T00:07:58.348Z][info]  Post process started for 536c703ba868848b09003c22 and  Service Asset - Boomi Data Load 2014-05-09 06:05[39m
+[2014-05-15T00:08:17.209Z][debug] Progress: 0 out of 2 for 536c6f134f51a5e438004241  Service Asset - Boomi Data Load 2014-05-09 06:00
+[32m[2014-05-15T00:08:17.209Z][info] Done postProcess for 536c6f134f51a5e438004241  Service Asset - Boomi Data Load 2014-05-09 06:00[39m
+[32m[2014-05-15T00:08:18.011Z][info]  Post process started for 536c7167a868848b09003c59 and  Service Asset - Boomi Data Load 2014-05-09 06:10[39m
+[2014-05-15T00:08:58.750Z][debug] Progress: 0 out of 2 for 536c703ba868848b09003c22  Service Asset - Boomi Data Load 2014-05-09 06:05
+[32m[2014-05-15T00:08:58.750Z][info] Done postProcess for 536c703ba868848b09003c22  Service Asset - Boomi Data Load 2014-05-09 06:05[39m
+[32m[2014-05-15T00:08:59.562Z][info]  Post process started for 536c7297a868848b09003cb9 and  Service Asset - Boomi Data Load 2014-05-09 06:15[39m
+[2014-05-15T00:09:18.391Z][debug] Progress: 0 out of 2 for 536c7167a868848b09003c59  Service Asset - Boomi Data Load 2014-05-09 06:10
+[32m[2014-05-15T00:09:18.391Z][info] Done postProcess for 536c7167a868848b09003c59  Service Asset - Boomi Data Load 2014-05-09 06:10[39m
+[32m[2014-05-15T00:09:19.244Z][info]  Post process started for 536c73bdfb2fc49009002671 and  Service Asset - Boomi Data Load 2014-05-09 06:20[39m
+[2014-05-15T00:09:59.956Z][debug] Progress: 0 out of 2 for 536c7297a868848b09003cb9  Service Asset - Boomi Data Load 2014-05-09 06:15
+[32m[2014-05-15T00:09:59.956Z][info] Done postProcess for 536c7297a868848b09003cb9  Service Asset - Boomi Data Load 2014-05-09 06:15[39m
+[32m[2014-05-15T00:10:00.755Z][info]  Post process started for 536c74eea868848b09003d4d and  Service Asset - Boomi Data Load 2014-05-09 06:25[39m
+[2014-05-15T00:10:20.031Z][debug] Progress: 0 out of 2 for 536c73bdfb2fc49009002671  Service Asset - Boomi Data Load 2014-05-09 06:20
+[32m[2014-05-15T00:10:20.031Z][info] Done postProcess for 536c73bdfb2fc49009002671  Service Asset - Boomi Data Load 2014-05-09 06:20[39m
+[32m[2014-05-15T00:10:20.840Z][info]  Post process started for 536c761cc135e48d09000b9b and  Service Asset - Boomi Data Load 2014-05-09 06:30[39m
+[2014-05-15T00:11:01.200Z][debug] Progress: 0 out of 2 for 536c74eea868848b09003d4d  Service Asset - Boomi Data Load 2014-05-09 06:25
+[32m[2014-05-15T00:11:01.200Z][info] Done postProcess for 536c74eea868848b09003d4d  Service Asset - Boomi Data Load 2014-05-09 06:25[39m
+[32m[2014-05-15T00:11:01.986Z][info]  Post process started for 536c7742a868848b090040ae and  Service Asset - Boomi Data Load 2014-05-09 06:35[39m
+[2014-05-15T00:11:21.266Z][debug] Progress: 0 out of 2 for 536c761cc135e48d09000b9b  Service Asset - Boomi Data Load 2014-05-09 06:30
+[32m[2014-05-15T00:11:21.266Z][info] Done postProcess for 536c761cc135e48d09000b9b  Service Asset - Boomi Data Load 2014-05-09 06:30[39m
+[32m[2014-05-15T00:11:22.078Z][info]  Post process started for 536c786da868848b0900435b and  Service Asset - Boomi Data Load 2014-05-09 06:40[39m
+[2014-05-15T00:12:02.807Z][debug] Progress: 0 out of 2 for 536c7742a868848b090040ae  Service Asset - Boomi Data Load 2014-05-09 06:35
+[32m[2014-05-15T00:12:02.807Z][info] Done postProcess for 536c7742a868848b090040ae  Service Asset - Boomi Data Load 2014-05-09 06:35[39m
+[32m[2014-05-15T00:12:03.703Z][info]  Post process started for 536c799ec135e48d09000bba and  Service Asset - Boomi Data Load 2014-05-09 06:45[39m
+[2014-05-15T00:12:22.461Z][debug] Progress: 0 out of 2 for 536c786da868848b0900435b  Service Asset - Boomi Data Load 2014-05-09 06:40
+[32m[2014-05-15T00:12:22.461Z][info] Done postProcess for 536c786da868848b0900435b  Service Asset - Boomi Data Load 2014-05-09 06:40[39m
+[32m[2014-05-15T00:12:23.261Z][info]  Post process started for 536c7ac2a868848b090046b6 and  Service Asset - Boomi Data Load 2014-05-09 06:50[39m
+[2014-05-15T00:13:04.090Z][debug] Progress: 0 out of 2 for 536c799ec135e48d09000bba  Service Asset - Boomi Data Load 2014-05-09 06:45
+[32m[2014-05-15T00:13:04.091Z][info] Done postProcess for 536c799ec135e48d09000bba  Service Asset - Boomi Data Load 2014-05-09 06:45[39m
+[32m[2014-05-15T00:13:04.880Z][info]  Post process started for 536c7bf449a6bb14610008c0 and  Service Asset - Boomi Data Load 2014-05-09 06:55[39m
+[2014-05-15T00:13:23.659Z][debug] Progress: 0 out of 2 for 536c7ac2a868848b090046b6  Service Asset - Boomi Data Load 2014-05-09 06:50
+[32m[2014-05-15T00:13:23.659Z][info] Done postProcess for 536c7ac2a868848b090046b6  Service Asset - Boomi Data Load 2014-05-09 06:50[39m
+[32m[2014-05-15T00:13:24.488Z][info]  Post process started for 536c7d26b4474c0f6100043a and  Service Asset - Boomi Data Load 2014-05-09 07:00[39m
+[2014-05-15T00:14:05.288Z][debug] Progress: 0 out of 2 for 536c7bf449a6bb14610008c0  Service Asset - Boomi Data Load 2014-05-09 06:55
+[32m[2014-05-15T00:14:05.288Z][info] Done postProcess for 536c7bf449a6bb14610008c0  Service Asset - Boomi Data Load 2014-05-09 06:55[39m
+[32m[2014-05-15T00:14:06.117Z][info]  Post process started for 536c7e4d49a6bb1461000e10 and  Service Asset - Boomi Data Load 2014-05-09 07:05[39m
+[2014-05-15T00:14:25.198Z][debug] Progress: 0 out of 2 for 536c7d26b4474c0f6100043a  Service Asset - Boomi Data Load 2014-05-09 07:00
+[32m[2014-05-15T00:14:25.198Z][info] Done postProcess for 536c7d26b4474c0f6100043a  Service Asset - Boomi Data Load 2014-05-09 07:00[39m
+[32m[2014-05-15T00:14:25.995Z][info]  Post process started for 536c7f74b4474c0f61000456 and  Service Asset - Boomi Data Load 2014-05-09 07:10[39m
+[2014-05-15T00:15:06.917Z][debug] Progress: 0 out of 2 for 536c7e4d49a6bb1461000e10  Service Asset - Boomi Data Load 2014-05-09 07:05
+[32m[2014-05-15T00:15:06.917Z][info] Done postProcess for 536c7e4d49a6bb1461000e10  Service Asset - Boomi Data Load 2014-05-09 07:05[39m
+[32m[2014-05-15T00:15:07.707Z][info]  Post process started for 536c80a0fb2fc49009003278 and  Service Asset - Boomi Data Load 2014-05-09 07:15[39m
+[2014-05-15T00:15:26.704Z][debug] Progress: 0 out of 2 for 536c7f74b4474c0f61000456  Service Asset - Boomi Data Load 2014-05-09 07:10
+[32m[2014-05-15T00:15:26.704Z][info] Done postProcess for 536c7f74b4474c0f61000456  Service Asset - Boomi Data Load 2014-05-09 07:10[39m
+[32m[2014-05-15T00:15:27.490Z][info]  Post process started for 536c81d249a6bb14610011f6 and  Service Asset - Boomi Data Load 2014-05-09 07:20[39m
+[2014-05-15T00:16:08.085Z][debug] Progress: 0 out of 2 for 536c80a0fb2fc49009003278  Service Asset - Boomi Data Load 2014-05-09 07:15
+[32m[2014-05-15T00:16:08.085Z][info] Done postProcess for 536c80a0fb2fc49009003278  Service Asset - Boomi Data Load 2014-05-09 07:15[39m
+[32m[2014-05-15T00:16:08.935Z][info]  Post process started for 536c82fea868848b0900544a and  Service Asset - Boomi Data Load 2014-05-09 07:25[39m
+[2014-05-15T00:16:28.072Z][debug] Progress: 0 out of 2 for 536c81d249a6bb14610011f6  Service Asset - Boomi Data Load 2014-05-09 07:20
+[32m[2014-05-15T00:16:28.072Z][info] Done postProcess for 536c81d249a6bb14610011f6  Service Asset - Boomi Data Load 2014-05-09 07:20[39m
+[32m[2014-05-15T00:16:28.851Z][info]  Post process started for 536c8427fb2fc490090032fc and  Service Asset - Boomi Data Load 2014-05-09 07:30[39m
+[2014-05-15T00:17:09.309Z][debug] Progress: 0 out of 2 for 536c82fea868848b0900544a  Service Asset - Boomi Data Load 2014-05-09 07:25
+[32m[2014-05-15T00:17:09.309Z][info] Done postProcess for 536c82fea868848b0900544a  Service Asset - Boomi Data Load 2014-05-09 07:25[39m
+[32m[2014-05-15T00:17:10.096Z][info]  Post process started for 536c854ea868848b09005713 and  Service Asset - Boomi Data Load 2014-05-09 07:35[39m
+[2014-05-15T00:17:29.247Z][debug] Progress: 0 out of 2 for 536c8427fb2fc490090032fc  Service Asset - Boomi Data Load 2014-05-09 07:30
+[32m[2014-05-15T00:17:29.247Z][info] Done postProcess for 536c8427fb2fc490090032fc  Service Asset - Boomi Data Load 2014-05-09 07:30[39m
+[32m[2014-05-15T00:17:30.025Z][info]  Post process started for 536c867ea868848b090059c1 and  Service Asset - Boomi Data Load 2014-05-09 07:40[39m
+[2014-05-15T00:18:10.519Z][debug] Progress: 0 out of 2 for 536c854ea868848b09005713  Service Asset - Boomi Data Load 2014-05-09 07:35
+[32m[2014-05-15T00:18:10.519Z][info] Done postProcess for 536c854ea868848b09005713  Service Asset - Boomi Data Load 2014-05-09 07:35[39m
+[32m[2014-05-15T00:18:11.333Z][info]  Post process started for 536c87a6a868848b090059ee and  Service Asset - Boomi Data Load 2014-05-09 07:45[39m
+[2014-05-15T00:18:30.399Z][debug] Progress: 0 out of 2 for 536c867ea868848b090059c1  Service Asset - Boomi Data Load 2014-05-09 07:40
+[32m[2014-05-15T00:18:30.400Z][info] Done postProcess for 536c867ea868848b090059c1  Service Asset - Boomi Data Load 2014-05-09 07:40[39m
+[32m[2014-05-15T00:18:31.185Z][info]  Post process started for 536c88d6fb2fc49009003853 and  Service Asset - Boomi Data Load 2014-05-09 07:50[39m
+[2014-05-15T00:19:11.724Z][debug] Progress: 0 out of 2 for 536c87a6a868848b090059ee  Service Asset - Boomi Data Load 2014-05-09 07:45
+[32m[2014-05-15T00:19:11.724Z][info] Done postProcess for 536c87a6a868848b090059ee  Service Asset - Boomi Data Load 2014-05-09 07:45[39m
+[32m[2014-05-15T00:19:12.503Z][info]  Post process started for 536c8a03a868848b09005ca2 and  Service Asset - Boomi Data Load 2014-05-09 07:55[39m
+[2014-05-15T00:19:32.087Z][debug] Progress: 0 out of 2 for 536c88d6fb2fc49009003853  Service Asset - Boomi Data Load 2014-05-09 07:50
+[32m[2014-05-15T00:19:32.087Z][info] Done postProcess for 536c88d6fb2fc49009003853  Service Asset - Boomi Data Load 2014-05-09 07:50[39m
+[32m[2014-05-15T00:19:32.916Z][info]  Post process started for 536c8b32a868848b09005cbe and  Service Asset - Boomi Data Load 2014-05-09 08:00[39m
+[2014-05-15T00:20:13.236Z][debug] Progress: 0 out of 2 for 536c8a03a868848b09005ca2  Service Asset - Boomi Data Load 2014-05-09 07:55
+[32m[2014-05-15T00:20:13.236Z][info] Done postProcess for 536c8a03a868848b09005ca2  Service Asset - Boomi Data Load 2014-05-09 07:55[39m
+[32m[2014-05-15T00:20:14.075Z][info]  Post process started for 536c8c56fb2fc49009003d7a and  Service Asset - Boomi Data Load 2014-05-09 08:05[39m
+[2014-05-15T00:20:33.325Z][debug] Progress: 0 out of 2 for 536c8b32a868848b09005cbe  Service Asset - Boomi Data Load 2014-05-09 08:00
+[32m[2014-05-15T00:20:33.326Z][info] Done postProcess for 536c8b32a868848b09005cbe  Service Asset - Boomi Data Load 2014-05-09 08:00[39m
+[32m[2014-05-15T00:20:34.119Z][info]  Post process started for 536c8d84fb2fc49009003da8 and  Service Asset - Boomi Data Load 2014-05-09 08:10[39m
+[2014-05-15T00:21:14.550Z][debug] Progress: 0 out of 2 for 536c8c56fb2fc49009003d7a  Service Asset - Boomi Data Load 2014-05-09 08:05
+[32m[2014-05-15T00:21:14.550Z][info] Done postProcess for 536c8c56fb2fc49009003d7a  Service Asset - Boomi Data Load 2014-05-09 08:05[39m
+[32m[2014-05-15T00:21:15.352Z][info]  Post process started for 536c8eb2a868848b09006489 and  Service Asset - Boomi Data Load 2014-05-09 08:15[39m
+[2014-05-15T00:21:34.500Z][debug] Progress: 0 out of 2 for 536c8d84fb2fc49009003da8  Service Asset - Boomi Data Load 2014-05-09 08:10
+[32m[2014-05-15T00:21:34.501Z][info] Done postProcess for 536c8d84fb2fc49009003da8  Service Asset - Boomi Data Load 2014-05-09 08:10[39m
+[32m[2014-05-15T00:21:35.304Z][info]  Post process started for 536c8fdea868848b09006714 and  Service Asset - Boomi Data Load 2014-05-09 08:20[39m
+[2014-05-15T00:22:15.728Z][debug] Progress: 0 out of 2 for 536c8eb2a868848b09006489  Service Asset - Boomi Data Load 2014-05-09 08:15
+[32m[2014-05-15T00:22:15.728Z][info] Done postProcess for 536c8eb2a868848b09006489  Service Asset - Boomi Data Load 2014-05-09 08:15[39m
+[32m[2014-05-15T00:22:16.524Z][info]  Post process started for 536c910cfb2fc49009003e4f and  Service Asset - Boomi Data Load 2014-05-09 08:25[39m
+[2014-05-15T00:22:35.706Z][debug] Progress: 0 out of 2 for 536c8fdea868848b09006714  Service Asset - Boomi Data Load 2014-05-09 08:20
+[32m[2014-05-15T00:22:35.706Z][info] Done postProcess for 536c8fdea868848b09006714  Service Asset - Boomi Data Load 2014-05-09 08:20[39m
+[32m[2014-05-15T00:22:36.512Z][info]  Post process started for 536c9235a868848b090069f5 and  Service Asset - Boomi Data Load 2014-05-09 08:30[39m
+[2014-05-15T00:23:16.903Z][debug] Progress: 0 out of 2 for 536c910cfb2fc49009003e4f  Service Asset - Boomi Data Load 2014-05-09 08:25
+[32m[2014-05-15T00:23:16.903Z][info] Done postProcess for 536c910cfb2fc49009003e4f  Service Asset - Boomi Data Load 2014-05-09 08:25[39m
+[32m[2014-05-15T00:23:17.688Z][info]  Post process started for 536c935ea868848b09006a20 and  Service Asset - Boomi Data Load 2014-05-09 08:35[39m
+[2014-05-15T00:23:37.260Z][debug] Progress: 0 out of 2 for 536c9235a868848b090069f5  Service Asset - Boomi Data Load 2014-05-09 08:30
+[32m[2014-05-15T00:23:37.260Z][info] Done postProcess for 536c9235a868848b090069f5  Service Asset - Boomi Data Load 2014-05-09 08:30[39m
+[32m[2014-05-15T00:23:38.064Z][info]  Post process started for 536c948aa868848b09006ccc and  Service Asset - Boomi Data Load 2014-05-09 08:40[39m
+[2014-05-15T00:24:18.409Z][debug] Progress: 0 out of 2 for 536c935ea868848b09006a20  Service Asset - Boomi Data Load 2014-05-09 08:35
+[32m[2014-05-15T00:24:18.409Z][info] Done postProcess for 536c935ea868848b09006a20  Service Asset - Boomi Data Load 2014-05-09 08:35[39m
+[32m[2014-05-15T00:24:19.199Z][info]  Post process started for 536c95bdfb2fc490090043c3 and  Service Asset - Boomi Data Load 2014-05-09 08:45[39m
+[2014-05-15T00:24:38.443Z][debug] Progress: 0 out of 2 for 536c948aa868848b09006ccc  Service Asset - Boomi Data Load 2014-05-09 08:40
+[32m[2014-05-15T00:24:38.443Z][info] Done postProcess for 536c948aa868848b09006ccc  Service Asset - Boomi Data Load 2014-05-09 08:40[39m
+[32m[2014-05-15T00:24:39.286Z][info]  Post process started for 536c96e6a868848b09006f76 and  Service Asset - Boomi Data Load 2014-05-09 08:50[39m
+[2014-05-15T00:25:19.578Z][debug] Progress: 0 out of 2 for 536c95bdfb2fc490090043c3  Service Asset - Boomi Data Load 2014-05-09 08:45
+[32m[2014-05-15T00:25:19.578Z][info] Done postProcess for 536c95bdfb2fc490090043c3  Service Asset - Boomi Data Load 2014-05-09 08:45[39m
+[32m[2014-05-15T00:25:20.366Z][info]  Post process started for 536c9812a868848b09006fb7 and  Service Asset - Boomi Data Load 2014-05-09 08:55[39m
+[2014-05-15T00:25:39.678Z][debug] Progress: 0 out of 2 for 536c96e6a868848b09006f76  Service Asset - Boomi Data Load 2014-05-09 08:50
+[32m[2014-05-15T00:25:39.678Z][info] Done postProcess for 536c96e6a868848b09006f76  Service Asset - Boomi Data Load 2014-05-09 08:50[39m
+[32m[2014-05-15T00:25:40.562Z][info]  Post process started for 536c9940a868848b09007013 and  Service Asset - Boomi Data Load 2014-05-09 09:00[39m
+[2014-05-15T00:26:20.808Z][debug] Progress: 0 out of 2 for 536c9812a868848b09006fb7  Service Asset - Boomi Data Load 2014-05-09 08:55
+[32m[2014-05-15T00:26:20.808Z][info] Done postProcess for 536c9812a868848b09006fb7  Service Asset - Boomi Data Load 2014-05-09 08:55[39m
+[32m[2014-05-15T00:26:21.849Z][info]  Post process started for 536c9a6dfb2fc49009004902 and  Service Asset - Boomi Data Load 2014-05-09 09:05[39m
+[2014-05-15T00:26:41.431Z][debug] Progress: 0 out of 2 for 536c9940a868848b09007013  Service Asset - Boomi Data Load 2014-05-09 09:00
+[32m[2014-05-15T00:26:41.431Z][info] Done postProcess for 536c9940a868848b09007013  Service Asset - Boomi Data Load 2014-05-09 09:00[39m
+[32m[2014-05-15T00:26:42.523Z][info]  Post process started for 536c9b9849a6bb14610030f1 and  Service Asset - Boomi Data Load 2014-05-09 09:10[39m
+[2014-05-15T00:27:22.828Z][debug] Progress: 0 out of 2 for 536c9a6dfb2fc49009004902  Service Asset - Boomi Data Load 2014-05-09 09:05
+[32m[2014-05-15T00:27:22.828Z][info] Done postProcess for 536c9a6dfb2fc49009004902  Service Asset - Boomi Data Load 2014-05-09 09:05[39m
+[32m[2014-05-15T00:27:23.989Z][info]  Post process started for 536c9cc949a6bb1461003399 and  Service Asset - Boomi Data Load 2014-05-09 09:15[39m
+[2014-05-15T00:27:43.078Z][debug] Progress: 0 out of 2 for 536c9b9849a6bb14610030f1  Service Asset - Boomi Data Load 2014-05-09 09:10
+[32m[2014-05-15T00:27:43.079Z][info] Done postProcess for 536c9b9849a6bb14610030f1  Service Asset - Boomi Data Load 2014-05-09 09:10[39m
+[32m[2014-05-15T00:27:44.215Z][info]  Post process started for 536c9df149a6bb14610033ee and  Service Asset - Boomi Data Load 2014-05-09 09:20[39m
+[2014-05-15T00:28:24.520Z][debug] Progress: 0 out of 2 for 536c9cc949a6bb1461003399  Service Asset - Boomi Data Load 2014-05-09 09:15
+[32m[2014-05-15T00:28:24.520Z][info] Done postProcess for 536c9cc949a6bb1461003399  Service Asset - Boomi Data Load 2014-05-09 09:15[39m
+[32m[2014-05-15T00:28:25.633Z][info]  Post process started for 536c9f189c66ba12610005dc and  Service Asset - Boomi Data Load 2014-05-09 09:25[39m
+[2014-05-15T00:28:44.871Z][debug] Progress: 0 out of 2 for 536c9df149a6bb14610033ee  Service Asset - Boomi Data Load 2014-05-09 09:20
+[32m[2014-05-15T00:28:44.871Z][info] Done postProcess for 536c9df149a6bb14610033ee  Service Asset - Boomi Data Load 2014-05-09 09:20[39m
+[32m[2014-05-15T00:28:45.739Z][info]  Post process started for 536ca04a49a6bb14610036f9 and  Service Asset - Boomi Data Load 2014-05-09 09:30[39m
+[2014-05-15T00:29:26.011Z][debug] Progress: 0 out of 2 for 536c9f189c66ba12610005dc  Service Asset - Boomi Data Load 2014-05-09 09:25
+[32m[2014-05-15T00:29:26.011Z][info] Done postProcess for 536c9f189c66ba12610005dc  Service Asset - Boomi Data Load 2014-05-09 09:25[39m
+[32m[2014-05-15T00:29:26.811Z][info]  Post process started for 536ca17749a6bb146100374a and  Service Asset - Boomi Data Load 2014-05-09 09:35[39m
+[2014-05-15T00:29:46.177Z][debug] Progress: 0 out of 2 for 536ca04a49a6bb14610036f9  Service Asset - Boomi Data Load 2014-05-09 09:30
+[32m[2014-05-15T00:29:46.178Z][info] Done postProcess for 536ca04a49a6bb14610036f9  Service Asset - Boomi Data Load 2014-05-09 09:30[39m
+[32m[2014-05-15T00:29:46.962Z][info]  Post process started for 536ca2a549a6bb14610039f3 and  Service Asset - Boomi Data Load 2014-05-09 09:40[39m
+[2014-05-15T00:30:27.187Z][debug] Progress: 0 out of 2 for 536ca17749a6bb146100374a  Service Asset - Boomi Data Load 2014-05-09 09:35
+[32m[2014-05-15T00:30:27.187Z][info] Done postProcess for 536ca17749a6bb146100374a  Service Asset - Boomi Data Load 2014-05-09 09:35[39m
+[32m[2014-05-15T00:30:28.002Z][info]  Post process started for 536ca3d049a6bb1461003ca8 and  Service Asset - Boomi Data Load 2014-05-09 09:45[39m
+[2014-05-15T00:30:47.340Z][debug] Progress: 0 out of 2 for 536ca2a549a6bb14610039f3  Service Asset - Boomi Data Load 2014-05-09 09:40
+[32m[2014-05-15T00:30:47.340Z][info] Done postProcess for 536ca2a549a6bb14610039f3  Service Asset - Boomi Data Load 2014-05-09 09:40[39m
+[32m[2014-05-15T00:30:48.145Z][info]  Post process started for 536ca4fc49a6bb1461003f59 and  Service Asset - Boomi Data Load 2014-05-09 09:50[39m
+[2014-05-15T00:31:28.721Z][debug] Progress: 0 out of 2 for 536ca3d049a6bb1461003ca8  Service Asset - Boomi Data Load 2014-05-09 09:45
+[32m[2014-05-15T00:31:28.722Z][info] Done postProcess for 536ca3d049a6bb1461003ca8  Service Asset - Boomi Data Load 2014-05-09 09:45[39m
+[32m[2014-05-15T00:31:29.535Z][info]  Post process started for 536ca62749a6bb1461004219 and  Service Asset - Boomi Data Load 2014-05-09 09:55[39m
+[2014-05-15T00:31:48.872Z][debug] Progress: 0 out of 2 for 536ca4fc49a6bb1461003f59  Service Asset - Boomi Data Load 2014-05-09 09:50
+[32m[2014-05-15T00:31:48.872Z][info] Done postProcess for 536ca4fc49a6bb1461003f59  Service Asset - Boomi Data Load 2014-05-09 09:50[39m
+[32m[2014-05-15T00:31:49.681Z][info]  Post process started for 536ca75549a6bb14610044d0 and  Service Asset - Boomi Data Load 2014-05-09 10:00[39m
+[2014-05-15T00:32:29.926Z][debug] Progress: 0 out of 2 for 536ca62749a6bb1461004219  Service Asset - Boomi Data Load 2014-05-09 09:55
+[32m[2014-05-15T00:32:29.926Z][info] Done postProcess for 536ca62749a6bb1461004219  Service Asset - Boomi Data Load 2014-05-09 09:55[39m
+[32m[2014-05-15T00:32:30.861Z][info]  Post process started for 536ca88049a6bb1461004783 and  Service Asset - Boomi Data Load 2014-05-09 10:05[39m
+[2014-05-15T00:32:50.071Z][debug] Progress: 0 out of 2 for 536ca75549a6bb14610044d0  Service Asset - Boomi Data Load 2014-05-09 10:00
+[32m[2014-05-15T00:32:50.071Z][info] Done postProcess for 536ca75549a6bb14610044d0  Service Asset - Boomi Data Load 2014-05-09 10:00[39m
+[32m[2014-05-15T00:32:50.854Z][info]  Post process started for 536ca9ac49a6bb1461004a47 and  Service Asset - Boomi Data Load 2014-05-09 10:10[39m
+[2014-05-15T00:33:31.299Z][debug] Progress: 0 out of 2 for 536ca88049a6bb1461004783  Service Asset - Boomi Data Load 2014-05-09 10:05
+[32m[2014-05-15T00:33:31.300Z][info] Done postProcess for 536ca88049a6bb1461004783  Service Asset - Boomi Data Load 2014-05-09 10:05[39m
+[32m[2014-05-15T00:33:32.167Z][info]  Post process started for 536caad81cb9ac1161000243 and  Service Asset - Boomi Data Load 2014-05-09 10:15[39m
+[2014-05-15T00:33:51.229Z][debug] Progress: 0 out of 2 for 536ca9ac49a6bb1461004a47  Service Asset - Boomi Data Load 2014-05-09 10:10
+[32m[2014-05-15T00:33:51.229Z][info] Done postProcess for 536ca9ac49a6bb1461004a47  Service Asset - Boomi Data Load 2014-05-09 10:10[39m
+[32m[2014-05-15T00:33:52.027Z][info]  Post process started for 536cac029c66ba126100064f and  Service Asset - Boomi Data Load 2014-05-09 10:20[39m
+[2014-05-15T00:34:32.885Z][debug] Progress: 0 out of 2 for 536caad81cb9ac1161000243  Service Asset - Boomi Data Load 2014-05-09 10:15
+[32m[2014-05-15T00:34:32.885Z][info] Done postProcess for 536caad81cb9ac1161000243  Service Asset - Boomi Data Load 2014-05-09 10:15[39m
+[32m[2014-05-15T00:34:33.705Z][info]  Post process started for 536cad2cfb2fc49009005523 and  Service Asset - Boomi Data Load 2014-05-09 10:25[39m
+[2014-05-15T00:34:52.788Z][debug] Progress: 0 out of 2 for 536cac029c66ba126100064f  Service Asset - Boomi Data Load 2014-05-09 10:20
+[32m[2014-05-15T00:34:52.788Z][info] Done postProcess for 536cac029c66ba126100064f  Service Asset - Boomi Data Load 2014-05-09 10:20[39m
+[32m[2014-05-15T00:34:53.579Z][info]  Post process started for 536cae69a868848b09009155 and  Service Asset - Boomi Data Load 2014-05-09 10:31[39m
+[2014-05-15T00:35:34.128Z][debug] Progress: 0 out of 2 for 536cad2cfb2fc49009005523  Service Asset - Boomi Data Load 2014-05-09 10:25
+[32m[2014-05-15T00:35:34.128Z][info] Done postProcess for 536cad2cfb2fc49009005523  Service Asset - Boomi Data Load 2014-05-09 10:25[39m
+[32m[2014-05-15T00:35:34.922Z][info]  Post process started for 536caf8949a6bb1461005346 and  Service Asset - Boomi Data Load 2014-05-09 10:35[39m
+[2014-05-15T00:35:53.956Z][debug] Progress: 0 out of 2 for 536cae69a868848b09009155  Service Asset - Boomi Data Load 2014-05-09 10:31
+[32m[2014-05-15T00:35:53.956Z][info] Done postProcess for 536cae69a868848b09009155  Service Asset - Boomi Data Load 2014-05-09 10:31[39m
+[32m[2014-05-15T00:35:54.780Z][info]  Post process started for 536cb0ac49a6bb1461005610 and  Service Asset - Boomi Data Load 2014-05-09 10:40[39m
+[2014-05-15T00:36:35.328Z][debug] Progress: 0 out of 2 for 536caf8949a6bb1461005346  Service Asset - Boomi Data Load 2014-05-09 10:35
+[32m[2014-05-15T00:36:35.328Z][info] Done postProcess for 536caf8949a6bb1461005346  Service Asset - Boomi Data Load 2014-05-09 10:35[39m
+[32m[2014-05-15T00:36:36.136Z][info]  Post process started for 536cb1dc49a6bb14610058a5 and  Service Asset - Boomi Data Load 2014-05-09 10:45[39m
+[2014-05-15T00:36:55.169Z][debug] Progress: 0 out of 2 for 536cb0ac49a6bb1461005610  Service Asset - Boomi Data Load 2014-05-09 10:40
+[32m[2014-05-15T00:36:55.170Z][info] Done postProcess for 536cb0ac49a6bb1461005610  Service Asset - Boomi Data Load 2014-05-09 10:40[39m
+[32m[2014-05-15T00:36:55.977Z][info]  Post process started for 536cb30e49a6bb14610058f6 and  Service Asset - Boomi Data Load 2014-05-09 10:50[39m
+[2014-05-15T00:37:36.862Z][debug] Progress: 0 out of 2 for 536cb1dc49a6bb14610058a5  Service Asset - Boomi Data Load 2014-05-09 10:45
+[32m[2014-05-15T00:37:36.862Z][info] Done postProcess for 536cb1dc49a6bb14610058a5  Service Asset - Boomi Data Load 2014-05-09 10:45[39m
+[32m[2014-05-15T00:37:37.649Z][info]  Post process started for 536cb43e49a6bb1461005bd2 and  Service Asset - Boomi Data Load 2014-05-09 10:55[39m
+[2014-05-15T00:37:56.737Z][debug] Progress: 0 out of 2 for 536cb30e49a6bb14610058f6  Service Asset - Boomi Data Load 2014-05-09 10:50
+[32m[2014-05-15T00:37:56.737Z][info] Done postProcess for 536cb30e49a6bb14610058f6  Service Asset - Boomi Data Load 2014-05-09 10:50[39m
+[32m[2014-05-15T00:37:57.556Z][info]  Post process started for 536cb57149a6bb1461005e86 and  Service Asset - Boomi Data Load 2014-05-09 11:01[39m
+[2014-05-15T00:38:38.022Z][debug] Progress: 0 out of 2 for 536cb43e49a6bb1461005bd2  Service Asset - Boomi Data Load 2014-05-09 10:55
+[32m[2014-05-15T00:38:38.022Z][info] Done postProcess for 536cb43e49a6bb1461005bd2  Service Asset - Boomi Data Load 2014-05-09 10:55[39m
+[32m[2014-05-15T00:38:38.853Z][info]  Post process started for 536cb6df49a6bb146100614e and  Service Asset - Boomi Data Load 2014-05-09 11:07[39m
+[2014-05-15T00:38:57.928Z][debug] Progress: 0 out of 2 for 536cb57149a6bb1461005e86  Service Asset - Boomi Data Load 2014-05-09 11:01
+[32m[2014-05-15T00:38:57.928Z][info] Done postProcess for 536cb57149a6bb1461005e86  Service Asset - Boomi Data Load 2014-05-09 11:01[39m
+[32m[2014-05-15T00:38:58.758Z][info]  Post process started for 536cb7b49c66ba1261000745 and  Service Asset - Boomi Data Load 2014-05-09 11:10[39m
+[2014-05-15T00:39:39.321Z][debug] Progress: 0 out of 2 for 536cb6df49a6bb146100614e  Service Asset - Boomi Data Load 2014-05-09 11:07
+[32m[2014-05-15T00:39:39.321Z][info] Done postProcess for 536cb6df49a6bb146100614e  Service Asset - Boomi Data Load 2014-05-09 11:07[39m
+[32m[2014-05-15T00:39:40.115Z][info]  Post process started for 536cb8e949a6bb146100644a and  Service Asset - Boomi Data Load 2014-05-09 11:15[39m
+[2014-05-15T00:39:59.168Z][debug] Progress: 0 out of 2 for 536cb7b49c66ba1261000745  Service Asset - Boomi Data Load 2014-05-09 11:10
+[32m[2014-05-15T00:39:59.168Z][info] Done postProcess for 536cb7b49c66ba1261000745  Service Asset - Boomi Data Load 2014-05-09 11:10[39m
+[32m[2014-05-15T00:39:59.958Z][info]  Post process started for 536cba1049a6bb14610066fe and  Service Asset - Boomi Data Load 2014-05-09 11:20[39m
+[2014-05-15T00:40:40.831Z][debug] Progress: 0 out of 2 for 536cb8e949a6bb146100644a  Service Asset - Boomi Data Load 2014-05-09 11:15
+[32m[2014-05-15T00:40:40.831Z][info] Done postProcess for 536cb8e949a6bb146100644a  Service Asset - Boomi Data Load 2014-05-09 11:15[39m
+[32m[2014-05-15T00:40:41.630Z][info]  Post process started for 536cbb3c9c66ba1261000759 and  Service Asset - Boomi Data Load 2014-05-09 11:25[39m
+[2014-05-15T00:41:00.757Z][debug] Progress: 0 out of 2 for 536cba1049a6bb14610066fe  Service Asset - Boomi Data Load 2014-05-09 11:20
+[32m[2014-05-15T00:41:00.757Z][info] Done postProcess for 536cba1049a6bb14610066fe  Service Asset - Boomi Data Load 2014-05-09 11:20[39m
+[32m[2014-05-15T00:41:01.529Z][info]  Post process started for 536cbc6649a6bb1461006c74 and  Service Asset - Boomi Data Load 2014-05-09 11:30[39m
+[2014-05-15T00:41:42.005Z][debug] Progress: 0 out of 2 for 536cbb3c9c66ba1261000759  Service Asset - Boomi Data Load 2014-05-09 11:25
+[32m[2014-05-15T00:41:42.005Z][info] Done postProcess for 536cbb3c9c66ba1261000759  Service Asset - Boomi Data Load 2014-05-09 11:25[39m
+[32m[2014-05-15T00:41:42.789Z][info]  Post process started for 536cbd91a868848b0900abbd and  Service Asset - Boomi Data Load 2014-05-09 11:35[39m
+[2014-05-15T00:42:01.962Z][debug] Progress: 0 out of 2 for 536cbc6649a6bb1461006c74  Service Asset - Boomi Data Load 2014-05-09 11:30
+[32m[2014-05-15T00:42:01.962Z][info] Done postProcess for 536cbc6649a6bb1461006c74  Service Asset - Boomi Data Load 2014-05-09 11:30[39m
+[32m[2014-05-15T00:42:02.813Z][info]  Post process started for 536cbec2170ab5971600020b and  Service Asset - Boomi Data Load 2014-05-09 11:40[39m
+[2014-05-15T00:42:43.172Z][debug] Progress: 0 out of 2 for 536cbd91a868848b0900abbd  Service Asset - Boomi Data Load 2014-05-09 11:35
+[32m[2014-05-15T00:42:43.172Z][info] Done postProcess for 536cbd91a868848b0900abbd  Service Asset - Boomi Data Load 2014-05-09 11:35[39m
+[32m[2014-05-15T00:42:43.986Z][info]  Post process started for 536cbfec170ab597160004a7 and  Service Asset - Boomi Data Load 2014-05-09 11:45[39m
+[2014-05-15T00:43:03.199Z][debug] Progress: 0 out of 2 for 536cbec2170ab5971600020b  Service Asset - Boomi Data Load 2014-05-09 11:40
+[32m[2014-05-15T00:43:03.199Z][info] Done postProcess for 536cbec2170ab5971600020b  Service Asset - Boomi Data Load 2014-05-09 11:40[39m
+[32m[2014-05-15T00:43:03.994Z][info]  Post process started for 536cc114a868848b0900b19a and  Service Asset - Boomi Data Load 2014-05-09 11:50[39m
+[2014-05-15T00:43:44.364Z][debug] Progress: 0 out of 2 for 536cbfec170ab597160004a7  Service Asset - Boomi Data Load 2014-05-09 11:45
+[32m[2014-05-15T00:43:44.364Z][info] Done postProcess for 536cbfec170ab597160004a7  Service Asset - Boomi Data Load 2014-05-09 11:45[39m
+[32m[2014-05-15T00:43:45.145Z][info]  Post process started for 536cc241170ab5971600074b and  Service Asset - Boomi Data Load 2014-05-09 11:55[39m
+[2014-05-15T00:44:04.744Z][debug] Progress: 0 out of 2 for 536cc114a868848b0900b19a  Service Asset - Boomi Data Load 2014-05-09 11:50
+[32m[2014-05-15T00:44:04.744Z][info] Done postProcess for 536cc114a868848b0900b19a  Service Asset - Boomi Data Load 2014-05-09 11:50[39m
+[32m[2014-05-15T00:44:05.567Z][info]  Post process started for 536cc374fb2fc49009005ee2 and  Service Asset - Boomi Data Load 2014-05-09 12:00[39m
+[2014-05-15T00:44:45.569Z][debug] Progress: 0 out of 2 for 536cc241170ab5971600074b  Service Asset - Boomi Data Load 2014-05-09 11:55
+[32m[2014-05-15T00:44:45.570Z][info] Done postProcess for 536cc241170ab5971600074b  Service Asset - Boomi Data Load 2014-05-09 11:55[39m
+[32m[2014-05-15T00:44:46.419Z][info]  Post process started for 536cc49da868848b0900b5dd and  Service Asset - Boomi Data Load 2014-05-09 12:05[39m
+[2014-05-15T00:45:05.941Z][debug] Progress: 0 out of 2 for 536cc374fb2fc49009005ee2  Service Asset - Boomi Data Load 2014-05-09 12:00
+[32m[2014-05-15T00:45:05.941Z][info] Done postProcess for 536cc374fb2fc49009005ee2  Service Asset - Boomi Data Load 2014-05-09 12:00[39m
+[32m[2014-05-15T00:45:06.739Z][info]  Post process started for 536cc5cda868848b0900b63b and  Service Asset - Boomi Data Load 2014-05-09 12:10[39m
+[2014-05-15T00:45:47.021Z][debug] Progress: 0 out of 2 for 536cc49da868848b0900b5dd  Service Asset - Boomi Data Load 2014-05-09 12:05
+[32m[2014-05-15T00:45:47.021Z][info] Done postProcess for 536cc49da868848b0900b5dd  Service Asset - Boomi Data Load 2014-05-09 12:05[39m
+[32m[2014-05-15T00:45:47.801Z][info]  Post process started for 536cc6f07396249516000d6f and  Service Asset - Boomi Data Load 2014-05-09 12:15[39m
+[2014-05-15T00:46:07.112Z][debug] Progress: 0 out of 2 for 536cc5cda868848b0900b63b  Service Asset - Boomi Data Load 2014-05-09 12:10
+[32m[2014-05-15T00:46:07.112Z][info] Done postProcess for 536cc5cda868848b0900b63b  Service Asset - Boomi Data Load 2014-05-09 12:10[39m
+[32m[2014-05-15T00:46:07.921Z][info]  Post process started for 536cc81dfb2fc490090063fa and  Service Asset - Boomi Data Load 2014-05-09 12:20[39m
+[2014-05-15T00:46:48.513Z][debug] Progress: 0 out of 2 for 536cc6f07396249516000d6f  Service Asset - Boomi Data Load 2014-05-09 12:15
+[32m[2014-05-15T00:46:48.513Z][info] Done postProcess for 536cc6f07396249516000d6f  Service Asset - Boomi Data Load 2014-05-09 12:15[39m
+[32m[2014-05-15T00:46:49.308Z][info]  Post process started for 536cd50783b99d101b000301 and  Service Asset - Boomi Data Load 2014-05-09 13:15[39m
+[2014-05-15T00:47:08.731Z][debug] Progress: 0 out of 2 for 536cc81dfb2fc490090063fa  Service Asset - Boomi Data Load 2014-05-09 12:20
+[32m[2014-05-15T00:47:08.731Z][info] Done postProcess for 536cc81dfb2fc490090063fa  Service Asset - Boomi Data Load 2014-05-09 12:20[39m
+[32m[2014-05-15T00:47:09.535Z][info]  Post process started for 536cd63483b99d101b00032a and  Service Asset - Boomi Data Load 2014-05-09 13:20[39m
+[2014-05-15T00:47:49.693Z][debug] Progress: 0 out of 2 for 536cd50783b99d101b000301  Service Asset - Boomi Data Load 2014-05-09 13:15
+[32m[2014-05-15T00:47:49.693Z][info] Done postProcess for 536cd50783b99d101b000301  Service Asset - Boomi Data Load 2014-05-09 13:15[39m
+[32m[2014-05-15T00:47:50.498Z][info]  Post process started for 536cd75883b99d101b0005e7 and  Service Asset - Boomi Data Load 2014-05-09 13:25[39m
+[2014-05-15T00:48:09.922Z][debug] Progress: 0 out of 2 for 536cd63483b99d101b00032a  Service Asset - Boomi Data Load 2014-05-09 13:20
+[32m[2014-05-15T00:48:09.923Z][info] Done postProcess for 536cd63483b99d101b00032a  Service Asset - Boomi Data Load 2014-05-09 13:20[39m
+[32m[2014-05-15T00:48:10.720Z][info]  Post process started for 536cd887bef21d874d00047f and  Service Asset - Boomi Data Load 2014-05-09 13:30[39m
+[2014-05-15T00:48:50.913Z][debug] Progress: 0 out of 2 for 536cd75883b99d101b0005e7  Service Asset - Boomi Data Load 2014-05-09 13:25
+[32m[2014-05-15T00:48:50.913Z][info] Done postProcess for 536cd75883b99d101b0005e7  Service Asset - Boomi Data Load 2014-05-09 13:25[39m
+[32m[2014-05-15T00:48:51.724Z][info]  Post process started for 536cd9b5bef21d874d0004ca and  Service Asset - Boomi Data Load 2014-05-09 13:35[39m
+[2014-05-15T00:49:11.156Z][debug] Progress: 0 out of 2 for 536cd887bef21d874d00047f  Service Asset - Boomi Data Load 2014-05-09 13:30
+[32m[2014-05-15T00:49:11.157Z][info] Done postProcess for 536cd887bef21d874d00047f  Service Asset - Boomi Data Load 2014-05-09 13:30[39m
+[32m[2014-05-15T00:49:11.959Z][info]  Post process started for 536cdae467e23d0e1b000977 and  Service Asset - Boomi Data Load 2014-05-09 13:40[39m
+[2014-05-15T00:49:52.436Z][debug] Progress: 0 out of 2 for 536cd9b5bef21d874d0004ca  Service Asset - Boomi Data Load 2014-05-09 13:35
+[32m[2014-05-15T00:49:52.437Z][info] Done postProcess for 536cd9b5bef21d874d0004ca  Service Asset - Boomi Data Load 2014-05-09 13:35[39m
+[32m[2014-05-15T00:49:53.228Z][info]  Post process started for 536cdc0967e23d0e1b000c0b and  Service Asset - Boomi Data Load 2014-05-09 13:45[39m
+[2014-05-15T00:50:12.744Z][debug] Progress: 0 out of 2 for 536cdae467e23d0e1b000977  Service Asset - Boomi Data Load 2014-05-09 13:40
+[32m[2014-05-15T00:50:12.744Z][info] Done postProcess for 536cdae467e23d0e1b000977  Service Asset - Boomi Data Load 2014-05-09 13:40[39m
+[32m[2014-05-15T00:50:13.595Z][info]  Post process started for 536cdd3a67e23d0e1b000c5e and  Service Asset - Boomi Data Load 2014-05-09 13:50[39m
+[2014-05-15T00:50:53.639Z][debug] Progress: 0 out of 2 for 536cdc0967e23d0e1b000c0b  Service Asset - Boomi Data Load 2014-05-09 13:45
+[32m[2014-05-15T00:50:53.639Z][info] Done postProcess for 536cdc0967e23d0e1b000c0b  Service Asset - Boomi Data Load 2014-05-09 13:45[39m
+[32m[2014-05-15T00:50:54.557Z][info]  Post process started for 536cde6567e23d0e1b000f22 and  Service Asset - Boomi Data Load 2014-05-09 13:55[39m
+[2014-05-15T00:51:13.973Z][debug] Progress: 0 out of 2 for 536cdd3a67e23d0e1b000c5e  Service Asset - Boomi Data Load 2014-05-09 13:50
+[32m[2014-05-15T00:51:13.973Z][info] Done postProcess for 536cdd3a67e23d0e1b000c5e  Service Asset - Boomi Data Load 2014-05-09 13:50[39m
+[32m[2014-05-15T00:51:14.766Z][info]  Post process started for 536cdf9667e23d0e1b0011bf and  Service Asset - Boomi Data Load 2014-05-09 14:00[39m
+[2014-05-15T00:51:54.972Z][debug] Progress: 0 out of 2 for 536cde6567e23d0e1b000f22  Service Asset - Boomi Data Load 2014-05-09 13:55
+[32m[2014-05-15T00:51:54.972Z][info] Done postProcess for 536cde6567e23d0e1b000f22  Service Asset - Boomi Data Load 2014-05-09 13:55[39m
+[32m[2014-05-15T00:51:55.777Z][info]  Post process started for 536ce0c067e23d0e1b00120a and  Service Asset - Boomi Data Load 2014-05-09 14:05[39m
+[2014-05-15T00:52:15.145Z][debug] Progress: 0 out of 2 for 536cdf9667e23d0e1b0011bf  Service Asset - Boomi Data Load 2014-05-09 14:00
+[32m[2014-05-15T00:52:15.145Z][info] Done postProcess for 536cdf9667e23d0e1b0011bf  Service Asset - Boomi Data Load 2014-05-09 14:00[39m
+[32m[2014-05-15T00:52:15.957Z][info]  Post process started for 536ce1e9bef21d874d0006e1 and  Service Asset - Boomi Data Load 2014-05-09 14:10[39m
+[2014-05-15T00:52:56.486Z][debug] Progress: 0 out of 2 for 536ce0c067e23d0e1b00120a  Service Asset - Boomi Data Load 2014-05-09 14:05
+[32m[2014-05-15T00:52:56.486Z][info] Done postProcess for 536ce0c067e23d0e1b00120a  Service Asset - Boomi Data Load 2014-05-09 14:05[39m
+[32m[2014-05-15T00:52:57.268Z][info]  Post process started for 536ce311ade3c2824d00132a and  Service Asset - Boomi Data Load 2014-05-09 14:15[39m
+[2014-05-15T00:53:16.705Z][debug] Progress: 0 out of 2 for 536ce1e9bef21d874d0006e1  Service Asset - Boomi Data Load 2014-05-09 14:10
+[32m[2014-05-15T00:53:16.705Z][info] Done postProcess for 536ce1e9bef21d874d0006e1  Service Asset - Boomi Data Load 2014-05-09 14:10[39m
+[32m[2014-05-15T00:53:17.785Z][info]  Post process started for 536ce442bef21d874d00079a and  Service Asset - Boomi Data Load 2014-05-09 14:20[39m
+[2014-05-15T00:53:57.666Z][debug] Progress: 0 out of 2 for 536ce311ade3c2824d00132a  Service Asset - Boomi Data Load 2014-05-09 14:15
+[32m[2014-05-15T00:53:57.666Z][info] Done postProcess for 536ce311ade3c2824d00132a  Service Asset - Boomi Data Load 2014-05-09 14:15[39m
+[32m[2014-05-15T00:53:58.472Z][info]  Post process started for 536ce56d83b99d101b000fe3 and  Service Asset - Boomi Data Load 2014-05-09 14:25[39m
+[2014-05-15T00:54:18.171Z][debug] Progress: 0 out of 2 for 536ce442bef21d874d00079a  Service Asset - Boomi Data Load 2014-05-09 14:20
+[32m[2014-05-15T00:54:18.171Z][info] Done postProcess for 536ce442bef21d874d00079a  Service Asset - Boomi Data Load 2014-05-09 14:20[39m
+[32m[2014-05-15T00:54:18.963Z][info]  Post process started for 536ce69667e23d0e1b001bfa and  Service Asset - Boomi Data Load 2014-05-09 14:30[39m
+[2014-05-15T00:54:58.855Z][debug] Progress: 0 out of 2 for 536ce56d83b99d101b000fe3  Service Asset - Boomi Data Load 2014-05-09 14:25
+[32m[2014-05-15T00:54:58.855Z][info] Done postProcess for 536ce56d83b99d101b000fe3  Service Asset - Boomi Data Load 2014-05-09 14:25[39m
+[32m[2014-05-15T00:54:59.650Z][info]  Post process started for 536ce7c467e23d0e1b001ea5 and  Service Asset - Boomi Data Load 2014-05-09 14:35[39m
+[2014-05-15T00:55:19.371Z][debug] Progress: 0 out of 2 for 536ce69667e23d0e1b001bfa  Service Asset - Boomi Data Load 2014-05-09 14:30
+[32m[2014-05-15T00:55:19.371Z][info] Done postProcess for 536ce69667e23d0e1b001bfa  Service Asset - Boomi Data Load 2014-05-09 14:30[39m
+[32m[2014-05-15T00:55:20.182Z][info]  Post process started for 536ce8f367e23d0e1b002137 and  Service Asset - Boomi Data Load 2014-05-09 14:40[39m
+[2014-05-15T00:56:00.033Z][debug] Progress: 0 out of 2 for 536ce7c467e23d0e1b001ea5  Service Asset - Boomi Data Load 2014-05-09 14:35
+[32m[2014-05-15T00:56:00.033Z][info] Done postProcess for 536ce7c467e23d0e1b001ea5  Service Asset - Boomi Data Load 2014-05-09 14:35[39m
+[32m[2014-05-15T00:56:00.806Z][info]  Post process started for 536cea1d67e23d0e1b0023ec and  Service Asset - Boomi Data Load 2014-05-09 14:45[39m
+[2014-05-15T00:56:20.942Z][debug] Progress: 0 out of 2 for 536ce8f367e23d0e1b002137  Service Asset - Boomi Data Load 2014-05-09 14:40
+[32m[2014-05-15T00:56:20.943Z][info] Done postProcess for 536ce8f367e23d0e1b002137  Service Asset - Boomi Data Load 2014-05-09 14:40[39m
+[32m[2014-05-15T00:56:21.765Z][info]  Post process started for 536ceb4967e23d0e1b0026a3 and  Service Asset - Boomi Data Load 2014-05-09 14:50[39m
+[2014-05-15T00:57:01.601Z][debug] Progress: 0 out of 2 for 536cea1d67e23d0e1b0023ec  Service Asset - Boomi Data Load 2014-05-09 14:45
+[32m[2014-05-15T00:57:01.601Z][info] Done postProcess for 536cea1d67e23d0e1b0023ec  Service Asset - Boomi Data Load 2014-05-09 14:45[39m
+[32m[2014-05-15T00:57:02.487Z][info]  Post process started for 536cec7867e23d0e1b002955 and  Service Asset - Boomi Data Load 2014-05-09 14:55[39m
+[2014-05-15T00:57:22.146Z][debug] Progress: 0 out of 2 for 536ceb4967e23d0e1b0026a3  Service Asset - Boomi Data Load 2014-05-09 14:50
+[32m[2014-05-15T00:57:22.146Z][info] Done postProcess for 536ceb4967e23d0e1b0026a3  Service Asset - Boomi Data Load 2014-05-09 14:50[39m
+[32m[2014-05-15T00:57:23.079Z][info]  Post process started for 536ceda267e23d0e1b002bea and  Service Asset - Boomi Data Load 2014-05-09 15:00[39m
+[2014-05-15T00:58:02.887Z][debug] Progress: 0 out of 2 for 536cec7867e23d0e1b002955  Service Asset - Boomi Data Load 2014-05-09 14:55
+[32m[2014-05-15T00:58:02.887Z][info] Done postProcess for 536cec7867e23d0e1b002955  Service Asset - Boomi Data Load 2014-05-09 14:55[39m
+[32m[2014-05-15T00:58:03.672Z][info]  Post process started for 536ceecd83b99d101b001180 and  Service Asset - Boomi Data Load 2014-05-09 15:05[39m
+[2014-05-15T00:58:23.460Z][debug] Progress: 0 out of 2 for 536ceda267e23d0e1b002bea  Service Asset - Boomi Data Load 2014-05-09 15:00
+[32m[2014-05-15T00:58:23.460Z][info] Done postProcess for 536ceda267e23d0e1b002bea  Service Asset - Boomi Data Load 2014-05-09 15:00[39m
+[32m[2014-05-15T00:58:24.238Z][info]  Post process started for 536ceff967e23d0e1b002ed8 and  Service Asset - Boomi Data Load 2014-05-09 15:10[39m
+[2014-05-15T00:59:04.387Z][debug] Progress: 0 out of 2 for 536ceecd83b99d101b001180  Service Asset - Boomi Data Load 2014-05-09 15:05
+[32m[2014-05-15T00:59:04.387Z][info] Done postProcess for 536ceecd83b99d101b001180  Service Asset - Boomi Data Load 2014-05-09 15:05[39m
+[32m[2014-05-15T00:59:05.188Z][info]  Post process started for 536cf12867e23d0e1b003188 and  Service Asset - Boomi Data Load 2014-05-09 15:15[39m
+[2014-05-15T00:59:24.981Z][debug] Progress: 0 out of 2 for 536ceff967e23d0e1b002ed8  Service Asset - Boomi Data Load 2014-05-09 15:10
+[32m[2014-05-15T00:59:24.981Z][info] Done postProcess for 536ceff967e23d0e1b002ed8  Service Asset - Boomi Data Load 2014-05-09 15:10[39m
+[32m[2014-05-15T00:59:25.809Z][info]  Post process started for 536cf25167e23d0e1b00342a and  Service Asset - Boomi Data Load 2014-05-09 15:20[39m
+[2014-05-15T01:00:05.560Z][debug] Progress: 0 out of 2 for 536cf12867e23d0e1b003188  Service Asset - Boomi Data Load 2014-05-09 15:15
+[32m[2014-05-15T01:00:05.560Z][info] Done postProcess for 536cf12867e23d0e1b003188  Service Asset - Boomi Data Load 2014-05-09 15:15[39m
+[32m[2014-05-15T01:00:06.338Z][info]  Post process started for 536cf37d67e23d0e1b0036d7 and  Service Asset - Boomi Data Load 2014-05-09 15:25[39m
+[2014-05-15T01:00:26.211Z][debug] Progress: 0 out of 2 for 536cf25167e23d0e1b00342a  Service Asset - Boomi Data Load 2014-05-09 15:20
+[32m[2014-05-15T01:00:26.211Z][info] Done postProcess for 536cf25167e23d0e1b00342a  Service Asset - Boomi Data Load 2014-05-09 15:20[39m
+[32m[2014-05-15T01:00:27.017Z][info]  Post process started for 536cf4a883b99d101b0014a6 and  Service Asset - Boomi Data Load 2014-05-09 15:30[39m
+[2014-05-15T01:01:06.713Z][debug] Progress: 0 out of 2 for 536cf37d67e23d0e1b0036d7  Service Asset - Boomi Data Load 2014-05-09 15:25
+[32m[2014-05-15T01:01:06.713Z][info] Done postProcess for 536cf37d67e23d0e1b0036d7  Service Asset - Boomi Data Load 2014-05-09 15:25[39m
+[32m[2014-05-15T01:01:07.505Z][info]  Post process started for 536cf5d167e23d0e1b003c52 and  Service Asset - Boomi Data Load 2014-05-09 15:35[39m
+[2014-05-15T01:01:27.421Z][debug] Progress: 0 out of 2 for 536cf4a883b99d101b0014a6  Service Asset - Boomi Data Load 2014-05-09 15:30
+[32m[2014-05-15T01:01:27.421Z][info] Done postProcess for 536cf4a883b99d101b0014a6  Service Asset - Boomi Data Load 2014-05-09 15:30[39m
+[32m[2014-05-15T01:01:28.202Z][info]  Post process started for 536cf70383b99d101b0014cc and  Service Asset - Boomi Data Load 2014-05-09 15:40[39m
+[2014-05-15T01:02:08.250Z][debug] Progress: 0 out of 2 for 536cf5d167e23d0e1b003c52  Service Asset - Boomi Data Load 2014-05-09 15:35
+[32m[2014-05-15T01:02:08.250Z][info] Done postProcess for 536cf5d167e23d0e1b003c52  Service Asset - Boomi Data Load 2014-05-09 15:35[39m
+[32m[2014-05-15T01:02:09.047Z][info]  Post process started for 536cf82d67e23d0e1b0041d7 and  Service Asset - Boomi Data Load 2014-05-09 15:45[39m
+[2014-05-15T01:02:28.960Z][debug] Progress: 0 out of 2 for 536cf70383b99d101b0014cc  Service Asset - Boomi Data Load 2014-05-09 15:40
+[32m[2014-05-15T01:02:28.960Z][info] Done postProcess for 536cf70383b99d101b0014cc  Service Asset - Boomi Data Load 2014-05-09 15:40[39m
+[32m[2014-05-15T01:02:29.798Z][info]  Post process started for 536cf95767e23d0e1b004488 and  Service Asset - Boomi Data Load 2014-05-09 15:50[39m
+[2014-05-15T01:03:09.484Z][debug] Progress: 0 out of 2 for 536cf82d67e23d0e1b0041d7  Service Asset - Boomi Data Load 2014-05-09 15:45
+[32m[2014-05-15T01:03:09.485Z][info] Done postProcess for 536cf82d67e23d0e1b0041d7  Service Asset - Boomi Data Load 2014-05-09 15:45[39m
+[32m[2014-05-15T01:03:10.269Z][info]  Post process started for 536cfa8067e23d0e1b00472c and  Service Asset - Boomi Data Load 2014-05-09 15:55[39m
+[2014-05-15T01:03:30.173Z][debug] Progress: 0 out of 2 for 536cf95767e23d0e1b004488  Service Asset - Boomi Data Load 2014-05-09 15:50
+[32m[2014-05-15T01:03:30.174Z][info] Done postProcess for 536cf95767e23d0e1b004488  Service Asset - Boomi Data Load 2014-05-09 15:50[39m
+[32m[2014-05-15T01:03:30.988Z][info]  Post process started for 536cfbb467e23d0e1b0049e1 and  Service Asset - Boomi Data Load 2014-05-09 16:00[39m
+[2014-05-15T01:04:10.678Z][debug] Progress: 0 out of 2 for 536cfa8067e23d0e1b00472c  Service Asset - Boomi Data Load 2014-05-09 15:55
+[32m[2014-05-15T01:04:10.678Z][info] Done postProcess for 536cfa8067e23d0e1b00472c  Service Asset - Boomi Data Load 2014-05-09 15:55[39m
+[32m[2014-05-15T01:04:11.500Z][info]  Post process started for 536cfcdf67e23d0e1b004c8b and  Service Asset - Boomi Data Load 2014-05-09 16:05[39m
+[2014-05-15T01:04:31.364Z][debug] Progress: 0 out of 2 for 536cfbb467e23d0e1b0049e1  Service Asset - Boomi Data Load 2014-05-09 16:00
+[32m[2014-05-15T01:04:31.364Z][info] Done postProcess for 536cfbb467e23d0e1b0049e1  Service Asset - Boomi Data Load 2014-05-09 16:00[39m
+[32m[2014-05-15T01:04:32.148Z][info]  Post process started for 536cfe0883b99d101b0015ba and  Service Asset - Boomi Data Load 2014-05-09 16:10[39m
+[2014-05-15T01:05:12.210Z][debug] Progress: 0 out of 2 for 536cfcdf67e23d0e1b004c8b  Service Asset - Boomi Data Load 2014-05-09 16:05
+[32m[2014-05-15T01:05:12.210Z][info] Done postProcess for 536cfcdf67e23d0e1b004c8b  Service Asset - Boomi Data Load 2014-05-09 16:05[39m
+[32m[2014-05-15T01:05:12.990Z][info]  Post process started for 536cff3267e23d0e1b0051ce and  Service Asset - Boomi Data Load 2014-05-09 16:15[39m
+[2014-05-15T01:05:32.908Z][debug] Progress: 0 out of 2 for 536cfe0883b99d101b0015ba  Service Asset - Boomi Data Load 2014-05-09 16:10
+[32m[2014-05-15T01:05:32.908Z][info] Done postProcess for 536cfe0883b99d101b0015ba  Service Asset - Boomi Data Load 2014-05-09 16:10[39m
+[32m[2014-05-15T01:05:33.702Z][info]  Post process started for 536d006b83b99d101b00163c and  Service Asset - Boomi Data Load 2014-05-09 16:20[39m
+[2014-05-15T01:06:13.365Z][debug] Progress: 0 out of 2 for 536cff3267e23d0e1b0051ce  Service Asset - Boomi Data Load 2014-05-09 16:15
+[32m[2014-05-15T01:06:13.367Z][info] Done postProcess for 536cff3267e23d0e1b0051ce  Service Asset - Boomi Data Load 2014-05-09 16:15[39m
+[32m[2014-05-15T01:06:14.168Z][info]  Post process started for 536d018e67e23d0e1b0054a5 and  Service Asset - Boomi Data Load 2014-05-09 16:25[39m
+[2014-05-15T01:06:34.087Z][debug] Progress: 0 out of 2 for 536d006b83b99d101b00163c  Service Asset - Boomi Data Load 2014-05-09 16:20
+[32m[2014-05-15T01:06:34.088Z][info] Done postProcess for 536d006b83b99d101b00163c  Service Asset - Boomi Data Load 2014-05-09 16:20[39m
+[32m[2014-05-15T01:06:34.911Z][info]  Post process started for 536d02b867e23d0e1b0054ea and  Service Asset - Boomi Data Load 2014-05-09 16:30[39m
+[2014-05-15T01:07:14.557Z][debug] Progress: 0 out of 2 for 536d018e67e23d0e1b0054a5  Service Asset - Boomi Data Load 2014-05-09 16:25
+[32m[2014-05-15T01:07:14.557Z][info] Done postProcess for 536d018e67e23d0e1b0054a5  Service Asset - Boomi Data Load 2014-05-09 16:25[39m
+[32m[2014-05-15T01:07:15.358Z][info]  Post process started for 536d03e067e23d0e1b0058bb and  Service Asset - Boomi Data Load 2014-05-09 16:35[39m
+[2014-05-15T01:07:35.290Z][debug] Progress: 0 out of 2 for 536d02b867e23d0e1b0054ea  Service Asset - Boomi Data Load 2014-05-09 16:30
+[32m[2014-05-15T01:07:35.290Z][info] Done postProcess for 536d02b867e23d0e1b0054ea  Service Asset - Boomi Data Load 2014-05-09 16:30[39m
+[32m[2014-05-15T01:07:36.095Z][info]  Post process started for 536d051567e23d0e1b005b62 and  Service Asset - Boomi Data Load 2014-05-09 16:40[39m
+[2014-05-15T01:08:16.078Z][debug] Progress: 0 out of 2 for 536d03e067e23d0e1b0058bb  Service Asset - Boomi Data Load 2014-05-09 16:35
+[32m[2014-05-15T01:08:16.078Z][info] Done postProcess for 536d03e067e23d0e1b0058bb  Service Asset - Boomi Data Load 2014-05-09 16:35[39m
+[32m[2014-05-15T01:08:16.907Z][info]  Post process started for 536d063d83b99d101b001c15 and  Service Asset - Boomi Data Load 2014-05-09 16:45[39m
+[2014-05-15T01:08:36.864Z][debug] Progress: 0 out of 2 for 536d051567e23d0e1b005b62  Service Asset - Boomi Data Load 2014-05-09 16:40
+[32m[2014-05-15T01:08:36.865Z][info] Done postProcess for 536d051567e23d0e1b005b62  Service Asset - Boomi Data Load 2014-05-09 16:40[39m
+[32m[2014-05-15T01:08:37.688Z][info]  Post process started for 536d076b83b99d101b001c4f and  Service Asset - Boomi Data Load 2014-05-09 16:50[39m
+[2014-05-15T01:09:17.309Z][debug] Progress: 0 out of 2 for 536d063d83b99d101b001c15  Service Asset - Boomi Data Load 2014-05-09 16:45
+[32m[2014-05-15T01:09:17.309Z][info] Done postProcess for 536d063d83b99d101b001c15  Service Asset - Boomi Data Load 2014-05-09 16:45[39m
+[32m[2014-05-15T01:09:18.113Z][info]  Post process started for 536d089667e23d0e1b0060b5 and  Service Asset - Boomi Data Load 2014-05-09 16:55[39m
+[2014-05-15T01:09:38.110Z][debug] Progress: 0 out of 2 for 536d076b83b99d101b001c4f  Service Asset - Boomi Data Load 2014-05-09 16:50
+[32m[2014-05-15T01:09:38.110Z][info] Done postProcess for 536d076b83b99d101b001c4f  Service Asset - Boomi Data Load 2014-05-09 16:50[39m
+[32m[2014-05-15T01:09:38.907Z][info]  Post process started for 536d09d1bef21d874d001818 and  Service Asset - Boomi Data Load 2014-05-09 17:01[39m
+[2014-05-15T01:10:18.513Z][debug] Progress: 0 out of 2 for 536d089667e23d0e1b0060b5  Service Asset - Boomi Data Load 2014-05-09 16:55
+[32m[2014-05-15T01:10:18.513Z][info] Done postProcess for 536d089667e23d0e1b0060b5  Service Asset - Boomi Data Load 2014-05-09 16:55[39m
+[32m[2014-05-15T01:10:19.306Z][info]  Post process started for 536d0af3f65d5e111b0005e7 and  Service Asset - Boomi Data Load 2014-05-09 17:05[39m
+[2014-05-15T01:10:39.299Z][debug] Progress: 0 out of 2 for 536d09d1bef21d874d001818  Service Asset - Boomi Data Load 2014-05-09 17:01
+[32m[2014-05-15T01:10:39.299Z][info] Done postProcess for 536d09d1bef21d874d001818  Service Asset - Boomi Data Load 2014-05-09 17:01[39m
+[32m[2014-05-15T01:10:40.089Z][info]  Post process started for 536d0c1a83b99d101b0025e3 and  Service Asset - Boomi Data Load 2014-05-09 17:10[39m
+[2014-05-15T01:11:20.031Z][debug] Progress: 0 out of 2 for 536d0af3f65d5e111b0005e7  Service Asset - Boomi Data Load 2014-05-09 17:05
+[32m[2014-05-15T01:11:20.031Z][info] Done postProcess for 536d0af3f65d5e111b0005e7  Service Asset - Boomi Data Load 2014-05-09 17:05[39m
+[32m[2014-05-15T01:11:20.808Z][info]  Post process started for 536d0d4867e23d0e1b0064dd and  Service Asset - Boomi Data Load 2014-05-09 17:15[39m
+[2014-05-15T01:11:40.912Z][debug] Progress: 0 out of 2 for 536d0c1a83b99d101b0025e3  Service Asset - Boomi Data Load 2014-05-09 17:10
+[32m[2014-05-15T01:11:40.912Z][info] Done postProcess for 536d0c1a83b99d101b0025e3  Service Asset - Boomi Data Load 2014-05-09 17:10[39m
+[32m[2014-05-15T01:11:41.691Z][info]  Post process started for 536d0e71627771131b00024b and  Service Asset - Boomi Data Load 2014-05-09 17:20[39m
+[2014-05-15T01:12:21.243Z][debug] Progress: 0 out of 2 for 536d0d4867e23d0e1b0064dd  Service Asset - Boomi Data Load 2014-05-09 17:15
+[32m[2014-05-15T01:12:21.243Z][info] Done postProcess for 536d0d4867e23d0e1b0064dd  Service Asset - Boomi Data Load 2014-05-09 17:15[39m
+[32m[2014-05-15T01:12:22.029Z][info]  Post process started for 536d0fafbef21d874d001a22 and  Service Asset - Boomi Data Load 2014-05-09 17:26[39m
+[2014-05-15T01:12:42.069Z][debug] Progress: 0 out of 2 for 536d0e71627771131b00024b  Service Asset - Boomi Data Load 2014-05-09 17:20
+[32m[2014-05-15T01:12:42.069Z][info] Done postProcess for 536d0e71627771131b00024b  Service Asset - Boomi Data Load 2014-05-09 17:20[39m
+[32m[2014-05-15T01:12:43.309Z][info]  Post process started for 536d1113fbd01b864d004196 and  Service Asset - Boomi Data Load 2014-05-09 17:32[39m
+[2014-05-15T01:13:22.449Z][debug] Progress: 0 out of 2 for 536d0fafbef21d874d001a22  Service Asset - Boomi Data Load 2014-05-09 17:26
+[32m[2014-05-15T01:13:22.449Z][info] Done postProcess for 536d0fafbef21d874d001a22  Service Asset - Boomi Data Load 2014-05-09 17:26[39m
+[32m[2014-05-15T01:13:23.253Z][info]  Post process started for 536d122393392c844d000512 and  Service Asset - Boomi Data Load 2014-05-09 17:36[39m
+[2014-05-15T01:13:43.747Z][debug] Progress: 0 out of 2 for 536d1113fbd01b864d004196  Service Asset - Boomi Data Load 2014-05-09 17:32
+[32m[2014-05-15T01:13:43.747Z][info] Done postProcess for 536d1113fbd01b864d004196  Service Asset - Boomi Data Load 2014-05-09 17:32[39m
+[32m[2014-05-15T01:13:44.545Z][info]  Post process started for 536d132283b99d101b002dd2 and  Service Asset - Boomi Data Load 2014-05-09 17:40[39m
+[2014-05-15T01:14:23.974Z][debug] Progress: 0 out of 2 for 536d122393392c844d000512  Service Asset - Boomi Data Load 2014-05-09 17:36
+[32m[2014-05-15T01:14:23.974Z][info] Done postProcess for 536d122393392c844d000512  Service Asset - Boomi Data Load 2014-05-09 17:36[39m
+[32m[2014-05-15T01:14:24.756Z][info]  Post process started for 536d1448fbd01b864d004472 and  Service Asset - Boomi Data Load 2014-05-09 17:45[39m
+[2014-05-15T01:14:45.349Z][debug] Progress: 0 out of 2 for 536d132283b99d101b002dd2  Service Asset - Boomi Data Load 2014-05-09 17:40
+[32m[2014-05-15T01:14:45.349Z][info] Done postProcess for 536d132283b99d101b002dd2  Service Asset - Boomi Data Load 2014-05-09 17:40[39m
+[32m[2014-05-15T01:14:46.160Z][info]  Post process started for 536d157567e23d0e1b006fa1 and  Service Asset - Boomi Data Load 2014-05-09 17:50[39m
+[2014-05-15T01:15:25.158Z][debug] Progress: 0 out of 2 for 536d1448fbd01b864d004472  Service Asset - Boomi Data Load 2014-05-09 17:45
+[32m[2014-05-15T01:15:25.158Z][info] Done postProcess for 536d1448fbd01b864d004472  Service Asset - Boomi Data Load 2014-05-09 17:45[39m
+[32m[2014-05-15T01:15:26.001Z][info]  Post process started for 536d8cd3a36e07d60e00022a and  Service Asset - Boomi Data Load 2014-05-10 02:20[39m
+[2014-05-15T01:15:46.538Z][debug] Progress: 0 out of 2 for 536d157567e23d0e1b006fa1  Service Asset - Boomi Data Load 2014-05-09 17:50
+[32m[2014-05-15T01:15:46.538Z][info] Done postProcess for 536d157567e23d0e1b006fa1  Service Asset - Boomi Data Load 2014-05-09 17:50[39m
+[32m[2014-05-15T01:15:47.350Z][info]  Post process started for 536d8dfe404579d558000210 and  Service Asset - Boomi Data Load 2014-05-10 02:25[39m
+[2014-05-15T01:16:26.379Z][debug] Progress: 0 out of 1 for 536d8cd3a36e07d60e00022a  Service Asset - Boomi Data Load 2014-05-10 02:20
+[32m[2014-05-15T01:16:26.379Z][info] Done postProcess for 536d8cd3a36e07d60e00022a  Service Asset - Boomi Data Load 2014-05-10 02:20[39m
+[32m[2014-05-15T01:16:27.217Z][info]  Post process started for 536d8f2b5e282adb0e0001e0 and  Service Asset - Boomi Data Load 2014-05-10 02:30[39m
+[2014-05-15T01:16:47.723Z][debug] Progress: 0 out of 1 for 536d8dfe404579d558000210  Service Asset - Boomi Data Load 2014-05-10 02:25
+[32m[2014-05-15T01:16:47.723Z][info] Done postProcess for 536d8dfe404579d558000210  Service Asset - Boomi Data Load 2014-05-10 02:25[39m
+[32m[2014-05-15T01:16:48.507Z][info]  Post process started for 536d9056404579d55800021f and  Service Asset - Boomi Data Load 2014-05-10 02:35[39m
+[2014-05-15T01:17:27.993Z][debug] Progress: 0 out of 1 for 536d8f2b5e282adb0e0001e0  Service Asset - Boomi Data Load 2014-05-10 02:30
+[32m[2014-05-15T01:17:27.993Z][info] Done postProcess for 536d8f2b5e282adb0e0001e0  Service Asset - Boomi Data Load 2014-05-10 02:30[39m
+[32m[2014-05-15T01:17:28.783Z][info]  Post process started for 536d9182a2f35ad80e000236 and  Service Asset - Boomi Data Load 2014-05-10 02:40[39m
+[2014-05-15T01:17:48.909Z][debug] Progress: 0 out of 1 for 536d9056404579d55800021f  Service Asset - Boomi Data Load 2014-05-10 02:35
+[32m[2014-05-15T01:17:48.910Z][info] Done postProcess for 536d9056404579d55800021f  Service Asset - Boomi Data Load 2014-05-10 02:35[39m
+[32m[2014-05-15T01:17:49.729Z][info]  Post process started for 536d92ae404579d558000233 and  Service Asset - Boomi Data Load 2014-05-10 02:45[39m
+[2014-05-15T01:18:29.510Z][debug] Progress: 0 out of 1 for 536d9182a2f35ad80e000236  Service Asset - Boomi Data Load 2014-05-10 02:40
+[32m[2014-05-15T01:18:29.510Z][info] Done postProcess for 536d9182a2f35ad80e000236  Service Asset - Boomi Data Load 2014-05-10 02:40[39m
+[32m[2014-05-15T01:18:30.326Z][info]  Post process started for 536d93daa2f35ad80e000245 and  Service Asset - Boomi Data Load 2014-05-10 02:50[39m
+[2014-05-15T01:18:50.107Z][debug] Progress: 0 out of 1 for 536d92ae404579d558000233  Service Asset - Boomi Data Load 2014-05-10 02:45
+[32m[2014-05-15T01:18:50.108Z][info] Done postProcess for 536d92ae404579d558000233  Service Asset - Boomi Data Load 2014-05-10 02:45[39m
+[32m[2014-05-15T01:18:50.901Z][info]  Post process started for 536d9506404579d558000245 and  Service Asset - Boomi Data Load 2014-05-10 02:55[39m
+[2014-05-15T01:19:31.039Z][debug] Progress: 0 out of 1 for 536d93daa2f35ad80e000245  Service Asset - Boomi Data Load 2014-05-10 02:50
+[32m[2014-05-15T01:19:31.039Z][info] Done postProcess for 536d93daa2f35ad80e000245  Service Asset - Boomi Data Load 2014-05-10 02:50[39m
+[32m[2014-05-15T01:19:31.827Z][info]  Post process started for 536d9632a2f35ad80e000252 and  Service Asset - Boomi Data Load 2014-05-10 03:00[39m
+[2014-05-15T01:19:51.348Z][debug] Progress: 0 out of 1 for 536d9506404579d558000245  Service Asset - Boomi Data Load 2014-05-10 02:55
+[32m[2014-05-15T01:19:51.348Z][info] Done postProcess for 536d9506404579d558000245  Service Asset - Boomi Data Load 2014-05-10 02:55[39m
+[32m[2014-05-15T01:19:52.152Z][info]  Post process started for 536d975e29d56dd05800025b and  Service Asset - Boomi Data Load 2014-05-10 03:05[39m
+[2014-05-15T01:20:32.541Z][debug] Progress: 0 out of 1 for 536d9632a2f35ad80e000252  Service Asset - Boomi Data Load 2014-05-10 03:00
+[32m[2014-05-15T01:20:32.541Z][info] Done postProcess for 536d9632a2f35ad80e000252  Service Asset - Boomi Data Load 2014-05-10 03:00[39m
+[32m[2014-05-15T01:20:33.695Z][info]  Post process started for 536d988ba2f35ad80e000266 and  Service Asset - Boomi Data Load 2014-05-10 03:10[39m
+[2014-05-15T01:20:52.544Z][debug] Progress: 0 out of 1 for 536d975e29d56dd05800025b  Service Asset - Boomi Data Load 2014-05-10 03:05
+[32m[2014-05-15T01:20:52.544Z][info] Done postProcess for 536d975e29d56dd05800025b  Service Asset - Boomi Data Load 2014-05-10 03:05[39m
+[32m[2014-05-15T01:20:53.403Z][info]  Post process started for 536d99b6404579d55800025b and  Service Asset - Boomi Data Load 2014-05-10 03:15[39m
+[2014-05-15T01:21:34.430Z][debug] Progress: 0 out of 1 for 536d988ba2f35ad80e000266  Service Asset - Boomi Data Load 2014-05-10 03:10
+[32m[2014-05-15T01:21:34.430Z][info] Done postProcess for 536d988ba2f35ad80e000266  Service Asset - Boomi Data Load 2014-05-10 03:10[39m
+[32m[2014-05-15T01:21:35.293Z][info]  Post process started for 536d9ae3f39fe5d90e000196 and  Service Asset - Boomi Data Load 2014-05-10 03:20[39m
+[2014-05-15T01:21:53.847Z][debug] Progress: 0 out of 1 for 536d99b6404579d55800025b  Service Asset - Boomi Data Load 2014-05-10 03:15
+[32m[2014-05-15T01:21:53.848Z][info] Done postProcess for 536d99b6404579d55800025b  Service Asset - Boomi Data Load 2014-05-10 03:15[39m
+[32m[2014-05-15T01:21:54.650Z][info]  Post process started for 536d9c0ee34abed458000195 and  Service Asset - Boomi Data Load 2014-05-10 03:25[39m
+[2014-05-15T01:22:36.005Z][debug] Progress: 0 out of 1 for 536d9ae3f39fe5d90e000196  Service Asset - Boomi Data Load 2014-05-10 03:20
+[32m[2014-05-15T01:22:36.005Z][info] Done postProcess for 536d9ae3f39fe5d90e000196  Service Asset - Boomi Data Load 2014-05-10 03:20[39m
+[32m[2014-05-15T01:22:36.798Z][info]  Post process started for 536d9d3ba2f35ad80e000283 and  Service Asset - Boomi Data Load 2014-05-10 03:30[39m
+[2014-05-15T01:22:55.037Z][debug] Progress: 0 out of 1 for 536d9c0ee34abed458000195  Service Asset - Boomi Data Load 2014-05-10 03:25
+[32m[2014-05-15T01:22:55.037Z][info] Done postProcess for 536d9c0ee34abed458000195  Service Asset - Boomi Data Load 2014-05-10 03:25[39m
+[32m[2014-05-15T01:22:55.843Z][info]  Post process started for 536d9e66404579d558000277 and  Service Asset - Boomi Data Load 2014-05-10 03:35[39m
+[2014-05-15T01:23:37.512Z][debug] Progress: 0 out of 1 for 536d9d3ba2f35ad80e000283  Service Asset - Boomi Data Load 2014-05-10 03:30
+[32m[2014-05-15T01:23:37.513Z][info] Done postProcess for 536d9d3ba2f35ad80e000283  Service Asset - Boomi Data Load 2014-05-10 03:30[39m
+[32m[2014-05-15T01:23:38.297Z][info]  Post process started for 536d9f92a2f35ad80e000295 and  Service Asset - Boomi Data Load 2014-05-10 03:40[39m
+[2014-05-15T01:23:56.221Z][debug] Progress: 0 out of 1 for 536d9e66404579d558000277  Service Asset - Boomi Data Load 2014-05-10 03:35
+[32m[2014-05-15T01:23:56.221Z][info] Done postProcess for 536d9e66404579d558000277  Service Asset - Boomi Data Load 2014-05-10 03:35[39m
+[32m[2014-05-15T01:23:57.066Z][info]  Post process started for 536da0be29d56dd05800026e and  Service Asset - Boomi Data Load 2014-05-10 03:45[39m
+[2014-05-15T01:24:39.009Z][debug] Progress: 0 out of 1 for 536d9f92a2f35ad80e000295  Service Asset - Boomi Data Load 2014-05-10 03:40
+[32m[2014-05-15T01:24:39.009Z][info] Done postProcess for 536d9f92a2f35ad80e000295  Service Asset - Boomi Data Load 2014-05-10 03:40[39m
+[32m[2014-05-15T01:24:39.786Z][info]  Post process started for 536da1eba2f35ad80e0002a4 and  Service Asset - Boomi Data Load 2014-05-10 03:50[39m
+[2014-05-15T01:24:57.501Z][debug] Progress: 0 out of 1 for 536da0be29d56dd05800026e  Service Asset - Boomi Data Load 2014-05-10 03:45
+[32m[2014-05-15T01:24:57.501Z][info] Done postProcess for 536da0be29d56dd05800026e  Service Asset - Boomi Data Load 2014-05-10 03:45[39m
+[32m[2014-05-15T01:24:58.283Z][info]  Post process started for 536da31629d56dd05800027f and  Service Asset - Boomi Data Load 2014-05-10 03:55[39m
+[2014-05-15T01:25:40.498Z][debug] Progress: 0 out of 1 for 536da1eba2f35ad80e0002a4  Service Asset - Boomi Data Load 2014-05-10 03:50
+[32m[2014-05-15T01:25:40.498Z][info] Done postProcess for 536da1eba2f35ad80e0002a4  Service Asset - Boomi Data Load 2014-05-10 03:50[39m
+[32m[2014-05-15T01:25:41.561Z][info]  Post process started for 536da443a2f35ad80e0002b8 and  Service Asset - Boomi Data Load 2014-05-10 04:00[39m
+[2014-05-15T01:25:58.675Z][debug] Progress: 0 out of 1 for 536da31629d56dd05800027f  Service Asset - Boomi Data Load 2014-05-10 03:55
+[32m[2014-05-15T01:25:58.675Z][info] Done postProcess for 536da31629d56dd05800027f  Service Asset - Boomi Data Load 2014-05-10 03:55[39m
+[32m[2014-05-15T01:25:59.463Z][info]  Post process started for 536da56ea2f35ad80e0002c2 and  Service Asset - Boomi Data Load 2014-05-10 04:05[39m
+[2014-05-15T01:26:42.274Z][debug] Progress: 0 out of 1 for 536da443a2f35ad80e0002b8  Service Asset - Boomi Data Load 2014-05-10 04:00
+[32m[2014-05-15T01:26:42.274Z][info] Done postProcess for 536da443a2f35ad80e0002b8  Service Asset - Boomi Data Load 2014-05-10 04:00[39m
+[32m[2014-05-15T01:26:43.090Z][info]  Post process started for 536da69b29d56dd05800028f and  Service Asset - Boomi Data Load 2014-05-10 04:10[39m
+[2014-05-15T01:26:59.853Z][debug] Progress: 0 out of 1 for 536da56ea2f35ad80e0002c2  Service Asset - Boomi Data Load 2014-05-10 04:05
+[32m[2014-05-15T01:26:59.853Z][info] Done postProcess for 536da56ea2f35ad80e0002c2  Service Asset - Boomi Data Load 2014-05-10 04:05[39m
+[32m[2014-05-15T01:27:00.668Z][info]  Post process started for 536da7c65e282adb0e000295 and  Service Asset - Boomi Data Load 2014-05-10 04:15[39m
+[2014-05-15T01:27:43.561Z][debug] Progress: 0 out of 1 for 536da69b29d56dd05800028f  Service Asset - Boomi Data Load 2014-05-10 04:10
+[32m[2014-05-15T01:27:43.561Z][info] Done postProcess for 536da69b29d56dd05800028f  Service Asset - Boomi Data Load 2014-05-10 04:10[39m
+[32m[2014-05-15T01:27:44.404Z][info]  Post process started for 536da8f3404579d55800054f and  Service Asset - Boomi Data Load 2014-05-10 04:20[39m
+[2014-05-15T01:28:01.042Z][debug] Progress: 0 out of 1 for 536da7c65e282adb0e000295  Service Asset - Boomi Data Load 2014-05-10 04:15
+[32m[2014-05-15T01:28:01.042Z][info] Done postProcess for 536da7c65e282adb0e000295  Service Asset - Boomi Data Load 2014-05-10 04:15[39m
+[32m[2014-05-15T01:28:01.829Z][info]  Post process started for 536daa1e29d56dd05800039e and  Service Asset - Boomi Data Load 2014-05-10 04:25[39m
+[2014-05-15T01:28:45.195Z][debug] Progress: 0 out of 1 for 536da8f3404579d55800054f  Service Asset - Boomi Data Load 2014-05-10 04:20
+[32m[2014-05-15T01:28:45.195Z][info] Done postProcess for 536da8f3404579d55800054f  Service Asset - Boomi Data Load 2014-05-10 04:20[39m
+[32m[2014-05-15T01:28:45.988Z][info]  Post process started for 536dab4ba2f35ad80e0002e3 and  Service Asset - Boomi Data Load 2014-05-10 04:30[39m
+[2014-05-15T01:29:02.220Z][debug] Progress: 0 out of 1 for 536daa1e29d56dd05800039e  Service Asset - Boomi Data Load 2014-05-10 04:25
+[32m[2014-05-15T01:29:02.220Z][info] Done postProcess for 536daa1e29d56dd05800039e  Service Asset - Boomi Data Load 2014-05-10 04:25[39m
+[32m[2014-05-15T01:29:03.063Z][info]  Post process started for 536dac76404579d5580006c1 and  Service Asset - Boomi Data Load 2014-05-10 04:35[39m
+[2014-05-15T01:29:46.361Z][debug] Progress: 0 out of 1 for 536dab4ba2f35ad80e0002e3  Service Asset - Boomi Data Load 2014-05-10 04:30
+[32m[2014-05-15T01:29:46.361Z][info] Done postProcess for 536dab4ba2f35ad80e0002e3  Service Asset - Boomi Data Load 2014-05-10 04:30[39m
+[32m[2014-05-15T01:29:47.162Z][info]  Post process started for 536dada2a2f35ad80e0002ee and  Service Asset - Boomi Data Load 2014-05-10 04:40[39m
+[2014-05-15T01:30:03.515Z][debug] Progress: 0 out of 1 for 536dac76404579d5580006c1  Service Asset - Boomi Data Load 2014-05-10 04:35
+[32m[2014-05-15T01:30:03.515Z][info] Done postProcess for 536dac76404579d5580006c1  Service Asset - Boomi Data Load 2014-05-10 04:35[39m
+[32m[2014-05-15T01:30:04.487Z][info]  Post process started for 536daece404579d5580006d6 and  Service Asset - Boomi Data Load 2014-05-10 04:45[39m
+[2014-05-15T01:30:47.547Z][debug] Progress: 0 out of 1 for 536dada2a2f35ad80e0002ee  Service Asset - Boomi Data Load 2014-05-10 04:40
+[32m[2014-05-15T01:30:47.547Z][info] Done postProcess for 536dada2a2f35ad80e0002ee  Service Asset - Boomi Data Load 2014-05-10 04:40[39m
+[32m[2014-05-15T01:30:48.336Z][info]  Post process started for 536daffa5e282adb0e0002b9 and  Service Asset - Boomi Data Load 2014-05-10 04:50[39m
+[2014-05-15T01:31:05.205Z][debug] Progress: 0 out of 1 for 536daece404579d5580006d6  Service Asset - Boomi Data Load 2014-05-10 04:45
+[32m[2014-05-15T01:31:05.205Z][info] Done postProcess for 536daece404579d5580006d6  Service Asset - Boomi Data Load 2014-05-10 04:45[39m
+[32m[2014-05-15T01:31:06.012Z][info]  Post process started for 536db12629d56dd0580003ad and  Service Asset - Boomi Data Load 2014-05-10 04:55[39m
+[2014-05-15T01:31:49.090Z][debug] Progress: 0 out of 1 for 536daffa5e282adb0e0002b9  Service Asset - Boomi Data Load 2014-05-10 04:50
+[32m[2014-05-15T01:31:49.090Z][info] Done postProcess for 536daffa5e282adb0e0002b9  Service Asset - Boomi Data Load 2014-05-10 04:50[39m
+[32m[2014-05-15T01:31:49.882Z][info]  Post process started for 536db253404579d5580006ef and  Service Asset - Boomi Data Load 2014-05-10 05:00[39m
+[2014-05-15T01:32:06.386Z][debug] Progress: 0 out of 1 for 536db12629d56dd0580003ad  Service Asset - Boomi Data Load 2014-05-10 04:55
+[32m[2014-05-15T01:32:06.386Z][info] Done postProcess for 536db12629d56dd0580003ad  Service Asset - Boomi Data Load 2014-05-10 04:55[39m
+[32m[2014-05-15T01:32:07.242Z][info]  Post process started for 536db37ea2f35ad80e000308 and  Service Asset - Boomi Data Load 2014-05-10 05:05[39m
+[2014-05-15T01:32:50.254Z][debug] Progress: 0 out of 1 for 536db253404579d5580006ef  Service Asset - Boomi Data Load 2014-05-10 05:00
+[32m[2014-05-15T01:32:50.255Z][info] Done postProcess for 536db253404579d5580006ef  Service Asset - Boomi Data Load 2014-05-10 05:00[39m
+[32m[2014-05-15T01:32:51.033Z][info]  Post process started for 536db4ab404579d558000700 and  Service Asset - Boomi Data Load 2014-05-10 05:10[39m
+[2014-05-15T01:33:07.617Z][debug] Progress: 0 out of 1 for 536db37ea2f35ad80e000308  Service Asset - Boomi Data Load 2014-05-10 05:05
+[32m[2014-05-15T01:33:07.617Z][info] Done postProcess for 536db37ea2f35ad80e000308  Service Asset - Boomi Data Load 2014-05-10 05:05[39m
+[32m[2014-05-15T01:33:08.419Z][info]  Post process started for 536db5d6a2f35ad80e000319 and  Service Asset - Boomi Data Load 2014-05-10 05:15[39m
+[2014-05-15T01:33:51.483Z][debug] Progress: 0 out of 1 for 536db4ab404579d558000700  Service Asset - Boomi Data Load 2014-05-10 05:10
+[32m[2014-05-15T01:33:51.483Z][info] Done postProcess for 536db4ab404579d558000700  Service Asset - Boomi Data Load 2014-05-10 05:10[39m
+[32m[2014-05-15T01:33:52.278Z][info]  Post process started for 536db702404579d55800070d and  Service Asset - Boomi Data Load 2014-05-10 05:20[39m
+[2014-05-15T01:34:09.127Z][debug] Progress: 0 out of 1 for 536db5d6a2f35ad80e000319  Service Asset - Boomi Data Load 2014-05-10 05:15
+[32m[2014-05-15T01:34:09.127Z][info] Done postProcess for 536db5d6a2f35ad80e000319  Service Asset - Boomi Data Load 2014-05-10 05:15[39m
+[32m[2014-05-15T01:34:09.924Z][info]  Post process started for 536db82ef39fe5d90e0001f5 and  Service Asset - Boomi Data Load 2014-05-10 05:25[39m
+[2014-05-15T01:34:53.181Z][debug] Progress: 0 out of 1 for 536db702404579d55800070d  Service Asset - Boomi Data Load 2014-05-10 05:20
+[32m[2014-05-15T01:34:53.181Z][info] Done postProcess for 536db702404579d55800070d  Service Asset - Boomi Data Load 2014-05-10 05:20[39m
+[32m[2014-05-15T01:34:53.984Z][info]  Post process started for 536db95b404579d558000718 and  Service Asset - Boomi Data Load 2014-05-10 05:30[39m
+[2014-05-15T01:35:10.302Z][debug] Progress: 0 out of 1 for 536db82ef39fe5d90e0001f5  Service Asset - Boomi Data Load 2014-05-10 05:25
+[32m[2014-05-15T01:35:10.303Z][info] Done postProcess for 536db82ef39fe5d90e0001f5  Service Asset - Boomi Data Load 2014-05-10 05:25[39m
+[32m[2014-05-15T01:35:11.099Z][info]  Post process started for 536dba865e282adb0e0002d7 and  Service Asset - Boomi Data Load 2014-05-10 05:35[39m
+[2014-05-15T01:35:54.361Z][debug] Progress: 0 out of 1 for 536db95b404579d558000718  Service Asset - Boomi Data Load 2014-05-10 05:30
+[32m[2014-05-15T01:35:54.361Z][info] Done postProcess for 536db95b404579d558000718  Service Asset - Boomi Data Load 2014-05-10 05:30[39m
+[32m[2014-05-15T01:35:55.151Z][info]  Post process started for 536dbbb2404579d55800072c and  Service Asset - Boomi Data Load 2014-05-10 05:40[39m
+[2014-05-15T01:36:11.474Z][debug] Progress: 0 out of 1 for 536dba865e282adb0e0002d7  Service Asset - Boomi Data Load 2014-05-10 05:35
+[32m[2014-05-15T01:36:11.474Z][info] Done postProcess for 536dba865e282adb0e0002d7  Service Asset - Boomi Data Load 2014-05-10 05:35[39m
+[32m[2014-05-15T01:36:12.251Z][info]  Post process started for 536dbcdfa2f35ad80e000349 and  Service Asset - Boomi Data Load 2014-05-10 05:45[39m
+[2014-05-15T01:36:55.544Z][debug] Progress: 0 out of 1 for 536dbbb2404579d55800072c  Service Asset - Boomi Data Load 2014-05-10 05:40
+[32m[2014-05-15T01:36:55.544Z][info] Done postProcess for 536dbbb2404579d55800072c  Service Asset - Boomi Data Load 2014-05-10 05:40[39m
+[32m[2014-05-15T01:36:56.343Z][info]  Post process started for 536dbe0a29d56dd0580003c7 and  Service Asset - Boomi Data Load 2014-05-10 05:50[39m
+[2014-05-15T01:37:12.961Z][debug] Progress: 0 out of 1 for 536dbcdfa2f35ad80e000349  Service Asset - Boomi Data Load 2014-05-10 05:45
+[32m[2014-05-15T01:37:12.961Z][info] Done postProcess for 536dbcdfa2f35ad80e000349  Service Asset - Boomi Data Load 2014-05-10 05:45[39m
+[32m[2014-05-15T01:37:13.742Z][info]  Post process started for 536dbf36a2f35ad80e00035e and  Service Asset - Boomi Data Load 2014-05-10 05:55[39m
+[2014-05-15T01:37:57.086Z][debug] Progress: 0 out of 1 for 536dbe0a29d56dd0580003c7  Service Asset - Boomi Data Load 2014-05-10 05:50
+[32m[2014-05-15T01:37:57.086Z][info] Done postProcess for 536dbe0a29d56dd0580003c7  Service Asset - Boomi Data Load 2014-05-10 05:50[39m
+[32m[2014-05-15T01:37:57.891Z][info]  Post process started for 536dc063e34abed458000a21 and  Service Asset - Boomi Data Load 2014-05-10 06:00[39m
+[2014-05-15T01:38:14.159Z][debug] Progress: 0 out of 1 for 536dbf36a2f35ad80e00035e  Service Asset - Boomi Data Load 2014-05-10 05:55
+[32m[2014-05-15T01:38:14.159Z][info] Done postProcess for 536dbf36a2f35ad80e00035e  Service Asset - Boomi Data Load 2014-05-10 05:55[39m
+[32m[2014-05-15T01:38:14.951Z][info]  Post process started for 536dc18ea2f35ad80e00036b and  Service Asset - Boomi Data Load 2014-05-10 06:05[39m
+[2014-05-15T01:38:58.314Z][debug] Progress: 0 out of 1 for 536dc063e34abed458000a21  Service Asset - Boomi Data Load 2014-05-10 06:00
+[32m[2014-05-15T01:38:58.314Z][info] Done postProcess for 536dc063e34abed458000a21  Service Asset - Boomi Data Load 2014-05-10 06:00[39m
+[32m[2014-05-15T01:38:59.188Z][info]  Post process started for 536dc2ba29d56dd0580003d5 and  Service Asset - Boomi Data Load 2014-05-10 06:10[39m
+[2014-05-15T01:39:15.329Z][debug] Progress: 0 out of 1 for 536dc18ea2f35ad80e00036b  Service Asset - Boomi Data Load 2014-05-10 06:05
+[32m[2014-05-15T01:39:15.329Z][info] Done postProcess for 536dc18ea2f35ad80e00036b  Service Asset - Boomi Data Load 2014-05-10 06:05[39m
+[32m[2014-05-15T01:39:16.161Z][info]  Post process started for 536dc3e6a2f35ad80e000376 and  Service Asset - Boomi Data Load 2014-05-10 06:15[39m
+[2014-05-15T01:39:59.560Z][debug] Progress: 0 out of 1 for 536dc2ba29d56dd0580003d5  Service Asset - Boomi Data Load 2014-05-10 06:10
+[32m[2014-05-15T01:39:59.560Z][info] Done postProcess for 536dc2ba29d56dd0580003d5  Service Asset - Boomi Data Load 2014-05-10 06:10[39m
+[32m[2014-05-15T01:40:00.355Z][info]  Post process started for 536dc512404579d558000765 and  Service Asset - Boomi Data Load 2014-05-10 06:20[39m
+[32m[2014-05-16T21:41:20.642Z][info]  Post process started for 536c150a749583e93800133e and  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:36[39m
+[32m[2014-05-16T21:41:40.532Z][info]  Post process started for 536c1704fb2fc490090011aa and  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:45[39m
+[2014-05-16T21:42:21.041Z][debug] Progress: 0 out of 0 for 536c150a749583e93800133e  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:36
+[32m[2014-05-16T21:42:21.042Z][info] Done postProcess for 536c150a749583e93800133e  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:36[39m
+[32m[2014-05-16T21:42:21.808Z][info]  Post process started for 536c182fa868848b09001ee3 and  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:50[39m
+[2014-05-16T21:42:40.967Z][debug] Progress: 0 out of 0 for 536c1704fb2fc490090011aa  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:45
+[32m[2014-05-16T21:42:40.967Z][info] Done postProcess for 536c1704fb2fc490090011aa  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:45[39m
+[32m[2014-05-16T21:42:41.824Z][info]  Post process started for 536c195ba868848b09002178 and  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:55[39m
+[2014-05-16T21:43:22.193Z][debug] Progress: 0 out of 0 for 536c182fa868848b09001ee3  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:50
+[32m[2014-05-16T21:43:22.193Z][info] Done postProcess for 536c182fa868848b09001ee3  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:50[39m
+[32m[2014-05-16T21:43:22.987Z][info]  Post process started for 536c2236a868848b090023ba and  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32[39m
+[2014-05-16T21:43:42.531Z][debug] Progress: 0 out of 0 for 536c195ba868848b09002178  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:55
+[32m[2014-05-16T21:43:42.531Z][info] Done postProcess for 536c195ba868848b09002178  Resolve As Loss Staging - Boomi Data Load 2014-05-08 23:55[39m
+[32m[2014-05-16T21:43:43.309Z][info]  Post process started for 536c2dae4f51a5e43800280f and  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21[39m
+[32m[2014-05-16T21:44:06.294Z][info]  Post process started for 532974559500c651480002b5 and SFDC Enricher Log Customer Commitment Test 1[39m
+[2014-05-16T21:44:23.368Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:44:23.368Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 1 time(s).[39m
+[32m[2014-05-16T21:44:26.245Z][info]  Post process started for 532974559500c651480002b5 and SFDC Enricher Log Customer Commitment Test 1[39m
+[2014-05-16T21:44:43.756Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:44:43.757Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 1 time(s).[39m
+[2014-05-16T21:45:06.676Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:45:06.676Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 1 time(s).[39m
+[2014-05-16T21:45:23.749Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:45:23.750Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 2 time(s).[39m
+[2014-05-16T21:45:26.623Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:45:26.623Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 1 time(s).[39m
+[2014-05-16T21:45:44.019Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:45:44.019Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 2 time(s).[39m
+[2014-05-16T21:46:06.669Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:46:06.669Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 2 time(s).[39m
+[2014-05-16T21:46:23.366Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:46:23.366Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 3 time(s).[39m
+[2014-05-16T21:46:26.623Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:46:26.623Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 2 time(s).[39m
+[2014-05-16T21:46:43.788Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:46:43.788Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 3 time(s).[39m
+[2014-05-16T21:47:06.733Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:47:06.733Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 3 time(s).[39m
+[2014-05-16T21:47:23.363Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:47:23.363Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 4 time(s).[39m
+[2014-05-16T21:47:26.664Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:47:26.664Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 3 time(s).[39m
+[2014-05-16T21:47:43.681Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:47:43.681Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 4 time(s).[39m
+[2014-05-16T21:48:06.716Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:48:06.716Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 4 time(s).[39m
+[2014-05-16T21:48:23.363Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:48:23.363Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 5 time(s).[39m
+[2014-05-16T21:48:26.734Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:48:26.734Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 4 time(s).[39m
+[2014-05-16T21:48:43.714Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:48:43.714Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 5 time(s).[39m
+[2014-05-16T21:49:06.683Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:49:06.683Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 5 time(s).[39m
+[2014-05-16T21:49:23.776Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:49:23.776Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 6 time(s).[39m
+[2014-05-16T21:49:26.644Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:49:26.644Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 5 time(s).[39m
+[2014-05-16T21:49:43.706Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:49:43.706Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 6 time(s).[39m
+[2014-05-16T21:50:06.682Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:50:06.682Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 6 time(s).[39m
+[2014-05-16T21:50:23.359Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:50:23.359Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 7 time(s).[39m
+[2014-05-16T21:50:26.621Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:50:26.621Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 6 time(s).[39m
+[2014-05-16T21:50:43.682Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:50:43.682Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 7 time(s).[39m
+[2014-05-16T21:51:06.669Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:51:06.669Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 7 time(s).[39m
+[2014-05-16T21:51:23.379Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:51:23.379Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 8 time(s).[39m
+[2014-05-16T21:51:26.620Z][debug] Progress: 0 out of 1 for 532974559500c651480002b5 SFDC Enricher Log Customer Commitment Test 1
+[33m[2014-05-16T21:51:26.620Z][warn] Getting stuck for 532974559500c651480002b5:SFDC Enricher Log Customer Commitment Test 1 for 7 time(s).[39m
+[2014-05-16T21:51:44.113Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:51:44.113Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 8 time(s).[39m
+[2014-05-16T21:52:23.746Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:52:23.746Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 9 time(s).[39m
+[2014-05-16T21:52:43.688Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:52:43.688Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 9 time(s).[39m
+[2014-05-16T21:53:23.377Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:53:23.377Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 10 time(s).[39m
+[2014-05-16T21:53:44.073Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:53:44.073Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 10 time(s).[39m
+[2014-05-16T21:54:23.776Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:54:23.776Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 11 time(s).[39m
+[2014-05-16T21:54:43.753Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:54:43.753Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 11 time(s).[39m
+[2014-05-16T21:55:23.762Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:55:23.762Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 12 time(s).[39m
+[2014-05-16T21:55:44.067Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:55:44.067Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 12 time(s).[39m
+[2014-05-16T21:56:23.387Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:56:23.387Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 13 time(s).[39m
+[2014-05-16T21:56:44.203Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:56:44.204Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 13 time(s).[39m
+[2014-05-16T21:57:23.798Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:57:23.798Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 14 time(s).[39m
+[2014-05-16T21:57:43.723Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:57:43.723Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 14 time(s).[39m
+[2014-05-16T21:58:23.931Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:58:23.931Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 15 time(s).[39m
+[2014-05-16T21:58:44.073Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:58:44.074Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 15 time(s).[39m
+[2014-05-16T21:59:23.381Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T21:59:23.381Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 16 time(s).[39m
+[2014-05-16T21:59:44.229Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T21:59:44.229Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 16 time(s).[39m
+[2014-05-16T22:00:23.792Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T22:00:23.792Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 17 time(s).[39m
+[2014-05-16T22:00:43.706Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T22:00:43.706Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 17 time(s).[39m
+[2014-05-16T22:01:23.747Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T22:01:23.747Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 18 time(s).[39m
+[2014-05-16T22:01:44.100Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T22:01:44.101Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 18 time(s).[39m
+[2014-05-16T22:02:23.373Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T22:02:23.373Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 19 time(s).[39m
+[2014-05-16T22:02:44.141Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T22:02:44.141Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 19 time(s).[39m
+[2014-05-16T22:03:23.748Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T22:03:23.748Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 20 time(s).[39m
+[2014-05-16T22:03:43.739Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T22:03:43.739Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 20 time(s).[39m
+[2014-05-16T22:04:23.758Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[33m[2014-05-16T22:04:23.758Z][warn] Getting stuck for 536c2236a868848b090023ba: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32 for 21 time(s).[39m
+[32m[2014-05-16T22:04:23.758Z][info] Retry the dataload again: 536c2236a868848b090023ba[39m
+[32m[2014-05-16T22:04:24.159Z][info]  Post process started for 536c2236a868848b090023ba and  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32[39m
+[2014-05-16T22:04:44.237Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[33m[2014-05-16T22:04:44.237Z][warn] Getting stuck for 536c2dae4f51a5e43800280f: Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21 for 21 time(s).[39m
+[32m[2014-05-16T22:04:44.237Z][info] Retry the dataload again: 536c2dae4f51a5e43800280f[39m
+[32m[2014-05-16T22:04:44.625Z][info]  Post process started for 536c2dae4f51a5e43800280f and  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21[39m
+[2014-05-16T22:05:24.562Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:05:44.995Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:06:25.110Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:06:45.021Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:07:24.987Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:07:45.400Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:08:24.557Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:08:45.366Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:09:24.955Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:09:45.000Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:10:24.926Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:10:45.387Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:11:24.537Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:11:45.535Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:12:24.919Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:12:45.004Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:13:25.076Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:13:45.351Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:14:24.574Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:14:45.116Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:15:24.595Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:15:45.078Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:16:24.610Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:16:45.007Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:17:24.545Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:17:45.050Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:18:24.559Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:18:45.011Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:19:24.672Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:19:45.026Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:20:24.542Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:20:45.065Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:21:24.574Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:21:45.112Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:22:24.599Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:22:45.053Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:23:24.936Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:23:45.036Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:24:24.552Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:24:45.395Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:25:24.547Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:25:45.095Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:26:24.994Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:26:45.029Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:27:24.554Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:27:45.642Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:28:24.599Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:28:45.036Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:29:24.921Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:29:45.036Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:30:24.556Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:30:45.445Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:31:24.559Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:31:45.038Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:32:24.937Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:32:45.092Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:33:24.572Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:33:45.586Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:34:24.574Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:34:45.064Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:35:24.965Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:35:45.047Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:36:24.567Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:36:45.416Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:37:24.566Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:37:45.096Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:38:24.963Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:38:45.099Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:39:24.611Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:39:45.668Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:40:24.692Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:40:45.068Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:41:24.999Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:41:45.048Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:42:24.579Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:42:45.436Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:43:24.597Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:43:45.057Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:44:24.954Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:44:45.093Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:45:24.591Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:45:45.455Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:46:24.706Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:46:45.094Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:47:24.969Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:47:45.128Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:48:24.626Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:48:45.441Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:49:24.602Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:49:45.434Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:50:24.619Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:50:45.083Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:51:25.032Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:51:45.140Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:52:24.641Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:52:45.508Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:53:24.600Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:53:45.083Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:54:24.971Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:54:45.085Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:55:24.609Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:55:45.509Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:56:24.643Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:56:45.132Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:57:24.971Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:57:45.095Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:58:24.619Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:58:45.547Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T22:59:24.603Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T22:59:45.124Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T23:00:24.974Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:00:45.153Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T23:01:24.656Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:01:45.505Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[2014-05-16T23:02:24.621Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:02:45.150Z][debug] Progress: 0 out of 1 for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21
+[32m[2014-05-16T23:02:45.151Z][info] Done postProcess for 536c2dae4f51a5e43800280f  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 01:21[39m
+[32m[2014-05-16T23:02:45.994Z][info]  Post process started for 536c60e14f51a5e43800290d and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:00[39m
+[2014-05-16T23:03:24.952Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:03:46.364Z][debug] Progress: 0 out of 0 for 536c60e14f51a5e43800290d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:00
+[32m[2014-05-16T23:03:46.365Z][info] Done postProcess for 536c60e14f51a5e43800290d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:00[39m
+[32m[2014-05-16T23:03:47.146Z][info]  Post process started for 536c62054f51a5e438002baf and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:05[39m
+[2014-05-16T23:04:24.978Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:04:47.541Z][debug] Progress: 0 out of 0 for 536c62054f51a5e438002baf  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:05
+[32m[2014-05-16T23:04:47.541Z][info] Done postProcess for 536c62054f51a5e438002baf  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:05[39m
+[32m[2014-05-16T23:04:48.339Z][info]  Post process started for 536c63304f51a5e438002c09 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:10[39m
+[2014-05-16T23:05:24.951Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:05:48.726Z][debug] Progress: 0 out of 0 for 536c63304f51a5e438002c09  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:10
+[32m[2014-05-16T23:05:48.726Z][info] Done postProcess for 536c63304f51a5e438002c09  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:10[39m
+[32m[2014-05-16T23:05:49.555Z][info]  Post process started for 536c645da868848b0900290a and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:15[39m
+[2014-05-16T23:06:24.954Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:06:49.937Z][debug] Progress: 0 out of 0 for 536c645da868848b0900290a  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:15
+[32m[2014-05-16T23:06:49.937Z][info] Done postProcess for 536c645da868848b0900290a  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:15[39m
+[32m[2014-05-16T23:06:50.730Z][info]  Post process started for 536c6589a868848b0900296e and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:20[39m
+[2014-05-16T23:07:24.975Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:07:51.104Z][debug] Progress: 0 out of 0 for 536c6589a868848b0900296e  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:20
+[32m[2014-05-16T23:07:51.104Z][info] Done postProcess for 536c6589a868848b0900296e  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:20[39m
+[32m[2014-05-16T23:07:51.896Z][info]  Post process started for 536c66b44f51a5e43800342c and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:25[39m
+[2014-05-16T23:08:24.986Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:08:52.341Z][debug] Progress: 0 out of 0 for 536c66b44f51a5e43800342c  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:25
+[32m[2014-05-16T23:08:52.341Z][info] Done postProcess for 536c66b44f51a5e43800342c  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:25[39m
+[32m[2014-05-16T23:08:53.118Z][info]  Post process started for 536c67e1a868848b09002c89 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:30[39m
+[2014-05-16T23:09:24.946Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:09:53.491Z][debug] Progress: 0 out of 0 for 536c67e1a868848b09002c89  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:30
+[32m[2014-05-16T23:09:53.491Z][info] Done postProcess for 536c67e1a868848b09002c89  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:30[39m
+[32m[2014-05-16T23:09:54.286Z][info]  Post process started for 536c690c4f51a5e43800390b and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:35[39m
+[2014-05-16T23:10:24.962Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:10:54.726Z][debug] Progress: 0 out of 0 for 536c690c4f51a5e43800390b  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:35
+[32m[2014-05-16T23:10:54.727Z][info] Done postProcess for 536c690c4f51a5e43800390b  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:35[39m
+[32m[2014-05-16T23:10:55.521Z][info]  Post process started for 536c6a384f51a5e438003bc4 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:40[39m
+[2014-05-16T23:11:24.958Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:11:55.917Z][debug] Progress: 0 out of 0 for 536c6a384f51a5e438003bc4  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:40
+[32m[2014-05-16T23:11:55.917Z][info] Done postProcess for 536c6a384f51a5e438003bc4  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:40[39m
+[32m[2014-05-16T23:11:56.703Z][info]  Post process started for 536c6b644f51a5e438003c3a and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:45[39m
+[2014-05-16T23:12:24.958Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:12:57.083Z][debug] Progress: 0 out of 0 for 536c6b644f51a5e438003c3a  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:45
+[32m[2014-05-16T23:12:57.083Z][info] Done postProcess for 536c6b644f51a5e438003c3a  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:45[39m
+[32m[2014-05-16T23:12:57.904Z][info]  Post process started for 536c6c90749583e9380019d0 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:50[39m
+[2014-05-16T23:13:24.616Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:13:58.277Z][debug] Progress: 0 out of 0 for 536c6c90749583e9380019d0  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:50
+[32m[2014-05-16T23:13:58.277Z][info] Done postProcess for 536c6c90749583e9380019d0  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:50[39m
+[32m[2014-05-16T23:13:59.056Z][info]  Post process started for 536c6dbda868848b090036ff and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:55[39m
+[2014-05-16T23:14:24.962Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:14:59.467Z][debug] Progress: 0 out of 0 for 536c6dbda868848b090036ff  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:55
+[32m[2014-05-16T23:14:59.467Z][info] Done postProcess for 536c6dbda868848b090036ff  Resolve As Loss Staging - Boomi Data Load 2014-05-09 05:55[39m
+[32m[2014-05-16T23:15:00.247Z][info]  Post process started for 536c6eeaa868848b0900399d and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:00[39m
+[2014-05-16T23:15:24.630Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:16:00.677Z][debug] Progress: 0 out of 0 for 536c6eeaa868848b0900399d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:00
+[32m[2014-05-16T23:16:00.677Z][info] Done postProcess for 536c6eeaa868848b0900399d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:00[39m
+[32m[2014-05-16T23:16:01.501Z][info]  Post process started for 536c7014a868848b09003bf9 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:05[39m
+[2014-05-16T23:16:25.021Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:17:01.905Z][debug] Progress: 0 out of 0 for 536c7014a868848b09003bf9  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:05
+[32m[2014-05-16T23:17:01.906Z][info] Done postProcess for 536c7014a868848b09003bf9  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:05[39m
+[32m[2014-05-16T23:17:02.736Z][info]  Post process started for 536c7141a868848b09003c42 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:10[39m
+[2014-05-16T23:17:24.643Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:18:03.486Z][debug] Progress: 0 out of 0 for 536c7141a868848b09003c42  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:10
+[32m[2014-05-16T23:18:03.486Z][info] Done postProcess for 536c7141a868848b09003c42  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:10[39m
+[32m[2014-05-16T23:18:04.265Z][info]  Post process started for 536c726ca868848b09003c96 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:15[39m
+[2014-05-16T23:18:24.630Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:19:04.640Z][debug] Progress: 0 out of 0 for 536c726ca868848b09003c96  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:15
+[32m[2014-05-16T23:19:04.640Z][info] Done postProcess for 536c726ca868848b09003c96  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:15[39m
+[32m[2014-05-16T23:19:05.440Z][info]  Post process started for 536c7398a868848b09003cf6 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:20[39m
+[2014-05-16T23:19:24.957Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:20:05.816Z][debug] Progress: 0 out of 0 for 536c7398a868848b09003cf6  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:20
+[32m[2014-05-16T23:20:05.816Z][info] Done postProcess for 536c7398a868848b09003cf6  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:20[39m
+[32m[2014-05-16T23:20:06.606Z][info]  Post process started for 536c74c4a868848b09003d32 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:25[39m
+[2014-05-16T23:20:24.998Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:21:06.990Z][debug] Progress: 0 out of 0 for 536c74c4a868848b09003d32  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:25
+[32m[2014-05-16T23:21:06.990Z][info] Done postProcess for 536c74c4a868848b09003d32  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:25[39m
+[32m[2014-05-16T23:21:07.779Z][info]  Post process started for 536c75f0a868848b09003d88 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:30[39m
+[2014-05-16T23:21:24.996Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:22:08.173Z][debug] Progress: 0 out of 0 for 536c75f0a868848b09003d88  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:30
+[32m[2014-05-16T23:22:08.173Z][info] Done postProcess for 536c75f0a868848b09003d88  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:30[39m
+[32m[2014-05-16T23:22:09.050Z][info]  Post process started for 536c771cfb2fc49009002b61 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:35[39m
+[2014-05-16T23:22:25.017Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:23:09.433Z][debug] Progress: 0 out of 0 for 536c771cfb2fc49009002b61  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:35
+[32m[2014-05-16T23:23:09.433Z][info] Done postProcess for 536c771cfb2fc49009002b61  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:35[39m
+[32m[2014-05-16T23:23:10.238Z][info]  Post process started for 536c78494515bd8e0900110a and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:40[39m
+[2014-05-16T23:23:24.976Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:24:10.612Z][debug] Progress: 0 out of 0 for 536c78494515bd8e0900110a  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:40
+[32m[2014-05-16T23:24:10.612Z][info] Done postProcess for 536c78494515bd8e0900110a  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:40[39m
+[32m[2014-05-16T23:24:11.406Z][info]  Post process started for 536c7976a868848b090045dc and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:45[39m
+[2014-05-16T23:24:25.032Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:25:11.781Z][debug] Progress: 0 out of 0 for 536c7976a868848b090045dc  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:45
+[32m[2014-05-16T23:25:11.781Z][info] Done postProcess for 536c7976a868848b090045dc  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:45[39m
+[32m[2014-05-16T23:25:12.566Z][info]  Post process started for 536c7aa0a868848b0900467b and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:50[39m
+[2014-05-16T23:25:25.009Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:26:12.942Z][debug] Progress: 0 out of 0 for 536c7aa0a868848b0900467b  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:50
+[32m[2014-05-16T23:26:12.942Z][info] Done postProcess for 536c7aa0a868848b0900467b  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:50[39m
+[32m[2014-05-16T23:26:13.724Z][info]  Post process started for 536c7bcd49a6bb1461000894 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:55[39m
+[2014-05-16T23:26:24.973Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:27:14.114Z][debug] Progress: 0 out of 0 for 536c7bcd49a6bb1461000894  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:55
+[32m[2014-05-16T23:27:14.114Z][info] Done postProcess for 536c7bcd49a6bb1461000894  Resolve As Loss Staging - Boomi Data Load 2014-05-09 06:55[39m
+[32m[2014-05-16T23:27:14.917Z][info]  Post process started for 536c7cfa49a6bb1461000b45 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:00[39m
+[2014-05-16T23:27:24.973Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:28:15.352Z][debug] Progress: 0 out of 0 for 536c7cfa49a6bb1461000b45  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:00
+[32m[2014-05-16T23:28:15.352Z][info] Done postProcess for 536c7cfa49a6bb1461000b45  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:00[39m
+[32m[2014-05-16T23:28:16.154Z][info]  Post process started for 536c7e2449a6bb1461000de4 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:05[39m
+[2014-05-16T23:28:24.678Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:29:17.092Z][debug] Progress: 0 out of 0 for 536c7e2449a6bb1461000de4  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:05
+[32m[2014-05-16T23:29:17.092Z][info] Done postProcess for 536c7e2449a6bb1461000de4  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:05[39m
+[32m[2014-05-16T23:29:17.876Z][info]  Post process started for 536c7f519c66ba12610001fe and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:10[39m
+[2014-05-16T23:29:24.656Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:30:18.318Z][debug] Progress: 0 out of 0 for 536c7f519c66ba12610001fe  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:10
+[32m[2014-05-16T23:30:18.318Z][info] Done postProcess for 536c7f519c66ba12610001fe  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:10[39m
+[32m[2014-05-16T23:30:19.130Z][info]  Post process started for 536c807cb4474c0f610006b9 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:15[39m
+[2014-05-16T23:30:24.791Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:31:19.961Z][debug] Progress: 0 out of 0 for 536c807cb4474c0f610006b9  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:15
+[32m[2014-05-16T23:31:19.961Z][info] Done postProcess for 536c807cb4474c0f610006b9  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:15[39m
+[32m[2014-05-16T23:31:20.800Z][info]  Post process started for 536c81aba868848b090051e3 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:20[39m
+[2014-05-16T23:31:24.695Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:32:21.238Z][debug] Progress: 0 out of 0 for 536c81aba868848b090051e3  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:20
+[32m[2014-05-16T23:32:21.238Z][info] Done postProcess for 536c81aba868848b090051e3  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:20[39m
+[32m[2014-05-16T23:32:22.015Z][info]  Post process started for 536c82d4a868848b0900541b and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:25[39m
+[2014-05-16T23:32:24.653Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:33:22.828Z][debug] Progress: 0 out of 0 for 536c82d4a868848b0900541b  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:25
+[32m[2014-05-16T23:33:22.828Z][info] Done postProcess for 536c82d4a868848b0900541b  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:25[39m
+[32m[2014-05-16T23:33:23.606Z][info]  Post process started for 536c8401a868848b090056c1 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:30[39m
+[2014-05-16T23:33:24.647Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:34:24.019Z][debug] Progress: 0 out of 0 for 536c8401a868848b090056c1  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:30
+[32m[2014-05-16T23:34:24.019Z][info] Done postProcess for 536c8401a868848b090056c1  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:30[39m
+[2014-05-16T23:34:24.656Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[32m[2014-05-16T23:34:24.832Z][info]  Post process started for 536c852ca868848b090056ff and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:35[39m
+[2014-05-16T23:35:25.091Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:35:25.211Z][debug] Progress: 0 out of 0 for 536c852ca868848b090056ff  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:35
+[32m[2014-05-16T23:35:25.211Z][info] Done postProcess for 536c852ca868848b090056ff  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:35[39m
+[32m[2014-05-16T23:35:26.061Z][info]  Post process started for 536c865849a6bb146100188e and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:40[39m
+[2014-05-16T23:36:24.683Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:36:26.583Z][debug] Progress: 0 out of 0 for 536c865849a6bb146100188e  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:40
+[32m[2014-05-16T23:36:26.583Z][info] Done postProcess for 536c865849a6bb146100188e  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:40[39m
+[32m[2014-05-16T23:36:27.386Z][info]  Post process started for 536c8784fb2fc49009003818 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:45[39m
+[2014-05-16T23:37:25.000Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:37:27.773Z][debug] Progress: 0 out of 0 for 536c8784fb2fc49009003818  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:45
+[32m[2014-05-16T23:37:27.773Z][info] Done postProcess for 536c8784fb2fc49009003818  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:45[39m
+[32m[2014-05-16T23:37:28.559Z][info]  Post process started for 536c88b04515bd8e0900115d and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:50[39m
+[2014-05-16T23:38:25.025Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:38:28.931Z][debug] Progress: 0 out of 0 for 536c88b04515bd8e0900115d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:50
+[32m[2014-05-16T23:38:28.931Z][info] Done postProcess for 536c88b04515bd8e0900115d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:50[39m
+[32m[2014-05-16T23:38:29.733Z][info]  Post process started for 536c89dca868848b09005c92 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:55[39m
+[2014-05-16T23:39:24.693Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:39:30.305Z][debug] Progress: 0 out of 0 for 536c89dca868848b09005c92  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:55
+[32m[2014-05-16T23:39:30.305Z][info] Done postProcess for 536c89dca868848b09005c92  Resolve As Loss Staging - Boomi Data Load 2014-05-09 07:55[39m
+[32m[2014-05-16T23:39:31.121Z][info]  Post process started for 536c8b09a868848b09005cb6 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:00[39m
+[2014-05-16T23:40:25.009Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:40:31.496Z][debug] Progress: 0 out of 0 for 536c8b09a868848b09005cb6  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:00
+[32m[2014-05-16T23:40:31.496Z][info] Done postProcess for 536c8b09a868848b09005cb6  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:00[39m
+[32m[2014-05-16T23:40:32.291Z][info]  Post process started for 536c8c34fb2fc49009003d71 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:05[39m
+[2014-05-16T23:41:25.029Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:41:32.755Z][debug] Progress: 0 out of 0 for 536c8c34fb2fc49009003d71  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:05
+[32m[2014-05-16T23:41:32.755Z][info] Done postProcess for 536c8c34fb2fc49009003d71  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:05[39m
+[32m[2014-05-16T23:41:33.594Z][info]  Post process started for 536c8d60a868848b090061f5 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:10[39m
+[2014-05-16T23:42:25.109Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:42:33.967Z][debug] Progress: 0 out of 0 for 536c8d60a868848b090061f5  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:10
+[32m[2014-05-16T23:42:33.967Z][info] Done postProcess for 536c8d60a868848b090061f5  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:10[39m
+[32m[2014-05-16T23:42:34.758Z][info]  Post process started for 536c8e8ca868848b09006479 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:15[39m
+[2014-05-16T23:43:25.089Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:43:35.130Z][debug] Progress: 0 out of 0 for 536c8e8ca868848b09006479  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:15
+[32m[2014-05-16T23:43:35.130Z][info] Done postProcess for 536c8e8ca868848b09006479  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:15[39m
+[32m[2014-05-16T23:43:35.928Z][info]  Post process started for 536c8fb8c135e48d09000ce4 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:20[39m
+[2014-05-16T23:44:24.712Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:44:36.299Z][debug] Progress: 0 out of 0 for 536c8fb8c135e48d09000ce4  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:20
+[32m[2014-05-16T23:44:36.299Z][info] Done postProcess for 536c8fb8c135e48d09000ce4  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:20[39m
+[32m[2014-05-16T23:44:37.097Z][info]  Post process started for 536c90e4c135e48d09000cfe and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:25[39m
+[2014-05-16T23:45:24.698Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:45:37.494Z][debug] Progress: 0 out of 0 for 536c90e4c135e48d09000cfe  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:25
+[32m[2014-05-16T23:45:37.494Z][info] Done postProcess for 536c90e4c135e48d09000cfe  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:25[39m
+[32m[2014-05-16T23:45:38.319Z][info]  Post process started for 536c921149a6bb146100250c and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:30[39m
+[2014-05-16T23:46:24.780Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:46:38.717Z][debug] Progress: 0 out of 0 for 536c921149a6bb146100250c  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:30
+[32m[2014-05-16T23:46:38.717Z][info] Done postProcess for 536c921149a6bb146100250c  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:30[39m
+[32m[2014-05-16T23:46:39.565Z][info]  Post process started for 536c933cc135e48d09000d6e and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:35[39m
+[2014-05-16T23:47:24.666Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:47:40.355Z][debug] Progress: 0 out of 0 for 536c933cc135e48d09000d6e  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:35
+[32m[2014-05-16T23:47:40.355Z][info] Done postProcess for 536c933cc135e48d09000d6e  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:35[39m
+[32m[2014-05-16T23:47:41.137Z][info]  Post process started for 536c9468a868848b09006cad and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:40[39m
+[2014-05-16T23:48:24.665Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:48:41.520Z][debug] Progress: 0 out of 0 for 536c9468a868848b09006cad  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:40
+[32m[2014-05-16T23:48:41.520Z][info] Done postProcess for 536c9468a868848b09006cad  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:40[39m
+[32m[2014-05-16T23:48:42.301Z][info]  Post process started for 536c9594fb2fc490090043b1 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:45[39m
+[2014-05-16T23:49:24.716Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:49:42.715Z][debug] Progress: 0 out of 0 for 536c9594fb2fc490090043b1  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:45
+[32m[2014-05-16T23:49:42.715Z][info] Done postProcess for 536c9594fb2fc490090043b1  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:45[39m
+[32m[2014-05-16T23:49:43.489Z][info]  Post process started for 536c96c0fb2fc490090043f8 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:50[39m
+[2014-05-16T23:50:25.056Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:50:43.916Z][debug] Progress: 0 out of 0 for 536c96c0fb2fc490090043f8  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:50
+[32m[2014-05-16T23:50:43.916Z][info] Done postProcess for 536c96c0fb2fc490090043f8  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:50[39m
+[32m[2014-05-16T23:50:44.756Z][info]  Post process started for 536c97eca868848b09006fa1 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:55[39m
+[2014-05-16T23:51:25.031Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:51:45.169Z][debug] Progress: 0 out of 0 for 536c97eca868848b09006fa1  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:55
+[32m[2014-05-16T23:51:45.169Z][info] Done postProcess for 536c97eca868848b09006fa1  Resolve As Loss Staging - Boomi Data Load 2014-05-09 08:55[39m
+[32m[2014-05-16T23:51:45.965Z][info]  Post process started for 536c9919a868848b09006fef and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:00[39m
+[2014-05-16T23:52:25.072Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:52:46.418Z][debug] Progress: 0 out of 0 for 536c9919a868848b09006fef  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:00
+[32m[2014-05-16T23:52:46.419Z][info] Done postProcess for 536c9919a868848b09006fef  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:00[39m
+[32m[2014-05-16T23:52:47.250Z][info]  Post process started for 536c9a45a868848b0900728d and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:05[39m
+[2014-05-16T23:53:25.104Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:53:47.622Z][debug] Progress: 0 out of 0 for 536c9a45a868848b0900728d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:05
+[32m[2014-05-16T23:53:47.622Z][info] Done postProcess for 536c9a45a868848b0900728d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:05[39m
+[32m[2014-05-16T23:53:48.431Z][info]  Post process started for 536c9b7149a6bb14610030d7 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:10[39m
+[2014-05-16T23:54:25.028Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:54:48.806Z][debug] Progress: 0 out of 0 for 536c9b7149a6bb14610030d7  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:10
+[32m[2014-05-16T23:54:48.806Z][info] Done postProcess for 536c9b7149a6bb14610030d7  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:10[39m
+[32m[2014-05-16T23:54:49.638Z][info]  Post process started for 536c9c9d49a6bb146100337d and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:15[39m
+[2014-05-16T23:55:25.053Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:55:50.012Z][debug] Progress: 0 out of 0 for 536c9c9d49a6bb146100337d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:15
+[32m[2014-05-16T23:55:50.012Z][info] Done postProcess for 536c9c9d49a6bb146100337d  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:15[39m
+[32m[2014-05-16T23:55:50.910Z][info]  Post process started for 536c9dc949a6bb14610033d4 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:20[39m
+[2014-05-16T23:56:25.017Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:56:51.404Z][debug] Progress: 0 out of 0 for 536c9dc949a6bb14610033d4  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:20
+[32m[2014-05-16T23:56:51.404Z][info] Done postProcess for 536c9dc949a6bb14610033d4  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:20[39m
+[32m[2014-05-16T23:56:52.332Z][info]  Post process started for 536c9ef549a6bb146100367a and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:25[39m
+[2014-05-16T23:57:25.016Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:57:52.703Z][debug] Progress: 0 out of 0 for 536c9ef549a6bb146100367a  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:25
+[32m[2014-05-16T23:57:52.703Z][info] Done postProcess for 536c9ef549a6bb146100367a  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:25[39m
+[32m[2014-05-16T23:57:53.495Z][info]  Post process started for 536ca02149a6bb14610036dc and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:30[39m
+[2014-05-16T23:58:25.074Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:58:54.405Z][debug] Progress: 0 out of 0 for 536ca02149a6bb14610036dc  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:30
+[32m[2014-05-16T23:58:54.405Z][info] Done postProcess for 536ca02149a6bb14610036dc  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:30[39m
+[32m[2014-05-16T23:58:55.224Z][info]  Post process started for 536ca14d49a6bb1461003737 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:35[39m
+[2014-05-16T23:59:24.756Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-16T23:59:55.978Z][debug] Progress: 0 out of 0 for 536ca14d49a6bb1461003737  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:35
+[32m[2014-05-16T23:59:55.978Z][info] Done postProcess for 536ca14d49a6bb1461003737  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:35[39m
+[32m[2014-05-16T23:59:57.089Z][info]  Post process started for 536ca27949a6bb14610039d7 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:40[39m
+[2014-05-17T00:00:25.063Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-17T00:00:57.486Z][debug] Progress: 0 out of 0 for 536ca27949a6bb14610039d7  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:40
+[32m[2014-05-17T00:00:57.486Z][info] Done postProcess for 536ca27949a6bb14610039d7  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:40[39m
+[32m[2014-05-17T00:00:58.291Z][info]  Post process started for 536ca3a649a6bb1461003c91 and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:45[39m
+[2014-05-17T00:01:25.076Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-17T00:01:59.039Z][debug] Progress: 0 out of 0 for 536ca3a649a6bb1461003c91  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:45
+[32m[2014-05-17T00:01:59.039Z][info] Done postProcess for 536ca3a649a6bb1461003c91  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:45[39m
+[32m[2014-05-17T00:01:59.945Z][info]  Post process started for 536ca4d049a6bb1461003f3b and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:50[39m
+[2014-05-17T00:02:24.689Z][debug] Progress: 0 out of 1 for 536c2236a868848b090023ba  Staging Collection Resolve As Loss - Boomi Data Load 2014-05-09 00:32
+[2014-05-17T00:03:00.690Z][debug] Progress: 0 out of 0 for 536ca4d049a6bb1461003f3b  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:50
+[32m[2014-05-17T00:03:00.690Z][info] Done postProcess for 536ca4d049a6bb1461003f3b  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:50[39m
+[32m[2014-05-17T00:03:01.603Z][info]  Post process started for 536ca5fc49a6bb14610041ef and  Resolve As Loss Staging - Boomi Data Load 2014-05-09 09:55[39m

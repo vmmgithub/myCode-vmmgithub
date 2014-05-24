@@ -1,0 +1,34 @@
+Processing undo of bluecoat config.ssi-cloud.com tags fWrdYmcI 
+Downloading opps 
+[32m[2014-05-21T19:34:19.441Z][info]  DONE undefined[39m
+[31m[2014-05-21T19:34:19.853Z][error]  Deleting  [{"message":"deletefailed","type":"app.lineitems"}][39m
+Deleting offers 
+[32m[2014-05-21T19:34:20.522Z][info]  DONE undefined[39m
+[31m[2014-05-21T19:34:21.171Z][error]  Deleting  [{"message":"deletefailed","type":"app.offers"}][39m
+Deleting quotes 
+[32m[2014-05-21T19:34:21.969Z][info]  DONE undefined[39m
+[31m[2014-05-21T19:34:22.514Z][error]  Deleting  [{"message":"deletefailed","type":"app.quotes"}][39m
+Deleting opps 
+[32m[2014-05-21T19:34:23.190Z][info]  DONE undefined[39m
+[31m[2014-05-21T19:34:23.741Z][error]  Deleting  [{"message":"deletefailed","type":"app.opportunities"}][39m
+Resetting assets 
+[32m[2014-05-21T19:34:23.973Z][info] Processing bluecoat.config.ssi-cloud.com.tags.fWrdYmcI.resetAsset.csv[39m
+[31m[2014-05-21T19:34:29.179Z][error] update _id on record '': [{"message":"CastError: Cast to ObjectId failed for value \"\" at path \"_id\"","type":"SystemError"}][39m
+[32m[2014-05-21T19:34:29.179Z][info] DONE undefined[39m
+Processing undo of bluecoat config.ssi-cloud.com tags fWrdYmcI 
+Downloading opps 
+[32m[2014-05-21T19:40:07.899Z][info]  DONE undefined[39m
+[31m[2014-05-21T19:40:08.461Z][error]  Deleting  [{"message":"deletefailed","type":"app.lineitems"}][39m
+Deleting offers 
+[32m[2014-05-21T19:40:09.259Z][info]  DONE undefined[39m
+[31m[2014-05-21T19:40:09.961Z][error]  Deleting  [{"message":"deletefailed","type":"app.offers"}][39m
+Deleting quotes 
+[32m[2014-05-21T19:40:10.610Z][info]  DONE undefined[39m
+[31m[2014-05-21T19:40:11.004Z][error]  Deleting  [{"message":"deletefailed","type":"app.quotes"}][39m
+Deleting opps 
+[32m[2014-05-21T19:40:11.889Z][info]  DONE undefined[39m
+[31m[2014-05-21T19:40:12.309Z][error]  Deleting  [{"message":"deletefailed","type":"app.opportunities"}][39m
+Resetting assets 
+[32m[2014-05-21T19:40:12.539Z][info] Processing bluecoat.config.ssi-cloud.com.tags.fWrdYmcI.resetAsset.csv[39m
+[31m[2014-05-21T19:40:17.717Z][error] update _id on record '': [{"message":"CastError: Cast to ObjectId failed for value \"\" at path \"_id\"","type":"SystemError"}][39m
+[32m[2014-05-21T19:40:17.717Z][info] DONE undefined[39m

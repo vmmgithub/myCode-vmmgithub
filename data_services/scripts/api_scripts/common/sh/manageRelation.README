@@ -1,0 +1,68 @@
+
+	 
+manageRelations.sh :  
+
+Function           : Add/Delete relationships between collection objects. 
+                     Example app.opportunity and core.contacts
+                             The opportunity can be associated with salesRep, Customer, Client, Distributor etc
+                             The core.contact maintain the information of salesRep, Customer, client and Distributor.
+                             The program allows to add/delete relationship between these two collection objects
+
+
+Location  	   :  /home/ec2-user/Implementations/data-services/scripts/api-scripts/common/sh
+
+
+How to Run manageRelations.sh program
+        
+Run          	   : ./manageRelations.sh   The program expect following list of the options. Some are required option.
+
+Options:
+         -t, --tenant          Specify tenant                                                       [required]
+         -h, --host            Specify host                                                         [required]
+         -n, --port            Specify port                                                         [default: "443"]
+         -u, --user            Specify user
+         -p, --password        Specify password                                                     
+         -f, --file            File to process                                                      [required]
+         -m, --multiple        Flag to indicate if updating all matching records or just the first  [default: false]
+         -l, --limit           Concurrent threads                                                   [default: 5]
+         -s, --source          Source type                                                          [default: "app.opportunity"]
+         -r, --relationship    Relationship to modify                                               [default: "salesRep"]
+         -d, --target          Target type                                                          [default: "core.contact"]
+         -b, --searchBy        Search by attribute [_id, displayName, externalIds.id]               [default: "displayName"]
+         -c, --searchByTarget  Search by attribute [_id, displayName, externalIds.id]               [default: "displayName"]
+         -v, --forReal         if running in test mode or for real                                  [default: false]
+         -o, --operation       Operation to perform [add, remove]                                   [default: "add"]
+
+
+Input  File          :  /home/ec2-user/Implementations/data-service/data/input 
+
+All output files are created in appropriate directory using host option in the program. If host name is config-t2.ssi-cloud.com 
+the logs, archive and snapshot files will be created in dev/logs , dev/archive and dev/snapshot directories respectively.
+
+FileNames : <tenant>.<inputfile>.<operation>.yyyymmddhhss
+
+#  DEV = config-t2.ssi-cloud.com OR config.ssi-cloud.com
+#  STG = stgcurrent.ssi-cloud.com OR stgnext.ssi-cloud.com
+#  PRD = prod02dl-int.ssi-cloud.com
+
+#  Dell
+#  DEV = dell-sit.ssi-cloud.com
+#  STG = dellstgcurrent.ssi-cloud.com OR dellstgnext.ssi-cloud.com
+#  PROD = dell-prd1DL4-int.ssi-cloud.com
+
+Log File  	      :   tenant.CSVFileName.operation.yyyymmddhhss    		
+		 	  Contains detail logs for all activities and will be stored in logs directory based on host (environment) value.
+Loc. of logs          :   /home/ec2-user/Implementation/data-service/data/<env>/logs 
+        
+Snapshot/Audit File   :   tenant.CSVFileName.operation.yyyymmddhhss.Existing     
+			  Provides snapshot of data before changes
+Loc. of snapshot      :   /home/ec2-user/Implementation/data-service/data/<env>/snapshot 
+
+Archive/Processed File:   tenant.CSVFileName.operation.yyyymmddhhss.Processed    
+			  Successfully process records
+Loc. of archive       :   /home/ec2-user/Implementation/data-service/data/<env>/archive 
+
+Failed Data File      :   tenant.CSVFileName.operation.yyyymmddhhss.Failed       
+			  Failed records stays in input directory
+Loc.  of Failed File  :   /home/ec2-user/Implementation/data-service/data/input
+

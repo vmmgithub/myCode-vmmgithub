@@ -1,0 +1,8 @@
+alias l='ls -altr';
+alias vi='vim';
+alias c='clear';
+
+export s3scripts="s3://Renew-Dev-Workspace/nithin/scripts/"
+export s3reports="s3://Renew-Dev-Workspace/nithin/reports/"
+
+alias s3put='s3cmd put --add-header=x-amz-server-side-encryption:AES256 '
