@@ -1,0 +1,9 @@
+usage: node ./index.js tenant=TENANT host=API_HOST port=API_PORT [ ssl=1 ] [ doit=1 ]
+
+default mode is dry run, real updates only with doit=1 flag
+
+if oppty name ends with -NUM then try to increase NUM and recheck
+if not - add -1 and recheck
+
+to backup use backupDir param. if backupDir not present it will be created in /tmp
+to restore use restoreDir param

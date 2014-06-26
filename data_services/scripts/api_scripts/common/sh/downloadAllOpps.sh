@@ -31,7 +31,8 @@ log "Completed Initializing"
 # Money maker that goes through each collection setup by the helper and downloads it
 # Start downloading objects one collection at a time
 for coll in "${objs[@]}"; do
-  cmd="../js/downloadObjects.js --tenant ${tenant} --host ${host} --source app.${coll} --db true --log true"
+  if [[ ${coll} == "contacts" ]]; then fullCollName="core.${coll}"; else fullCollName="app.${coll}"; fi
+  cmd="../js/downloadObjects.js --tenant ${tenant} --host ${host} --source ${fullCollName} --db true --log true"
 
   if [[ ! -z ${filter} ]]; then
     cmd="${cmd} --searchBy \"${filter}\""
@@ -44,7 +45,10 @@ for coll in "${objs[@]}"; do
     offers) arr="${offers[@]}";;
     assets) arr="${assets[@]}";;
     lineitems) arr="${lineitems[@]}";;
-  esac
+    lookups) arr="${lookups[@]}";;
+    products) arr="${products[@]}";;
+    contacts) arr="${contacts[@]}";;
+ esac
 
   for var in ${arr}; do
     cmd="$cmd --columns \"${var}\""

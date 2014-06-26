@@ -10,7 +10,7 @@ var input = require('optimist')
         \n\nUsage: $0')
     .alias('t', 'tenant').describe('t', 'Specify tenant')
     .alias('h', 'host').describe('h', 'Specify host')
-    .alias('n', 'port').describe('n', 'Specify port') 
+    .alias('n', 'port').describe('n', 'Specify port')
     .alias('u', 'user').describe('u', 'Specify user')
     .alias('p', 'password').describe('p', 'Specify password')
     .alias('l', 'limit').describe('l', 'Concurrent threads').default('l', 5)
@@ -111,12 +111,19 @@ var cols = {
     ]
 };
 
+// Will clone the object for output. This way the script still downloads all
+// needed values for later processing, but the output is only the
+// requested columns.
+
+var colsoutput = JSON.parse(JSON.stringify(cols));
+
 if (!input.addDefaultColumns) {
-  cols.opp = ['_id'];
-  cols.qt = ['_id'];
-  cols.book = ['_id'];
-  cols.off = ['_id'];
-  cols.ass = ['_id'];
+  colsoutput.opp = ['_id'];
+  colsoutput.qt = ['_id'];
+  colsoutput.book = ['_id'];
+  colsoutput.off = ['_id'];
+  colsoutput.ass = ['_id'];
+  colsoutput.items = ['_id'];
 }
 
 if (!_.isEmpty(input.columns)) {
@@ -125,13 +132,14 @@ if (!_.isEmpty(input.columns)) {
   _.each(input.columns, function(input) {
     var pre = input.split(':')[0];
     var po = input.split(':')[1];
-    
+
     switch (pre) {
-      case 'opp': cols.opp.push(po); break;
-      case 'qt': cols.qt.push(po); break;
-      case 'book': cols.book.push(po); break;
-      case 'off': cols.off.push(po); break;
-      case 'ass': cols.ass.push(po); break;
+      case 'opp': cols.opp.push(po); colsoutput.opp.push(po); break;
+      case 'qt': cols.qt.push(po); colsoutput.qt.push(po); break;
+      case 'book': cols.book.push(po); colsoutput.book.push(po); break;
+      case 'off': cols.off.push(po); colsoutput.off.push(po); break;
+      case 'ass': cols.ass.push(po); colsoutput.ass.push(po); break;
+      case 'items': cols.items.push(po); colsoutput.items.push(po); break;
     }
 
   });
@@ -172,19 +180,19 @@ var downloadOpp = function(opp, callback) {
           scanAssets(res.getOffers, cb);
       }],
       printEverything: ['getQuotes', 'getOffers', 'getAssets', 'getBookings', function(cb, res) {
-        
+
         //Step 0: prepare results for easier print
         joinResults(res);
 
         //Scenario 1: Empty opportunity without any quotes, offers, bookings
-        if (_.isEmpty(res.getOffers) && _.isEmpty(res.getQuotes) && _.isEmpty(res.getBookings)) { 
-          printOpps(opp); 
-          return callback && callback(); 
+        if (_.isEmpty(res.getOffers) && _.isEmpty(res.getQuotes) && _.isEmpty(res.getBookings)) {
+          printOpps(opp);
+          return callback && callback();
         }
 
         //Scenario 2: Unreferenced quotes exist on an opp without any offers, bookings
         //print separate lines for each of them
-        if (!_.isEmpty(res.getQuotes)) { 
+        if (!_.isEmpty(res.getQuotes)) {
           _.each(res.getQuotes, function(quote) {
             printOpps(opp, quote, quote.booking);
           });
@@ -192,14 +200,14 @@ var downloadOpp = function(opp, callback) {
 
         //Scenario 3: Unreferenced quote and bookings without any offers
         //print separate lines for each of them
-        if (!_.isEmpty(res.getBookings)) { 
+        if (!_.isEmpty(res.getBookings)) {
           _.each(res.getBookings, function(booking) {
             printOpps(opp, null, booking);
           });
         }
 
         //Scenario 4: Print offers with everything you can
-        if (!_.isEmpty(res.getOffers)) { 
+        if (!_.isEmpty(res.getOffers)) {
           _.each(res.getOffers, function(offer) {
               printOpps(opp, offer.quote, offer.quote.booking, offer, offer.asset);
           });
@@ -207,7 +215,7 @@ var downloadOpp = function(opp, callback) {
         }
 
         cb();
-      }],      
+      }],
   }, function(err) {
     callback && callback(err);
   });
@@ -252,7 +260,7 @@ var scanBookings = function (opp, callback) {
           _.each(items, function(item) {
             var b = _.find(records, function(book){ return book._id == item.headerDocument.headerKey});
             if (!b) return;
-            
+
             if (!b.items) b.items = [];
             b.items.push(item);
           });
@@ -298,37 +306,66 @@ var scanAssets = function (offers, callback) {
 var printOpps = function(opp, qt, bk, off, ass) {
     var s = '';
     if (opp) {
-        _.each(cols['opp'], function(path) {
+        _.each(colsoutput['opp'], function(path) {
             s+= '"' + h.getObjectValueFromPath(opp, path) + '",';
+        });
+    } else {
+        _.each(colsoutput['opp'], function(path) {
+            s+= '"",';
         });
     }
 
     if (qt) {
-        _.each(cols['qt'], function(path) {
+        _.each(colsoutput['qt'], function(path) {
             s+= '"' + h.getObjectValueFromPath(qt, path) + '",';
+        });
+    } else {
+        _.each(colsoutput['qt'], function(path) {
+            s+= '"",';
         });
     }
 
     if (off) {
-        _.each(cols['off'], function(path) {
+        _.each(colsoutput['off'], function(path) {
             s+= '"' + h.getObjectValueFromPath(off, path) + '",';
+        });
+    } else {
+        _.each(colsoutput['off'], function(path) {
+            s+= '"",';
         });
     }
 
     if (ass) {
-        _.each(cols['ass'], function(path) {
+        _.each(colsoutput['ass'], function(path) {
             s+= '"' + h.getObjectValueFromPath(ass, path) + '",';
+        });
+    } else {
+        _.each(colsoutput['ass'], function(path) {
+            s+= '"",';
         });
     }
 
     if (bk) {
-        _.each(cols['book'], function(path) {
+        _.each(colsoutput['book'], function(path) {
             s+= '"' + h.getObjectValueFromPath(bk, path) + '",';
         });
 
         if (bk.items && !_.isEmpty(bk.items)) {
-          s+= '"' + _.reduce(_.pluck(bk.items, '_id'), function(memo, num) { return memo + "|" + num}, "") + '",';
+            _.each(colsoutput['items'], function(path) {
+                s+= '"' + h.getObjectValueFromPath(bk.items, path) + '",';
+            });
+        } else {
+            _.each(colsoutput['items'], function(path) {
+                s+= '"",';
+            });
         }
+    } else {
+        _.each(colsoutput['book'], function(path) {
+            s+= '"",';
+        });
+        _.each(colsoutput['items'], function(path) {
+            s+= '"",';
+        });
     }
 
     console.log(s);
@@ -336,29 +373,33 @@ var printOpps = function(opp, qt, bk, off, ass) {
 
 var printHeader = function() {
     var s = '';
-    _.each(cols['opp'], function(path) {
+    _.each(colsoutput['opp'], function(path) {
         s+= '"opp-' + path + '",';
     });
 
-    _.each(cols['qt'], function(path) {
+    _.each(colsoutput['qt'], function(path) {
         s+= '"qt-' + path + '",';
     });
 
-    _.each(cols['off'], function(path) {
+    _.each(colsoutput['off'], function(path) {
         s+= '"off-' + path + '",';
     });
 
-    _.each(cols['ass'], function(path) {
+    _.each(colsoutput['ass'], function(path) {
         s+= '"ass-' + path + '",';
     });
 
-    _.each(cols['book'], function(path) {
+    _.each(colsoutput['book'], function(path) {
         s+= '"book-' + path + '",';
     });
 
-    s+= '"book-items",';
+    _.each(colsoutput['items'], function(path) {
+        s+= '"book-items-' + path + '",';
+    });
+
+    //s+= '"book-items",';
     console.log(s);
-};    
+};
 
 printHeader();
 scanOpps(function(err) {

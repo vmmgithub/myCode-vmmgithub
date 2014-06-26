@@ -38,7 +38,7 @@ var findOpportunity = function (value, callback) {
 };
 
 var findOffers = function (opportunity, callback) {
-    tenantApi.execute('app.opportunities', opportunity._id, 'findOffers', {filter: {}}, function(err, res) {
+    tenantApi.execute('app.opportunities', opportunity._id, 'findOffers', {filter: {}, params: {limit: 10000}}, function(err, res) {
         if (err || res.success != true || !res || !res.data || !res.data['app.offer']) 
             return callback("on findOffers " + JSON.stringify(err));
         callback(null, res.data['app.offer']);

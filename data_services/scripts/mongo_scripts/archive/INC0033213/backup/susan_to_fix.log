@@ -1,0 +1,120 @@
+APOS-SWS a.s._CZ2563030-NotDetermined: [
+    {
+        "type": "core.relationship",
+        "_id": "5106a3048ddc902725000155",
+        "relation": {
+            "name": "salesRep",
+            "displayName": "Sales Rep",
+            "key": "50ac01a21f9c0c000000073f",
+            "type": "core.lookup"
+        },
+        "target": {
+            "type": "core.contact/person",
+            "displayName": "Zuzana Estokova",
+            "extensions": {
+                "tenant": {
+                    "clientTerritory": {
+                        "type": "lookup"
+                    },
+                    "country": {
+                        "type": "lookup"
+                    },
+                    "segment": {
+                        "type": "lookup"
+                    },
+                    "affinityId": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "customerNumber": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "customerId": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "buId": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "affinityLevel": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "l0AffinityId": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "affinityPath": {
+                        "type": "string",
+                        "value": {}
+                    }
+                }
+            },
+            "key": "50c93b4487809a240c00060d"
+        }
+    },
+    {
+        "type": "core.relationship",
+        "_id": "5106a3048ddc902725000154",
+        "relation": {
+            "name": "salesRep",
+            "displayName": "Sales Rep",
+            "key": "50ac01a21f9c0c000000073f",
+            "type": "core.lookup"
+        },
+        "target": {
+            "type": "core.contact/person",
+            "displayName": "Anna Karabova",
+            "extensions": {
+                "tenant": {
+                    "clientTerritory": {
+                        "type": "lookup"
+                    },
+                    "country": {
+                        "type": "lookup"
+                    },
+                    "segment": {
+                        "type": "lookup"
+                    },
+                    "affinityId": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "customerNumber": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "customerId": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "buId": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "affinityLevel": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "l0AffinityId": {
+                        "type": "string",
+                        "value": {}
+                    },
+                    "affinityPath": {
+                        "type": "string",
+                        "value": {}
+                    }
+                }
+            },
+            "key": "50c93b25563acc260c000233"
+        }
+    }
+]
+APOS-Ing.Vladimír Monček , VMTech_SK5005513-FY14Q2-2: []
+APOS-Jankovič, Rastislav_SK5008278-FY14Q2-2: []
+APOS-Aapo Peltonen,_FI2143611-FY14Q2-2: []
+APOS-APOTEX (ČR), spol. s r.o._CZ2572254-FY14Q2-2: []
+APOS-WPB Capital, sporitelni družstvo_CZ2572047-FY14Q2-2: []
+APOS-Zemědělské zásobování a nákup_CZ2564580-FY14Q2-2: []

@@ -150,13 +150,13 @@ var processRecord = function (searchBy, searchByValue, fieldNames, fieldValues, 
         async.eachLimit(res, 1, function(sourceRecord, cb) {
 	    logFields('EXISTING: ', sourceRecord, fieldNames);
             _.each(fieldNames, function(field, i) {
-                if (fieldValues[i] || input.updBlank) { 
+                if ((fieldValues[i] != '"' && fieldValues[i] != '') || input.updBlank) { 
                     updateAttribute(sourceRecord, field.fieldName, field.datatype, fieldValues[i], cb);
                 }
             });
 	    logFields('REPLACEM: ', sourceRecord, fieldNames);
             if (input.operation == 'update' || input.operation == 'delete') { 
-                    sourceCollection.update(sourceRecord, callback);
+                    sourceCollection.update(sourceRecord, cb);
             }
         }, 
         done);
@@ -180,7 +180,7 @@ h.initLookups(restApi, input.source, function(err) {
             var searchByValue = _.first(_.values(csvRecord));   
 
            // Passing fieldNames, datatype and values in Array
-            if (input.operation == 'delete' || input.operation == 'update' ) {
+            if (searchByValue && (input.operation == 'delete' || input.operation == 'update')) {
                 processRecord(globalSearchBy, searchByValue, globalFields, fieldValues, callback);
             } else {
                 h.log('warn', 'Skipping ' + csvRecord);

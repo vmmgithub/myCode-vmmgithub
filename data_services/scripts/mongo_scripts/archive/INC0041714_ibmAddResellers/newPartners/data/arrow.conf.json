@@ -1,0 +1,20 @@
+{
+    "tenantName": "arrowecs",
+    "resellerName": "ARROW ECS",
+    "members": [
+        {
+            "name": "Ingram Administrator",
+            "username" : "arrowecs.admin@arrowecs.com",
+            "password" : "passwordone",
+            "tenant" : "arrowecs",
+            "profile" : "channelPartnerAdmin"
+        },
+        {
+            "name": "Stephen Anderson",
+            "username" : "stephen.anderson@arrowecs.com",
+            "password" : "passwordone",
+            "tenant" : "arrowecs",
+            "profile" : "distributorRep"
+        }
+    ]
+}

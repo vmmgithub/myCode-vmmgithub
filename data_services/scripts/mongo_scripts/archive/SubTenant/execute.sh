@@ -1,0 +1,13 @@
+node test.js input_12.csv
+node test.js input_11.csv
+node test.js input_10.csv
+node test.js input_9.csv
+node test.js input_8.csv
+node test.js input_7.csv
+node test.js input_6.csv
+node test.js input_5.csv
+node test.js input_4.csv
+node test.js input_3.csv
+node test.js input_2.csv
+node test.js input_1.csv
+node test.js input_0.csv

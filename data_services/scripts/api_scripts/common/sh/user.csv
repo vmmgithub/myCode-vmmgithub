@@ -1,0 +1,66 @@
+Report for user  : Data Admin on host :  prod02dl-int.ssi-cloud.com 
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+aria,"5395602726384d4943000cb2","data.admin@ariasystems.com","Data Admin","null","dataAnalyst",
+aria,"5395536dd148d88c37000667","data.admin@aria.com","Data Admin","null","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+aspect,"52d7cd68b72de3ef550075c9","data.admin@aspect.com","Data Admin","Data Analyst","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+error "For tenant : avispl no user data found..."
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+bazaarvoice,"52d7cef1cd4e6c3b4f002f14","data.admin@bazaarvoice.com","Data Admin","null","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+blackboard,"52d7d05e596ae3026800793f","data.admin@blackboard.com","Data Admin","Data","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+error "For tenant : bluecoat no user data found..."
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+btinet,"52d7d2fc596ae30268007b91","data.admin@btinet.com","Data Admin","Data","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+cisco,"52d7d3b7596ae30268007bbe","data.admin@cisco.com","Data Admin","Data","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+error "For tenant : dell no user data found..."
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+google,"52d7d4bd59b6b60a53007708","data.admin@google.com","Data Admin","Data Analyst","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+guidance,"52cde5a55a036f4552001a3f","data.admin@guidance.com","Data Admin","null","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+ibm,"52d7d65b99ee738c65003ab5","data.admin@ibm.com","Data Admin","Data Analyst","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+juniper,"52d7d82dd9d9d0fc1b003a16","data.admin@juniper.com","Data Admin","Data Analyst","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+nielsen,"52d7d9b441367e106b001a2f","data.admin@nielsen.com","Data Admin","Data Analyst","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+perkinelmer,"52d7daa97f79a7f6640061b7","data.admin@perkinelmer.com","Data Admin","Data Analyst","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+polycom,"53032d9f48bec3c71c003915","data.admin@polycom.com","Data Admin","null","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+sap,"52d7de3ecd4e6c3b4f0033ce","data.admin@sap.com","Data Admin","Data Analyst","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+error "For tenant : servicesource no user data found..."
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+siemens,"52cde2f9930c2cac2f005c2b","data.admin@siemens.com","Data Admin","null","dataAnalyst",
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+error "For tenant : vocus no user data found..."
+
+tenant,"_id","membership","displayName","jobTitle","uiProfile",
+error "For tenant : workday no user data found..."
+

@@ -109,6 +109,26 @@ exports.getTargetPointer = getTargetPointer = function(object) {
     };
 };
 
+exports.strToObj = strToObj = function (obj, criteria) {
+     if (!_.isString(criteria)) return {};
+     var arrayCriteria = criteria.split(',');
+        _.each(arrayCriteria, function(strCriteria) {
+
+               var propArray = strCriteria.split(':');
+               var propPath = propArray[0].split('.');
+               var propVal = propArray.slice(1).toString();
+
+               for (var i = 0, tmp=obj ; i < propPath.length - 1; i++) {
+                        if (tmp[propPath[i]]) {
+                           tmp = tmp[propPath[i]];
+                        } else {
+                           tmp = tmp[propPath[i]] = {};
+                        }
+                }
+                tmp[propPath[i]] = propVal;
+        });
+     return obj;
+};
 exports.getRelKey = getRelKey = function(object, relName) {
     var f = _.find(object.relationships, function(r){ return r.relation.name == relName});
     if (f) 
@@ -211,6 +231,7 @@ exports.getAPI = function(input) {
     var p = 'passwordone'; //'Pass@word123';
 
     var api = new RestApiInterface(input.host, (input.port || 443), (input.user ? input.user : (u + input.tenant + '.com')), input.password || p);    
+    
     api.setTenant(input.tenant);
 
     return api;
@@ -233,7 +254,7 @@ function prepColumnNames(columns) {
     var renewColumns = [];
     _.each(columns, function(col) {
         if (contains(col, '[')) return renewColumns.push(col.split('[')[0]);
-        if (endsWith(col, '.keyNameType')) return renewColumns.push(col.replace('.keyNameType', ''));
+        if (startsWith(col, 'relationships')) return renewColumns.push('relationships.' + col.split('.')[1]);
         renewColumns.push(col);
     });
 
@@ -434,6 +455,7 @@ function getObjectValue(obj, path) {
 };
 
 exports.getObjectValueFromPath = getObjectValueFromPath = function(obj, path) {
+    if (!obj) return;
 
     //support through jsonpath, when there is a question
     if (contains(path, '[') && contains(path, '?')) {
@@ -474,7 +496,7 @@ exports.getObjectValueFromPath = getObjectValueFromPath = function(obj, path) {
         return returnString.slice(0, -1);
     }
 
-    if (startsWith(path, 'relationships')) {
+    if (startsWith(path, 'relationships') && endsWith(path, 'keyNameType')) {
         var relName = path.split('.')[1];
         var targets = getRels(obj, relName);
         if (targets) {
@@ -489,6 +511,13 @@ exports.getObjectValueFromPath = getObjectValueFromPath = function(obj, path) {
             return s.slice(0, -1);
         } else
             return '::';
+    }
+
+    if (startsWith(path, 'relationships') && !endsWith(path, 'keyNameType')) {
+        var elems = path.split('.');
+        var target = getRel(obj, elems[1]);
+
+        return getObjectValueFromPath(target, _.reduce(_.rest(elems, 3), function(str, c) { if(str == '') return c; else return str + '.' + c}, ''));
     }
 
     // handle mongo direct export format
@@ -573,7 +602,7 @@ exports.getSQLType = getSQLType = function (str) {
 
     if (str == '_id') return 'VARCHAR(24)';
     if (startsWith(str, 'relationships')) return 'VARCHAR(24)';
-    if (endsWith(str, 'mount')) return 'NUMERIC(10,4)';
+    if (endsWith(str, 'mount')) return 'NUMERIC(20,2)';
     if (startsWith(str, 'number')) return 'INTEGER';
     if (endsWith(str,'date')) return 'TIMESTAMP';
     if (endsWith(str,'createdOn') || endsWith(str, 'odifiedOn')) return 'TIMESTAMP';

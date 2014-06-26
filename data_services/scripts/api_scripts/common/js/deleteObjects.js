@@ -57,7 +57,7 @@ var findReferer = function (type, id, callback) {
 var getReferers = function (sourceRecord, callback) {
     tenantApi.execute(h.getCollectionName(input.source), sourceRecord._id, 'referers', {}, function(err, res) {
         
-        if (err || res.success != true || !res || !res.data)
+        if (err || !res || res.success != true || !res.data)
             return callback("on referers call " + JSON.stringify(err || res));
 
         if (_.isEmpty(res.data['core.link.references'])) return callback(null, []);
@@ -175,7 +175,7 @@ if (input.operation == 'removeAll') {
 if (input.operation == 'removeById') {
     csvHelper.readAsObj(input.file, function (data) {
         async.eachLimit(data, input.limit, function (csvRecord, callback) {
-            if (!data) return callback();
+            if (!data || err) return ;
             deleteObject({_id: csvRecord[input.columnName]}, callback);
         },
         function (err) {

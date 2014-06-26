@@ -1,0 +1,20 @@
+{
+    "tenantName": "techdataswitzerland",
+    "resellerName": "Tech Data Switzerland",
+    "members": [
+        {
+            "name": "TDSwitzerland Admin",
+            "username" : "tdswitzerland.admin@tdswitzerland.com",
+            "password" : "passwordone",
+            "tenant" : "techDataSwitzerland",
+            "profile" : "channelPartnerAdmin"
+        },
+        {
+            "name": "Roger Reist",
+            "username" : "roger.reist@azlan.ch",
+            "password" : "passwordone",
+            "tenant" : "techDataSwitzerland",
+            "profile" : "distributorRep"
+        }
+    ]
+}

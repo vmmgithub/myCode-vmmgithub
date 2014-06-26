@@ -1,0 +1,41 @@
+{
+    "tenantName": "techdataaustria",
+    "resellerName": "Tech Data Austria",
+    "members": [
+        {
+            "name": "TDAustria Admin",
+            "username" : "tdaustria.admin@techdata.de",
+            "password" : "passwordone",
+            "tenant" : "techDataAustria",
+            "profile" : "channelPartnerAdmin"
+        },
+        {
+            "name": "Sabine Ebner",
+            "username" : "saebner@techdata.de",
+            "password" : "passwordone",
+            "tenant" : "techDataAustria",
+            "profile" : "distributorRep"
+        },
+        {
+            "name": "Bianca Eckmayer",
+            "username" : "beckmayer@techdata.de",
+            "password" : "passwordone",
+            "tenant" : "techDataAustria",
+            "profile" : "distributorRep"
+        },
+        {
+            "name": "Stefan Schmalhofer",
+            "username" : "sschmalhofer@techdata.at",
+            "password" : "passwordone",
+            "tenant" : "techDataAustria",
+            "profile" : "distributorRep"
+        },
+        {
+            "name": "Christof Koberger",
+            "username" : "ckoberger@techdata.at",
+            "password" : "passwordone",
+            "tenant" : "techDataAustria",
+            "profile" : "distributorRep"
+        }
+    ]
+}

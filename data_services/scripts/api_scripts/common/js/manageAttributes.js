@@ -24,7 +24,7 @@ var input = require('optimist')
     .alias('l', 'limit').describe('l', 'Concurrent threads').default('l', 5)
     .alias('s', 'source').describe('s', 'Source type').default('s', 'app.opportunity')
     .alias('b', 'searchBy').describe('b', 'Search by attribute [_id, displayName, externalId]').default('b', '_id')
-    .alias('e', 'field').describe('e', 'Field to modify. Supports dot notation Ex. flows.salesStages.state.name').default('e', 'displayName')
+    .alias('e', 'field').describe('e', 'Field to modify.').default('e', 'displayName')
     .alias('c', 'schemeName').describe('c', 'Name for scheme Id Ex. Dataload, Batchload').default('c','')
     .alias('d', 'datatype').describe('d', 'Data Type of the value being set ["boolean", "date", "string", "number"]').default('d', "string")
     .alias('o', 'operation').describe('o', 'Operation to perform [update, delete]').default('o', 'update')
@@ -128,7 +128,7 @@ var processRecord = function (sourceName, targetValue, callback) {
                     } else {
                         h.log('info', "PROCESSED :" + sourceName + ',' + h.getObjectValueFromPath(updatedRecord, input.field));
                     }
-                    cb(err);
+                    cb();
                 });
             } else if (input.operation == 'log')  {
                 h.log('info', "LOG :" + sourceName + ',' + h.getObjectValueFromPath(sourceRecord, input.field));

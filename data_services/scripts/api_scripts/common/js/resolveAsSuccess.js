@@ -19,7 +19,7 @@ var input = require('optimist')
     .alias('f', 'file').describe('f', 'File to process')
     .alias('b', 'searchBy').describe('b', 'Search by attribute [_id, displayName, externalId]').default('b', '_id')
     .alias('m', 'multiple').describe('m', 'Flag to indicate if updating all matching records or just the first').boolean('m').default('m', false)
-    .alias('l', 'limit').describe('l', 'Concurrent threads').default('l', 5)
+    .alias('l', 'limit').describe('l', 'Concurrent threads').default('l', 3)
     .alias('z', 'zenMode').describe('z', 'Zen mode handles most exceptions and forces opp close').default('z', false)
     .demand(['h', 't', 'f'])
     .argv;
@@ -83,7 +83,9 @@ var resolveAsWin = function (opportunity, params, callback) {
             name: params.resultReason.name,
             displayName: params.resultReason.displayName
         };
-
+        input.completeBooking.lossResultReason = {
+            name: 'haBDT'
+        };
 
         tenantApi.execute('app.opportunities', opportunity._id, 'completeBooking', input, function(err, res) {
             if (err || !res || !res.success || !res.data || !res.data['app.booking/sales'] || !res.data['app.booking/sales'][0]) 
@@ -99,7 +101,7 @@ var updateBooking = function(booking, params, callback) {
     h.findRecords(bookingCollection, {
         filter: {_id: booking.key},
     }, function(err, res) {
-        if (err || !res || !res[0]) return callback('Unable to find the booking ' + booking.key);
+        if (err || !res || !res[0]) return callback('Unable to find the booking ' + (booking && booking.key));
         
         var booking = res && res[0];
         if (params.poAmount) booking.poAmount.amount = params.poAmount;
@@ -110,7 +112,7 @@ var updateBooking = function(booking, params, callback) {
         if (params.soNumber) booking.soNumber = params.soNumber;
 
         bookingCollection.update(booking, function(err, booking) {
-            if (err || !booking) return callback('Unable to update the booking ' + booking._id);
+            if (err || !booking) return callback('Unable to update the booking ' + (booking && booking._id));
 
             var payload = {detail: booking};
             tenantApi.execute('app.bookings', booking._id, 'complete', payload, function(err, res) {
@@ -132,13 +134,13 @@ var adamantFunction = function(opportunity, booking, params, callback) {
 
     var determineNextSteps = function(err, res) {
         //Get out if not in zen mode or if we max out on 2 retries
-        if (!err || !input.zenMode || params.tries++ > 2) return callback(err, res);
+        if (!err || !input.zenMode || ++params.tries > 4) return callback(err, res);
    
         //Check and handle transition exception
         if (_.isArray(err) && err[0].message && err[0].message.key == 'metadata.models.app.booking.messages.mustTransitionOpp'
             && err[0].message.params && err[0].message.params[0] && err[0].message.params[0].period) {
             
-            h.log('warn', "Retry " + opportunity._id + ' number ' + params.tries + ' attempting selling period update before continuing ');
+            h.log('debug', opportunity._id + ' number ' + params.tries + ' attempting selling period update before continuing ');
            if (!opportunity.extensions.master.targetPeriod) 
                 opportunity.extensions.master.targetPeriod = {};
  
@@ -153,26 +155,27 @@ var adamantFunction = function(opportunity, booking, params, callback) {
         }
         else if (_.isArray(err) && err[0].message && err[0].message.key == 'metadata.models.app.quote.messages.cnrbActiveBooking') {
             
-            oppCollection.update(opportunity, function(err, opp) {
+            h.log('debug', opportunity._id + ' number ' + params.tries + ' attempting update before continuing for a cnrbActiveBooking');            
+            findOpportunity(opportunity._id, function(err, opps) {
                 if(!booking) {
-                   var bookings = h.getRels(opportunity, 'booking');
+                   var bookings = h.getRels(opps && opps[0], 'booking');
                    if (!_.isEmpty(bookings)) booking = _.find(bookings, function(b) { return getFlowState(b, 'bookingStages') != 'canceled'});
                 }
-                adamantFunction(opportunity, booking, params, callback);
+                adamantFunction(opps && opps[0], booking, params, callback);
             });
         }
 
         else if (_.isArray(err) && err[0].message && err[0].message.key == 'metadata.models.app.quote.messages.cnCompleteBooking') {
             
-            oppCollection.update(opportunity, function(err, opp) {
+            h.log('debug', opportunity._id + ' number ' + params.tries + ' attempting update before continuing for a cnCompleteBooking'); 
+            findOpportunity(opportunity._id, function(err, opps) {
                 if(!booking) {
-                   var bookings = h.getRels(opportunity, 'booking');
+                   var bookings = h.getRels(opps && opps[0], 'booking');
                    if (!_.isEmpty(bookings)) booking = _.find(bookings, function(b) { return getFlowState(b, 'bookingStages') != 'canceled'});
                 }
-                adamantFunction(opportunity, booking, params, callback);
+                adamantFunction(opps && opps[0], booking, params, callback);
             });
         }
-
 
         // Servers are busy
         else if ((err.code && err.code == 'ECONNRESET')) {
@@ -205,7 +208,6 @@ var adamantFunction = function(opportunity, booking, params, callback) {
             */
         }
      
-
         //Unhandled exception
         else {
             h.log('error' , 'Unhandled scenario ' + JSON.stringify(err));
@@ -218,13 +220,11 @@ var adamantFunction = function(opportunity, booking, params, callback) {
         if (!_.isEmpty(bookings)) booking = _.find(bookings, function(b) { return getFlowState(b, 'bookingStages') != 'canceled'});
     }
 
-
     if (!booking) {
         resolveAsWin(opportunity, params, determineNextSteps);
     } else {
         updateBooking(booking, params, determineNextSteps);
     }
-
 
 };
 
@@ -240,9 +240,9 @@ var processRecord = function (oppName, params, callback) {
     };
 
     findReason(params.reason, function(err, resultReason) {
-        
         if (err) return done(err);
 
+        params.resultReason = resultReason;
         findOpportunity(oppName, function(err, res) {
             if (err) return done(err);
 

@@ -50,4 +50,4 @@ case "$test" in
         ;;
 esac
 
-mongo testdata --quiet undoOppGen.js --eval "var buId = '${buid}'; var incomplete = ${incomplete}; var deleteOnlyEmpty = ${deleteOnlyEmpty}; var mockRun = ${mockRun}; var qtr = '${qtr}'; var notContacted = ${notContacted}; var tags = [];"   >> ${log}
+mongo testdata --quiet undoOppGen.js --eval "var buId = '${buid}'; var incomplete = ${incomplete}; var deleteOnlyEmpty = ${deleteOnlyEmpty}; var mockRun = ${mockRun}; var qtr = '${qtr}'; var notContacted = ${notContacted}; var tags = []; var _id; " >> ${log}

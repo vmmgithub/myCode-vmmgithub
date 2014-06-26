@@ -45,18 +45,18 @@ fi
 ####################################################################################
 # Global steps before proceeding
 ####################################################################################
+log "Initializing from map files ... "
+. ../sh/readmap.sh '../sh/downloadAllOpps.default.map' "${columnfile}"
+log "Completed Initializing"
+
 now=`date '+%Y%m%d%H%M%S%N'`
-f="/tmp/${now}.sql"
+f="/tmp/${now}.ddl.sql"
 
 cat > ${f} <<EOF
   create database if not exists ${schema};
   use ${schema};
 
 EOF
-
-log "Initializing from map files ... "
-. ../sh/readmap.sh '../sh/downloadAllOpps.default.map' "${columnfile}"
-log "Completed Initializing"
 
 ####################################################################################
 # Create of tables when required
@@ -66,7 +66,6 @@ then
 
   # Use helper script to read all the map  columns that are available for all tenants
   for coll in "${objs[@]}"; do
-    
     case $coll in 
       opportunities) arr="${opportunities[@]}";;
       quotes) arr="${quotes[@]}";;
@@ -74,6 +73,9 @@ then
       offers) arr="${offers[@]}";;
       assets) arr="${assets[@]}";;
       lineitems) arr="${lineitems[@]}";;
+      lookups) arr="${lookups[@]}";;
+      products) arr="${products[@]}";;
+      contacts) arr="${contacts[@]}";;
     esac
 
     tableName=`../js/sqlizeName.js -t "app.${coll}"`
@@ -82,15 +84,14 @@ then
     cmd="${cmd} CREATE TABLE ${tableName} ( \n"
 
     for var in ${arr}; do
-      if [[ "${var}" != relationships* ]]; then
+      if [[ "${var}" != relationships*keyNameType ]]; then
         s=`../js/sqlizeName.js -f "${var}"`
-        n=`../js/sqlizeName.js -f "${var}"| cut -d' ' -f1`
+        # n=`../js/sqlizeName.js -f "${var}"| cut -d' ' -f1`
         cmd="$cmd ${s} ,\n"
       fi
     done
 
     cmd="${cmd} PRIMARY KEY (_ID)\n ) ENGINE=InnoDB DEFAULT CHARSET=utf8; \n"
-
     echo -e ${cmd} >> ${f}
   done
 

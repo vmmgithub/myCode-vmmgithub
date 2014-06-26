@@ -16,6 +16,7 @@ if (buId) filter['relationships.customer.targets.extensions.tenant.buId.value'] 
 if (incomplete) filter.displayName = /NotDetermined$/;
 if (qtr) filter['extensions.master.targetPeriod.value.displayName'] = qtr;
 if (notContacted) filter['flows.salesStages.state.name'] = 'notContacted';
+if (_id && _id != 'false') filter._id = ObjectId(_id);
 
 var i = 0;
 var modified = 0;

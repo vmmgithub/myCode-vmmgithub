@@ -1,0 +1,55 @@
+{
+    "tenantName": "avnet1",
+    "resellerName": "Avnet Switzerland",
+    "members": [
+        {
+            "name": "Adele Singh",
+            "username" : "adele.singh@avnet1.com",
+            "password" : "passwordone",
+            "tenant" : "avnet1",
+            "profile" : "channelPartnerAdmin"
+        },
+        {
+            "name": "Avnet Manager",
+            "username" : "re.manager@avnet1.com",
+            "password" : "passwordone",
+            "tenant" : "avnet1",
+            "profile" : "resellerAM"
+        },
+        {
+            "name": "Andreas Bosshard",
+            "username" : "andreas.bosshard@avnet1.com",
+            "password" : "passwordone",
+            "tenant" : "avnet1",
+            "profile" : "resellerRep"
+        },
+        {
+            "name": "Rosaria DiLorenzo",
+            "username" : "rosaria.dilorenzo@avnet1.com",
+            "password" : "passwordone",
+            "tenant" : "avnet1",
+            "profile" : "resellerRep"
+        },
+        {
+            "name": "Tobias Freuler",
+            "username" : "tobias.freuler@avnet1.com",
+            "password" : "passwordone",
+            "tenant" : "avnet1",
+            "profile" : "resellerRep"
+        },
+        {
+            "name": "Raffaele Giordano",
+            "username" : "raffaele.giordano@avnet1.com",
+            "password" : "passwordone",
+            "tenant" : "avnet1",
+            "profile" : "resellerRep"
+        },
+        {
+            "name": "Christine Stoeckli",
+            "username" : "christine.stoeckli@avnet1.com",
+            "password" : "passwordone",
+            "tenant" : "avnet1",
+            "profile" : "resellerRep"
+        }
+    ]
+}

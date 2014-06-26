@@ -1,0 +1,20 @@
+{
+    "tenantName": "fishnet",
+    "resellerName": "FishNet Security, Inc.",
+    "members": [
+        {
+            "name": "FishNet Admin",
+            "username" : "fishnet.admin@fishnet.com",
+            "password" : "passwordone",
+            "tenant" : "fishnet",
+            "profile" : "channelPartnerAdmin"
+        },
+        {
+            "name": "Emma Kaltzer",
+            "username" : "emma.kaltzer@fishnet.com",
+            "password" : "passwordone",
+            "tenant" : "fishnet",
+            "profile" : "resellerRep"
+        }
+    ]
+}

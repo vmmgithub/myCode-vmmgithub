@@ -1,2 +1,1 @@
-downloadOpps.js --tenant bluecoat --host config.ssi-cloud.com --filter '{"tags":"fWrdYmcI"}'>>bluecoat.config.ssi-cloud.com.tags.fWrdYmcI.download.csv
-rm ./bluecoat.app.opportunities.config.ssi-cloud.com*.tmp
+../js/listUsers.js --host prod02dl-int.ssi-cloud.com --user bruce.lewis@workday.com --password passwordone --tenant workday --searchBy '{"displayName":"Data Admin"}'

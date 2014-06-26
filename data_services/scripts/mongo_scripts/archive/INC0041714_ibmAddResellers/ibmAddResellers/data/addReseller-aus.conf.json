@@ -1,0 +1,14 @@
+{
+    "tenantName": "avnet2",
+    "resellerName": "Avnet Austria",
+    "members": [
+        {
+            "name": "Austria Admin",
+            "username" : "austria.admin@avnet2.com",
+            "password" : "passwordone",
+            "tenant" : "avnet2",
+            "profile" : "channelPartnerAdmin"
+        }
+
+    ]
+}

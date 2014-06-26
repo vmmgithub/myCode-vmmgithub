@@ -1,0 +1,27 @@
+{
+    "tenantName": "ingrammicro",
+    "resellerName": "Ingram",
+    "members": [
+        {
+            "name": "Ingram Admin",
+            "username" : "ingram.admin@ingrammicro.at",
+            "password" : "passwordone",
+            "tenant" : "ingrammicro",
+            "profile" : "channelPartnerAdmin"
+        },
+        {
+            "name": "Peter Jakubec",
+            "username" : "peter.jakubec@ingrammicro.at",
+            "password" : "passwordone",
+            "tenant" : "ingrammicro",
+            "profile" : "distributorRep"
+        },
+        {
+            "name": "Alexander Groiss",
+            "username" : "alexander.groiss@ingrammicro.at",
+            "password" : "passwordone",
+            "tenant" : "ingrammicro",
+            "profile" : "distributorRep"
+        }
+    ]
+}
