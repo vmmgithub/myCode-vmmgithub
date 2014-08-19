@@ -1,0 +1,15 @@
+AssetPK==_id
+ExistingStartDate==startDate
+ExistingEndDate==endDate
+ExistingServiceProduct==product$target/type[app.product/service]?target/displayName
+ExistingCoveredProduct==product$target/type[app.product/covered]?target/displayName+covered$target/relationships/product/targets/0/displayName
+Tenant==systemProperties/tenant
+CustomField1==extensions/tenant/segmentation/value
+CustomField2==extensions/tenant/atRiskReason/value/displayName
+CustomField3==extensions/tenant/productVersion/value
+CustomField4==extensions/tenant/eosldate/value
+CustomField5==extensions/master/quantity/value
+CustomField6==extensions/tenant/systemType/value
+CustomField7==
+CustomField8==
+CustomField9==

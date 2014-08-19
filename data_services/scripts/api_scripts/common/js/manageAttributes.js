@@ -54,7 +54,7 @@ var updateAttribute = function (sourceRecord, targetValue, callback) {
         }
 
         if (input.datatype == 'boolean') {
-            targetValue = (targetValuei === 'true');
+            targetValue = (targetValue === 'true');
             if (!_.isBoolean(targetValue)) return callback();
         }
 

@@ -36,7 +36,7 @@ exports.print = function(mode, arr) {
                 a = (a === '"' || a === '""' || a === "'") ? '' : a;
                 str += (i < arr.length-1) ? (a + '","') :  (a + '"');
         });
-        log(mode, str);
+        console.log(mode + str);
 };
 
 exports.isoDate = isoDate = function (dt) {
@@ -83,6 +83,8 @@ exports.toFixed = toFixed = function(value, precision) {
 
 // returns multiple records for the same relationships
 exports.getRels = getRels =function(object, relName) {
+    if (!object) return null;
+
     var f = _.pluck(_.filter(object.relationships, function(r){ return r.relation.name == relName}), 'target');
     if (f) {
         return f;
@@ -92,6 +94,8 @@ exports.getRels = getRels =function(object, relName) {
 };
 
 exports.getRel = getRel =function(object, relName) {
+    if (!object) return null;
+
     var f = _.find(object.relationships, function(r){ return r.relation.name == relName});
     if (f) 
         return f.target;
@@ -113,22 +117,22 @@ exports.strToObj = strToObj = function (obj, criteria) {
      if (!_.isString(criteria)) return {};
      var arrayCriteria = criteria.split(',');
         _.each(arrayCriteria, function(strCriteria) {
+           var propArray = strCriteria.split(':');
+           var propPath = propArray[0].split('.');
+           var propVal = propArray.slice(1).toString();
 
-               var propArray = strCriteria.split(':');
-               var propPath = propArray[0].split('.');
-               var propVal = propArray.slice(1).toString();
-
-               for (var i = 0, tmp=obj ; i < propPath.length - 1; i++) {
-                        if (tmp[propPath[i]]) {
-                           tmp = tmp[propPath[i]];
-                        } else {
-                           tmp = tmp[propPath[i]] = {};
-                        }
+           for (var i = 0, tmp=obj ; i < propPath.length - 1; i++) {
+                if (tmp[propPath[i]]) {
+                   tmp = tmp[propPath[i]];
+                } else {
+                   tmp = tmp[propPath[i]] = {};
                 }
-                tmp[propPath[i]] = propVal;
+            }
+            tmp[propPath[i]] = propVal;
         });
      return obj;
 };
+
 exports.getRelKey = getRelKey = function(object, relName) {
     var f = _.find(object.relationships, function(r){ return r.relation.name == relName});
     if (f) 
@@ -227,10 +231,13 @@ exports.deepSet = deepSet =function(obj, path, r, operation) {
 
 exports.getAPI = function(input) {
     process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
-    var u = 'bill.moor@'; // 'data.admin@'
-    var p = 'passwordone'; //'Pass@word123';
+    var prodPwdEnvts = ['prod02', 'dell-prd', 'prd', 'prod', 'stgcurrent'];
+    var isProdPwd = _.find(prodPwdEnvts, function(url) {return startsWith(input.host.toLowerCase(), url)}); 
 
-    var api = new RestApiInterface(input.host, (input.port || 443), (input.user ? input.user : (u + input.tenant + '.com')), input.password || p);    
+    var u = isProdPwd ? 'data.admin@' : 'bill.moor@'; 
+    var p = isProdPwd ? 'Lfu2nL6K' : 'passwordone'; 
+
+    var api = new RestApiInterface(input.host, (input.port || 443), (input.user || (u + input.tenant + '.com')), (input.password || p));    
     
     api.setTenant(input.tenant);
 
@@ -332,6 +339,29 @@ exports.findRecords = findRecords = function (collection, input, callback, datac
     }
 };
 
+exports.pollBGJobCompletion = function(actionCollection, job, MAX_TRIES, callback) {
+    var i = 0;
+    async.until(
+        function() {
+            return (i++ > MAX_TRIES) || (job.status && (job.status.name == 'completed' || job.status.name == 'aborted'));
+        }, 
+        function(cb) {
+            _.delay(function() {
+                findRecords(actionCollection, {
+                    filter: {_id: job._id},
+                    columns: ['_id', 'status']
+                }, function(err, res) {
+                    if (err || !res) return cb(err || 'No job information');
+                    
+                    job = res && res[0];
+                    log('debug', 'Background job ' + job._id + ' status is ' + job.status.name);
+                    cb();
+                });                
+            }, 1 * 10 * 1000);
+        }, 
+        callback);
+};
+
 // Target cached functions
 var localCache = {}; 
 exports.findCachedRecords = function (collection, input, callback) {
@@ -392,7 +422,7 @@ exports.getLookup = getLookup =function(path, name) {
 
 exports.initLookups = initLookups =function(api, source, callback) {
     var lookupConfigs = getCollection(api, 'core.lookup.configs');
-    lookupConfigs.find({model: source}, {}, function(err, records) {
+    lookupConfigs.find({model: inflection.singularize(source)}, {}, function(err, records) {
         if (err || !records || records.length == 0) 
             return callback(err || 'No groups found');
 
@@ -400,6 +430,26 @@ exports.initLookups = initLookups =function(api, source, callback) {
             loadLookups(api, lkpConfig.srcCollection, lkpConfig.filter, lkpConfig.propertyPath, cb);
         }, callback);
     });
+};
+
+exports.getTargetSellingPeriod = getTargetSellingPeriod =function(resolutionDate) {
+    if (!resolutionDate || _.isEmpty(resolutionDate)) return;
+
+    var date = moment(noonOffset(resolutionDate));
+    if (!cache['extensions.master.targetPeriod']) return;
+
+    var retVal;
+    _.each(cache['extensions.master.targetPeriod'], function(l) {
+        if (l.value.start && l.value.end) {
+            var startDate = moment(l.value.start);
+            var endDate = moment(l.value.end);
+
+            if (date.isBefore(endDate) && date.isAfter(startDate) || date.isSame(startDate) || date.isSame(endDate))
+                retVal = l;
+        }
+    });
+    
+    return retVal;
 };
 
 // Utility functions
@@ -458,14 +508,13 @@ exports.getObjectValueFromPath = getObjectValueFromPath = function(obj, path) {
     if (!obj) return;
 
     //support through jsonpath, when there is a question
-    if (contains(path, '[') && contains(path, '?')) {
-        var r = jsonpath(obj, path);
-        if (r && r.length == 1) return _.first(r);
-        return r;
+    if (contains(path, '[') && contains(path, '?') && !startsWith(path, 'relationships')) {
+        var r = _.compact(_.flatten(jsonpath(obj, path)));
+        return _.map(r, function(ret) { if (ret && ret['$date']) return moment(ret['$date']).toISOString(); else return ret; });
     }
 
     // Vinod's special handling code
-    if (contains(path, '[')) {
+    if (contains(path, '[') && !startsWith(path, 'relationships')) {
         var arrayName = path.split('[')[0]; // Name of the Array
         var arrayRest = path.split('[')[1];
         arrayRest = arrayRest.slice(0, -1); // Building array with list of columns 
@@ -522,8 +571,11 @@ exports.getObjectValueFromPath = getObjectValueFromPath = function(obj, path) {
 
     // handle mongo direct export format
     if (path == '_id' && obj._id && obj._id.str) return obj._id.str;
+    if (path == '_id' && obj._id && obj._id['$oid']) return obj._id['$oid'];
 
-    return getObjectValue(obj, path);
+    var ret = getObjectValue(obj, path);
+    if (ret && ret['$date']) return moment(ret['$date']).toISOString();
+    return ret;
 };
 
 exports.getMasterOpp = getMasterOpp = function(collection, api, opportunity, callback) {
@@ -552,7 +604,7 @@ exports.getMasterOpp = getMasterOpp = function(collection, api, opportunity, cal
     // If we already have the object with the isSubordinate flag, then its a bit easy
     // If not, it is safer (and slower) to look it up and then proceed
     if (_.find(_.keys(opportunity), function(k){ return k == 'isSubordinate'})) {
-        doErfn(opp, callback);
+        doErfn(opportunity, callback);
     } else {
         findRecords(collection, {filter: {_id: opportunity._id}}, function(err, opps) {
             var opp = opps && opps[0];
@@ -588,11 +640,14 @@ var STATS_TABLE = 'JOB_STATUSES',
 
 exports.sqlize = sqlize = function (str) {
     if (!str) return;
+    if (str == 'group' || str == 'order') str = str+'_';
+
     return str.toUpperCase().replace(/\./g,'_').replace(/[^\w\s]/gi, '');
 };
 
 exports.sqlizeTable = sqlizeTable = function (str) {
     if (_.isEmpty(str)) return;
+    str = str.split('/')[0];
     return sqlize(inflection.pluralize(str));
 };
 

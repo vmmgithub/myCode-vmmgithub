@@ -25,6 +25,7 @@ var input = require('optimist')
     .alias('b', 'updBlank').describe('b', 'When set to true, update field as blank when value not provided ').boolean('b').default('b', false)
     .alias('m', 'multiple').describe('m', 'Flag to indicate if updating all matching records or just the first').boolean('m').default('m', false)
     .alias('l', 'limit').describe('l', 'Concurrent threads').default('l', 5)
+    .alias('c', 'schemeName').describe('c', 'Name for scheme Id Ex. Dataload, Batchload').default('c','')
     .alias('s', 'source').describe('s', 'Source type Ex. app.opportunity').default('s', 'app.opportunity')
     .alias('o', 'operation').describe('o', 'Operation to perform [update, delete]').default('o', 'update')
     .demand(['h', 't', 'f'])
@@ -38,6 +39,7 @@ var restApi = h.getAPI(input),
 var allColumnNames;
 var globalSearchBy;
 var globalFields;
+var headerLine = 0;
 
 var findSource = function (searchBy, value, callback) {
     h.findRecords(sourceCollection, {
@@ -70,8 +72,23 @@ var updateAttribute = function (sourceRecord, fieldName, datatype, fieldValue, c
         }
 
         if (fieldName == 'externalIds.id') {
-            sourceRecord.externalIds = _.reject(sourceRecord.externalIds, function(xid) {return xid.id = fieldValue});
-            sourceRecord.externalIds.push({id: fieldValue, schemeId: {name: 'manuallyAdedId'}});
+
+              if (input.schemeName) {
+                   var found = 0;
+                   var foundmatch = 0;
+                   _.each(sourceRecord.externalIds, function(scheme) {
+                       if (scheme.schemeId && scheme.schemeId.name == input.schemeName) {
+                            sourceRecord.externalIds[found].id = fieldValue;
+                            foundmatch++;
+                       }
+                      found++;
+                    });
+                    if (foundmatch == 0) {
+                        sourceRecord.externalIds.push({id: fieldValue, schemeId: {name: input.schemeName}});
+                    }
+              } else {
+                   sourceRecord.externalIds.push({id: fieldValue, schemeId: {name: 'externalId'}});
+              }
 
         } else if (h.endsWith(fieldName, '.name')) {
             var d = h.getLookup(fieldName, fieldValue);
@@ -137,6 +154,7 @@ var processRecord = function (searchBy, searchByValue, fieldNames, fieldValues, 
     var done = function(err) {
         if (err) {
             h.log('error', "" + (input.operation) + ' ' + searchBy.fieldName + " on record '" + searchByValue + "': " + JSON.stringify(err));
+            h.print('FAIL|', _.union([searchByValue], fieldValues));
         } else { 
             h.log('info', "" + (input.operation) + ' ' + searchBy.fieldName + " on record '" + searchByValue + "': with " + fieldValues);
         }
@@ -169,9 +187,11 @@ h.initLookups(restApi, input.source, function(err) {
     csvHelper.readAsObj(input.file, function (data) {
         async.eachLimit(data, input.limit, function (csvRecord, callback) {
             if (!data) return callback();
-
+            
             if (!allColumnNames) {
                 allColumnNames = _.keys(csvRecord);     // contains column names and datatype
+        	h.print('FAIL|', allColumnNames);
+
                 globalSearchBy = getDataType(_.first(allColumnNames));    //  Identify searchBy(first column) from all
                 globalFields = _.map(_.rest(allColumnNames, 1), getDataType  );  // building Object  of string and field Name
             }

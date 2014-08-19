@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Globals, unfortunately have to be declared by hand
-os=(opportunities offers quotes bookings lineitems assets contacts products lookups)
-objs=()
-opportunities=()
-offers=()
-quotes=()
-bookings=()
-lineitems=()
-assets=()
-contacts=()
-products=()
-lookups=()
+os=(opportunities offers quotes bookings lineitems assets contacts products lookups);
+objs=();
+opportunities=(); maps_opportunities=();
+offers=(); maps_offers=();
+quotes=(); maps_quotes=();
+bookings=(); maps_bookings=();
+lineitems=(); maps_lineitems=();
+assets=(); maps_assets=();
+contacts=(); maps_contacts=();
+products=(); maps_products=();
+lookups=(); maps_lookups=();
 
 readmap() {
   file="$1"
@@ -19,19 +19,21 @@ readmap() {
 
   while read line
   do
-    coll=`echo $line | cut -d'|' -f1`
-    col=`echo $line | cut -d'|' -f2`
+    coll=`echo $line | cut -d'|' -f1`;
+    col=`echo $line | cut -d'|' -f2`;
+    map=`echo $line | cut -d'|' -f3`;
+    if [[ -z "${map}" ]]; then map="-"; fi
 
     case $coll in 
-      opportunities) opportunities=("${opportunities[@]}" ${col});;
-      quotes) quotes=("${quotes[@]}" ${col});;
-      bookings) bookings=("${bookings[@]}" ${col});;
-      offers) offers=("${offers[@]}" ${col});;
-      assets) assets=("${assets[@]}" ${col});;
-      lineitems) lineitems=("${lineitems[@]}" ${col});;
-      contacts) contacts=("${contacts[@]}" ${col});;
-      products) products=("${products[@]}" ${col});;
-      lookups) lookups=("${lookups[@]}" ${col});;
+      opportunities) opportunities+=(${col}); maps_opportunities+=(${map}) ;;
+      quotes) quotes+=(${col}); maps_quotes+=(${map}) ;;
+      bookings) bookings+=(${col}); maps_bookings+=(${map}) ;;
+      offers) offers+=(${col}); maps_offers+=(${map}) ;;
+      assets) assets+=(${col}); maps_assets+=(${map}) ;;
+      lineitems) lineitems+=(${col}); maps_lineitems+=(${map}) ;;
+      contacts) contacts+=(${col}); maps_contacts+=(${map}) ;;
+      products) products+=(${col}); maps_products+=(${map}) ;;
+      lookups) lookups+=(${col}); maps_lookups+=(${map}) ;;
       *) log "ignoring line with a bad prefix ${line}" ;;
     esac
 
@@ -61,6 +63,6 @@ for coll in "${os[@]}"; do
 done
 
 mapfile="/tmp/${now}.map"
-cat ${f} | sort | uniq > "${mapfile}"
+cat ${f} | LC_ALL=C sort | uniq > "${mapfile}"
 
 readmap "${mapfile}"

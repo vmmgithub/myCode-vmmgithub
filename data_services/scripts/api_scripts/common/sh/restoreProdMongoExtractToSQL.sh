@@ -1,23 +1,33 @@
 #!/bin/bash
 
-usage() { echo "Usage: $0 -t <tenant> -o <operation = downloads3|importfroms3file|exportfrommongo|importtosql|all> [-c <columnfile>] [-s <schema>] [-u uat] " 1>&2; exit 1; }
+usage() { echo "Usage: $0 -t <tenant> -o <operation = downloads3|importfroms3file|transform3file|exportfrommongo|importtosql|all> [-c <columnfile>] [-s <schema>] [-u uat] [-q <path to custom sql file to be run> ] " 1>&2; exit 1; }
 log() { now=`date`; echo "[${now}] ${1} "; }
 checkmongo() {
     # start mongod, if it isnt running
-    mongostat=`ps -eaf | grep mongod | grep -v grep|wc -l`
+    mongostat=`ps -eaf | grep mongod | grep -v grep | wc -l`
     if [[ ${mongostat} != "1" ]]; then 
         mongostart
     fi
 }
+runCommand() {
+  ccmd=$1
+  now=`date '+%Y%m%d%H%M%S%N'`
+  ff="/tmp/${now}"
+
+  echo ${ccmd} > ${ff}
+  sh ${ff}
+  rm ${ff}
+}
 
 # Get the command line arg
-while getopts ":t:o:c:s:u:" arg; do
+while getopts ":t:o:c:s:u:q:" arg; do
     case "${arg}" in
         t) tenant=${OPTARG} ;;
         o) operation=${OPTARG} ;;
         c) columnfile=${OPTARG} ;;
         s) schema=${OPTARG} ;;
         u) uat=${OPTARG} ;;
+        q) queryfile=${OPTARG} ;;
         *) usage ;;
     esac
 done
@@ -90,7 +100,40 @@ fi
 ##############################################################################################################################
 # Step 2: Import prod mongo export file downloaded from S3 into local mongo
 ##############################################################################################################################
-if [[ ${operation} == "importfroms3file" || ${operation} == "all" ]]; then
+if [[ ${operation} == "transform3file" || ${operation} == "all" ]]; then
+
+    # drop existing database
+    log "STARTED direct transform of entities to sql files ..."
+    rm -rf ${sql_file_path}
+    mkdir -p ${sql_file_path}
+    
+    for coll in "${objs[@]}"
+    do
+        if [[ ${coll} == "contacts" ]]; then fullCollName="core.${coll}"; else fullCollName="app.${coll}"; fi
+        addCols=`cat ${mapfile} | grep "${coll}" | cut -d'|' -f2 |tr "'" "|"  | sed 's/$/,/g' | tr -cd "[:print:]" | sed 's/,\+$//' `
+        log "Transforming ${coll} ... with $addCols"
+
+        if [[ -f "${raw_file_path}/${fullCollName}.json" ]]; then
+            cd ${base_path}; cd ${mongo_scripts}
+            
+            ./transformRawImport.js --source "${fullCollName}" --columns "${addCols}" --file "${raw_file_path}/${fullCollName}.json" > "${sql_file_path}/${coll}.both.out"
+            if [[ $? -ne 0 ]]; then log "Error in transform data into sql fields ${tenant} and ${fullCollName}"; fi
+
+            grep -v RELATIONSHIPROWS "${sql_file_path}/${coll}.both.out" > "${sql_file_path}/${coll}.out"
+            grep RELATIONSHIPROWS "${sql_file_path}/${coll}.both.out" | cut -d'|' --complement -f1 >> "${sql_file_path}/RELATIONSHIPS.out"
+            rm "${sql_file_path}/${coll}.both.out"
+        fi
+
+    done
+
+    log "COMPLETED direct transform of entities to sql files"
+    log
+fi
+
+##############################################################################################################################
+# Step 2: Import prod mongo export file downloaded from S3 into local mongo
+##############################################################################################################################
+if [[ ${operation} == "importfroms3file" ]]; then
 
     # drop existing database
     log "STARTED import of entities to local mongo ..."
@@ -102,7 +145,7 @@ if [[ ${operation} == "importfroms3file" || ${operation} == "all" ]]; then
         if [[ ${coll} == "contacts" ]]; then fullCollName="core.${coll}"; else fullCollName="app.${coll}"; fi
         log "Importing ${coll} ..."
         mongoimport --quiet --db "${tenant}" --collection "app.${coll}" --type json --file "${raw_file_path}/${fullCollName}.json"
-        if [[ $? -ne 0 ]]; then log "Error in importing data into Mongo for tenant ${tenant} and app.${coll}"; exit 1; fi
+        if [[ $? -ne 0 ]]; then log "Error in importing data into Mongo for tenant ${tenant} and app.${coll}"; fi
 
     done
 
@@ -113,7 +156,7 @@ fi
 ##############################################################################################################################
 # Step 3: Export from mongo
 ##############################################################################################################################
-if [[ ${operation} == "exportfrommongo" || ${operation} == "all" ]]; then
+if [[ ${operation} == "exportfrommongo" ]]; then
 
     # Prep directories
     rm -rf "${sql_file_path}"
@@ -121,17 +164,17 @@ if [[ ${operation} == "exportfrommongo" || ${operation} == "all" ]]; then
     cd ${base_path}; cd ${mongo_scripts}
 
     log "STARTED creation of MySQL Load ready files to ${sql_file_path}"
+    cat /dev/null > ${sql_file_path}/RELATIONSHIPS.out
 
     for coll in "${objs[@]}"
     do
-        #TODO, make this support array expression with "'"
         addCols=`cat ${mapfile} | grep "${coll}" | cut -d'|' -f2 |tr "'" "|"  | sed 's/$/,/g' | tr -cd "[:print:]" | sed 's/,\+$//' `
         log "Exporting app.${coll} ... with $addCols"
 
         checkmongo;
         mongo ${tenant} --quiet --eval "var tenant='${tenant}';var coll='app.${coll}';var addCols='${addCols}'" ./exportCollection.js > "${sql_file_path}/${coll}.both.out"
 
-        if [[ $? -ne 0 ]]; then log "Error in extracting data from Mongo for tenant ${tenant} for app.${coll}"; exit 1; fi
+        if [[ $? -ne 0 ]]; then log "Error in extracting data from Mongo for tenant ${tenant} for app.${coll}"; fi
 
         grep -v RELATIONSHIPROWS "${sql_file_path}/${coll}.both.out" > "${sql_file_path}/${coll}.out"
         grep RELATIONSHIPROWS "${sql_file_path}/${coll}.both.out" | cut -d'|' -f2 >> "${sql_file_path}/RELATIONSHIPS.out"
@@ -149,15 +192,14 @@ if [[ ${operation} == "importtosql" || ${operation} == "all" ]]; then
 
     log "STARTED import of files to MySQL ..."
     cd ${base_path}; cd ${sql_scripts}
-    cmd="./importCollection.sh -s ${schema} -t ${tenant} -r drop -i ${sql_file_path}"
-    if [[ ${columnfile} != "" ]]; then cmd="$cmd -c ${columnfile}"; fi
-    now=`date '+%Y%m%d%H%M%S%N'`
-    f="/tmp/${now}"
-
-    echo "$cmd" > ${f}
-    log "STARTING extraction $cmd"
-    sh ${f}
-    rm ${f}
+    cmd=
+    runCommand "./importCollection.sh -t ${tenant} -r drop -i ${sql_file_path} -s ${schema} -c ${columnfile} " 
+    runCommand "./customizeViews.sh -t ${tenant} -s ${schema} -c ${columnfile} " 
+    if [[ -s ${queryfile} ]]; then
+        log "Running query file for ${tenant}"
+        mysql -s -f ${schema} < ${queryfile}
+        log "Completed query file for ${tenant}"
+    fi
 
     log "COMPLETED import of files to MySQL"
     log

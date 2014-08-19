@@ -1,26 +1,38 @@
-var api_request = require('api_request'),
+var api_request = require('./api_request'),
     _ = require("underscore"),
     request = require("request"),
     fs = require("fs"),
-    Streamer = require("./streamer.js");
+    Streamer = require("./streamer.js"),
+    retry = 0,
+    querystring = require('querystring'),
+    underscore = require('underscore'),
+    backlog = [],
+    cookie = process.env.cookie || null;
 
 var http = require('http'),
     httpAgent = http.Agent;
  
 httpAgent.maxSockets = 0;
 
-var req = function(api, cb) {
+var req = function(api, cb, retryFn) {
         var headers = { 'accept-language' : 'en-US',
             'Content-Type' : 'application/json' };
-        headers.Authorization = 'Basic ' + new Buffer(api.username + ':' + api.password).toString('base64');
-
+        headers.cookie = cookie;
         return (new api_request(api.port == '443' || api.port == '8443' ? 'https' : 'http', api.host, api.port))
             .with_content_type("application/json").add_headers(headers)
-            .on('reply', function(r) {
+            .on('reply', function(r, resp) {
                 //r = JSON.parse(r);
-                if (!r.success) {
-                    cb(r.messages);
+                if (!r || !r.success || r.success === 'false') {
+                    if (resp.statusCode === 403 || 
+                        _.indexOf(['messages.serviceUnavailable', 'Unauthorized Access', 'Unauthenticated session'], r.messages[0].message) > 0) {
+                        backlog.push(retryFn);
+                        if (retry === 0) 
+                            authenticate.apply(this, [api, cb]);
+                    }
+                    else
+                        cb(r.messages);
                 } else {
+                    retry = 0;
                     cb(null, r);
                 }
             }).on('error', function(err) {
@@ -28,18 +40,56 @@ var req = function(api, cb) {
             });
     },
     get = function(api, url, cb) {
-        req(api, cb).get(url);
+        req(api, cb,  _.bind.apply(_,[arguments.callee, this].concat(_.toArray(arguments)))).get(url);
     },
     put = function(api, url, body, cb) {
-        req(api, cb).with_payload(body).post(url);
+        req(api, cb, _.bind.apply(_,[arguments.callee, this].concat(_.toArray(arguments)))).with_payload(body).post(url);
     },
     del = function(api, url, cb) {
-        req(api, cb).del(url);
+        req(api, cb, _.bind.apply(_,[arguments.callee, this].concat(_.toArray(arguments)))).del(url);
     },
     url = function(tenant, coll, id, action) {
         return "/rest/api/" + tenant + "/" + coll +
             ((id) ? "/" + id : '') +
             ((action)? "::" + action : '');
+    },
+    authenticate = function(api, cb) {
+        cookie = null;
+        var scope = this;
+        if (retry > 4) {
+            var str = "Tried to auth " + retry + " times and died. Check host, password, host & port";
+            console.log(str);
+            return cb(new Error(str));
+        }
+        else if (++retry > 1)
+            console.log('Authenticate', 'Trying to authenticate : '+ retry);
+        var req = new api_request(api.port == '443' || api.port == '8443' ? 'https' : 'http', api.host, api.port);
+        req.with_content_type('application/json').with_payload({
+            username: api.username, 
+            password: api.password
+        }).post('/login.json').on('reply', function(reply, res, headers) {
+            if (reply.success) {
+                if (_.isArray(res.headers['set-cookie']) && res.headers['set-cookie'].length) {
+                    try {
+                        cookie = res.headers['set-cookie'][0];
+                        cookie = _.filter(cookie.split(';'),function(frag) {
+                             return !/Path|HttpOnly|Expires/ig.test(frag) ;
+                        }).join(';');
+                        // Flush backlog;
+                        var copy = [].concat(backlog);
+                        backlog = [];
+                        _.each(copy, function(fn) {
+                            fn();
+                        });
+                    } catch (e) {
+                        console.log(e);
+                        cb(new Error("Cannot authenticate"));
+                    }
+                }
+            }
+            else
+                authenticate(api, cb);
+        });
     };
 
 module.exports = function() {

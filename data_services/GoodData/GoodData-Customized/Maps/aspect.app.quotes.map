@@ -1,0 +1,9 @@
+QuotePK==_id+_id
+Tenant==systemProperties/tenant+systemProperties/tenant
+QuoteName==displayName+diplayName
+CustomField1==externalIds/0/id
+CustomField2==extensions/tenant/revisionRequestReason/value/displayName
+CustomField3==requestReason/displayName
+CustomField4==
+CustomField5==
+CustomField6==

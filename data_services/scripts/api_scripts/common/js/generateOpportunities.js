@@ -158,27 +158,6 @@ var startOppGen = function(callback) {
     });
 };
 
-var pollJobCompletion = function(job, callback) {
-    async.until(
-        function() {
-            return job.status && job.status.name == 'completed';
-        }, 
-        function(cb) {
-            _.delay(function() {
-                h.findRecords(actionCollection, {
-                    filter: {_id: job._id},
-                }, function(err, res) {
-                    if (err || !res) return cb(err || 'No job information');
-                    
-                    job = res && res[0];
-                    h.log('debug', 'Job status is ' + job.status.name);
-                    cb();
-                });                
-            }, 1 * 10 * 1000);
-        }, 
-        callback);
-};
-
 var scanGeneratedOpportunities = function(tag, callback) {
     h.findRecords(opportunityCollection, {
         multiple: true,
@@ -227,7 +206,7 @@ async.waterfall([
     function(cb) {
         if (input.operation != 'generateAndPoll') return cb(); //skipping the work
 
-        pollJobCompletion(globalJob, function(err, job) {
+        h.pollBGJobCompletion(actionCollection, globalJob, 1000, function(err, job) {
             if (err) return cb('Problem checking status ' + err);
 
             return cb(err);

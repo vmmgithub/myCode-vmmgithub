@@ -47,7 +47,7 @@ var findReferer = function (type, id, callback) {
     h.findRecords(coll, {
         searchBy: '_id',
         value: id,
-        columns: ['_id', 'displayName', 'type', 'relationships', 'systemProperties']
+//        columns: ['_id', 'displayName', 'type', 'relationships', 'systemProperties']
     }, function(err, res) {
         if (res && res.length == 1) return callback(null, res[0]);
 
@@ -175,7 +175,7 @@ if (input.operation == 'removeAll') {
 if (input.operation == 'removeById') {
     csvHelper.readAsObj(input.file, function (data) {
         async.eachLimit(data, input.limit, function (csvRecord, callback) {
-            if (!data || err) return ;
+            if (!data) return callback();
             deleteObject({_id: csvRecord[input.columnName]}, callback);
         },
         function (err) {

@@ -74,8 +74,13 @@ var uploadDocument = function (filePath, callback) {
         tenantApi.attachment(readStream, function (err, resp, body) {
             if (err) return callback(err, null);
 
-            var res = JSON.parse(body);
-            callback(null, res[0]);            
+            var res;
+            try {
+                res = JSON.parse(body);
+                callback(null, res[0]);
+            } catch (err) {
+                return callback(err);
+            }
         });
     } catch (e) {
         return callback(e, null);

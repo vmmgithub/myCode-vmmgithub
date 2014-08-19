@@ -42,12 +42,12 @@ var cols = {
       "targetAmount.code.name",
       "isSubordinate",
       "flows.salesStages.state.name",
-      "relationships.customer",
-      "relationships.salesRep",
-      "relationships.quote",
-      "relationships.baseQuote",
-      "relationships.primaryQuote",
-      "relationships.booking",
+      "relationships.customer.targets.keyNameType",
+      "relationships.salesRep.targets.keyNameType",
+      "relationships.quote.targets.keyNameType",
+      "relationships.baseQuote.targets.keyNameType",
+      "relationships.primaryQuote.targets.keyNameType",
+      "relationships.booking.targets.keyNameType",
       "extensions.master.batchQuarter.value",
       "extensions.master.clientBatchQuarter.value",
       "extensions.master.targetPeriod.value.name",
@@ -60,7 +60,7 @@ var cols = {
       "displayName",
       "amount.amount",
       "amount.code.name",
-      "relationships.booking"
+      "relationships.booking.targets.keyNameType"
     ],
     'book': [
       "_id",
@@ -81,8 +81,8 @@ var cols = {
       "amount.code.name",
       "targetAmount.amount",
       "targetAmount.code.name",
-      "relationships.predecessor",
-      "relationships.quote",
+      "relationships.predecessor.targets.keyNameType",
+      "relationships.quote.targets.keyNameType",
       "resultReason.name",
       "result.name",
       "startDate",
@@ -105,9 +105,9 @@ var cols = {
       "displayName",
       "amount.amount",
       "amount.code.name",
-      "relationships.predecessor",
-      "relationships.base",
-      "headerDocument.headerKey",
+      "relationships.predecessor.targets.keyNameType",
+      "relationships.base.targets.keyNameType",
+      "headerDocument.headerKey.targets.keyNameType",
     ]
 };
 
@@ -144,6 +144,16 @@ if (!_.isEmpty(input.columns)) {
 
   });
 }
+
+// Renew does not understand the keyname type concept, so lets remove it
+_.each(_.keys(cols), function(coll) {
+  cols[coll] = _.map(cols[coll], function(path) { 
+    if (h.startsWith(path, 'relationships'))
+      return 'relationships.' + path.split('.')[1];
+    else 
+      return path;
+  });
+});
 
 var scanOpps = function (callback) {
     var filter = {};

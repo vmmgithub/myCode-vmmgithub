@@ -1,0 +1,6 @@
+ClientCalendarPK==_id
+Tenant==systemProperties/tenant
+Quarter==displayName
+QuarterDescription==displayName
+QuarterStartDate==value/start
+QuarterEndDate==value/end

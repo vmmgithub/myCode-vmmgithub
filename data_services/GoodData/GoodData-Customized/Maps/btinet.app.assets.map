@@ -1,0 +1,15 @@
+AssetPK==_id
+ExistingStartDate==startDate
+ExistingEndDate==endDate
+ExistingServiceProduct==product$target/type[app.product/service]?target/displayName
+ExistingCoveredProduct==product$target/type[app.product/covered]?target/displayName+covered$target/relationships/product/targets/0/displayName
+Tenant==systemProperties/tenant
+CustomField1==
+CustomField2==
+CustomField3==
+CustomField4==
+CustomField5==
+CustomField6==
+CustomField7==
+CustomField8==
+CustomField9==

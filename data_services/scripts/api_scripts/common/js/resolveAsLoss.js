@@ -15,8 +15,9 @@ var input = require('optimist')
     .alias('u', 'user').describe('u', 'Specify user')
     .alias('p', 'password').describe('p', 'Specify password') 
     .alias('f', 'file').describe('f', 'File to process')
-    .alias('b', 'searchBy').describe('b', 'Search by attribute [_id, displayName, externalId]').default('b', 'displayName')
+    .alias('b', 'searchBy').describe('b', 'Search by attribute [_id, displayName, externalId]').default('b', '_id')
     .alias('m', 'multiple').describe('m', 'Flag to indicate if updating all matching records or just the first').boolean('m').default('m', false)
+    .alias('z', 'zenMode').describe('z', 'Zen mode handles most exceptions and forces opp close').default('z', false)
     .alias('l', 'limit').describe('l', 'Concurrent threads').default('l', 5)
     .demand(['h', 't', 'f'])
     .argv;
@@ -37,11 +38,28 @@ var findOpportunity = function (value, callback) {
 
 var findReason = function (value, callback) {
     h.findCachedRecords(lookupCollection, {
-        filter: {displayName: value},
+        filter: {
+            "$or": [{name: value}, {displayName: value}]
+        },
+        value: value
     }, callback);
 };
 
-var getResolveAsLossInput = function (opportunity, callback) {
+var adamantFunction = function(opportunity, params, lossDate, lossReason, callback) {
+    if (h.getFlowState(opportunity, 'salesStages') == 'houseAccount' || h.getFlowState(opportunity, 'salesStages') == 'noService') {
+        h.log('debug', 'Opportunity already lost ' + opportunity._id);
+        return callback();
+    }
+
+    var determineNextSteps = function(err, res) {
+        //Get out if not in zen mode or if we max out on 2 retries
+        return callback(err, res);
+    };
+
+    resolveAsLossAction(opportunity, params, lossDate, lossReason, determineNextSteps);
+}
+
+var resolveAsLossAction = function (opportunity, params, lossDate, lossReason, callback) {
     var payload = {
         detail: {
             _id: opportunity._id,
@@ -52,28 +70,57 @@ var getResolveAsLossInput = function (opportunity, callback) {
 
     tenantApi.execute('app.opportunities', opportunity._id, 'getResolveAsLossInput', payload, function(err, res) {
         if (err || res.success != true || !res || !res.data || !res.data['app.resolve.loss.input'] || !res.data['app.resolve.loss.input'][0]) 
-            return callback("on loss input " + JSON.stringify(err));
+            return callback(err || res);
 
-        return callback(null, res.data['app.resolve.loss.input'][0]);
+        var input = res.data['app.resolve.loss.input'][0];
+
+        input.resultReason = {
+            name: lossReason.name,
+            displayName: lossReason.displayName
+        };
+
+        if (lossDate) input.lossDate = h.noonOffset(lossDate);
+        input.notes = [{text: 'Automated resolve as loss', type: 'core.note'}];
+
+        tenantApi.execute('app.opportunities', opportunity._id, 'resolveAsLoss', input, function(err, res) {
+            if (err || res.success == false) 
+                return callback(err || res);
+
+            return callback(null, res && res.data);
+        });
 
     });
 };
 
-var resolveAsLossAction = function (opportunity, input, lossDate, lossReason, callback) {
-    input.resultReason = {
-        name: lossReason.name,
-        displayName: lossReason.displayName
-    };
+var updateSellingPeriod = function (opp, resolutionDate, callback) {
+    var r = h.getTargetSellingPeriod(resolutionDate);
+    if (!r || (opp.extensions.master.targetPeriod && opp.extensions.master.targetPeriod.value 
+            && opp.extensions.master.targetPeriod.value.name == r.name)) {
+        return callback(null, opp);
+    }
 
-    if (lossDate) input.lossDate = lossDate;
-    input.notes = [{text: 'Automated resolve as loss', type: 'core.note'}];
+    var opps = [opp];
+    h.getMasterOpp(oppCollection, tenantApi, opp, function(err, mopp) {
+        if (mopp._id != opp._id) opps.push(mopp);
 
-    tenantApi.execute('app.opportunities', opportunity._id, 'resolveAsLoss', input, function(err, res) {
-        if (err || res.success == false) 
-            return callback(" setting loss input " + JSON.stringify(err || res));
+        async.each(opps, function(op, cb) {
+            var o = {
+                _id: op._id,
+                extensions: {
+                    master: {
+                        targetPeriod: op.extensions.master.targetPeriod
+                    }
+                },
+                systemProperties: op.systemProperties
+            };
+            if (!o.extensions.master.targetPeriod) 
+                o.extensions.master.targetPeriod = {};
 
-        return callback(null, res && res.data);
+            o.extensions.master.targetPeriod.value = r;
+            h.log('debug', "Changing selling period on '" + o._id + "' to " + r.name);
 
+            oppCollection.update(o, cb);
+        }, callback); 
     });
 };
 
@@ -81,6 +128,7 @@ var processRecord = function (oppName, lossDate, lossReason, callback) {
     var done = function(err) {
         if (err) {
             h.log('error', "Resolving opportunity '" + oppName + "': " + JSON.stringify(err));
+            h.print('FAIL|', [oppName, lossReason, lossDate]);
         } else {
             h.log('info', "Resolving opportunity '" + oppName + "' with " + lossReason);
         }
@@ -95,10 +143,10 @@ var processRecord = function (oppName, lossDate, lossReason, callback) {
             if (err) return done(err);
 
             async.eachLimit(res, 1, function(opportunity, ocb) {
-                getResolveAsLossInput(opportunity, function(err, input) {
-                    if (err) return done(err);
-                    resolveAsLossAction(opportunity, input, lossDate, reason, ocb);
-                });
+                updateSellingPeriod(opportunity, lossDate, function(err, opp) {
+                    if (err) return ocb(err);
+                    adamantFunction(opportunity, {tries: 0}, lossDate, reason, ocb);
+                });                
             },
             done);
         });
@@ -106,9 +154,14 @@ var processRecord = function (oppName, lossDate, lossReason, callback) {
 };
 
 h.log('info', 'Processing ' + input.file);
-csvHelper.readAsObj(input.file, function (data) {
-    async.eachLimit(data, input.limit, function (csvRecord, callback) {
+h.print('FAIL|', ['Name', 'Reason', 'LossDate']); // for auto re-processing
+
+// Read the selling periods and update it prior to proceeding with other steps
+h.initLookups(restApi, 'app.opportunity', function(err) {
+    csvHelper.readAsObj(input.file, function (data) {
         if (!data) return callback();
+
+        async.eachLimit(data, input.limit, function (csvRecord, callback) {
             var oppName = csvRecord["Name"];
             var lossReason = csvRecord["Reason"];
             var lossDate = csvRecord["LossDate"];
@@ -123,4 +176,5 @@ csvHelper.readAsObj(input.file, function (data) {
         function (err) {
             h.log('info', 'DONE ' + err);
         });
+    });
 });

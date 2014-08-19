@@ -22,6 +22,7 @@ fi
 
 # Create the output directory, if it does not exist
 mkdir -p ${output}
+cat /dev/null > ${output}/RELATIONSHIPS.out
 
 # Use helper script to read all the map  columns that are available for all tenants
 log "Initializing from map files ... "
@@ -64,7 +65,7 @@ for coll in "${objs[@]}"; do
   rm ${f}
 
   grep -v RELATIONSHIPROWS ${output}/${coll}.both.out > ${output}/${coll}.out
-  grep RELATIONSHIPROWS ${output}/${coll}.both.out | cut -d'|' -f2 >> ${output}/RELATIONSHIPS.out
+  grep RELATIONSHIPROWS ${output}/${coll}.both.out | cut -d'|' -f1 --complement >> ${output}/RELATIONSHIPS.out
   rm ${output}/${coll}.both.out
   objects=`wc -l ${output}/${coll}.out | awk {'print $1'}`
   relationships=`wc -l ${output}/RELATIONSHIPS.out | awk {'print $1'}`

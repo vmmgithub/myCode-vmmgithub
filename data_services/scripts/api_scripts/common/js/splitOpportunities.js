@@ -38,10 +38,10 @@ var findOpportunity = function (value, callback) {
 };
 
 var findOffers = function (opportunity, callback) {
-    tenantApi.execute('app.opportunities', opportunity._id, 'findOffers', {filter: {}, params: {limit: 10000}}, function(err, res) {
-        if (err || res.success != true || !res || !res.data || !res.data['app.offer']) 
+    tenantApi.execute('app.opportunities', opportunity._id, 'findOffers', {filter: {}, configParams: {findActionParams: {criteria: 'initial'}}, params: {limit: 10000, columns: ['_id']}}, function(err, res) {
+        if (err || res.success != true || !res || !res.data) 
             return callback("on findOffers " + JSON.stringify(err));
-        callback(null, res.data['app.offer']);
+        callback(null, res.data['app.offer'] || []);
     });
 };
 
@@ -89,7 +89,10 @@ var prepMove = function(opportunity, offerIds, ocb) {
                 matchedOfferIds.push(offer._id);
         });
 
-        if (_.isEmpty(matchedOfferIds)) return ocb('No offers to move ' + opportunity._id + ' ' + offerIds);
+        if (_.isEmpty(matchedOfferIds)) {
+            h.log('warn', 'No offers to move ' + opportunity._id);
+            return ocb(null, opportunity);
+        }
 
         moveOffers(opportunity, matchedOfferIds, function(err, newOpp) {
             if (!err) h.log('info', "Splitting opportunity '" + opportunity._id + "' with " + (newOpp && (newOpp._id + ' ' + newOpp.displayName)));
@@ -100,7 +103,10 @@ var prepMove = function(opportunity, offerIds, ocb) {
 
 var processRecord = function (oppName, offerIds, callback) {
     var done = function(err, newOpp) {
-        if (err) h.log('error', "Splitting opportunity '" + oppName + "': " + JSON.stringify(err));
+        if (err) {
+            h.log('error', "Splitting opportunity '" + oppName + "': " + JSON.stringify(err));
+            h.print('FAIL|', [oppName, _.reduce(offerIds, function(str, c) { if(str == '') return c; else return str + ',' + c}, '')]);
+        }
         callback();
     };
 
@@ -126,14 +132,16 @@ var processRecord = function (oppName, offerIds, callback) {
 };
 
 h.log('info', 'Processing ' + input.file);
+h.print('FAIL|', ['Opportunity', 'OfferIds']); // for auto re-processing
+
 csvHelper.readAsObj(input.file, function (data) {
     async.eachLimit(data, input.limit, function (csvRecord, callback) {
         if (!data) return callback();
             var oppName = csvRecord["Opportunity"];
             var offerIds = csvRecord["OfferIds"];
-            offerIds = offerIds.split(',');
 
-            if (oppName && offerIds && offerIds.length > 0) {
+            if (oppName && offerIds && offerIds.split(',').length > 0) {
+                offerIds = offerIds.split(',');
                 processRecord(oppName, offerIds, callback);
             } else {
                 h.log('warn', 'Skipping ' + oppName + ' and ' + offerIds);

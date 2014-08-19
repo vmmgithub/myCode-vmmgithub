@@ -105,49 +105,6 @@ function getRelationship(doc, relation) {
     });
 };
 
-function toArray( obj) {
-  print("Object >"+JSON.stringify(obj));
-  for (var prop in obj) {
-    var value = obj[prop];
-
-    if( !isFunctionA(value) ) {
-      if (typeof value === 'object') {
-        var fieldArray = toArrayInner( value);
-        for(  i=0; i<fieldArray.length;i++){
-print("Chala->"+fieldArray[i]);
-}
-    } else {
-        print(prop+"."+value);
-    }
-}
-  }
-}
-function toArrayInner( obj) {
-        var fieldArray = [];
-var counter = 1;
-  for (var prop in obj) {
-    var value = obj[prop];
-
-        if( !isFunctionA(value) ) {
-    if (typeof value === 'object') {
-        var results = toArrayInner(value);
-        for(  i=0; i<results.length;i++){
-        fieldArray.push(prop+"."+results[i]);
-}
-    } else {
-        fieldArray.push(prop+"."+value);
-    }
-}
-  }
-        return fieldArray;
-}
-
-function isFunctionA(functionToCheck) {
- var getType = {};
- return functionToCheck && getType.toString.call(functionToCheck) === '[object Function]';
-}
-
-
 function printRelationships(doc) {
    _.each(cols, function(col) {
       if (col.indexOf('keyNameType') != -1) {
