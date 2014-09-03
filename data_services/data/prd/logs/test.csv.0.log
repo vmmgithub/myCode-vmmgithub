@@ -1,9 +1,0 @@
-[32m[2014-07-15T19:20:32.574Z][info] Processing ./test.csv[39m
-FAIL|"_id(string)","amount.amount(number)","extensions.tenant.agreeMasterAccntId.value(string)"
-[32m[2014-07-15T19:20:42.348Z][info] EXISTING: 53039e806beea4863d0100fb,"amount.amount::,1037","extensions.tenant.agreeMasterAccntId.value::,1-293P-5_1"[39m
-[32m[2014-07-15T19:20:42.349Z][info] REPLACEM: 53039e806beea4863d0100fb,"amount.amount::,1038","extensions.tenant.agreeMasterAccntId.value::,1-293P-5_2"[39m
-[32m[2014-07-15T19:20:42.359Z][info] EXISTING: 53039e806beea4863d0100fb,"amount.amount::,1037","extensions.tenant.agreeMasterAccntId.value::,1-293P-5_1"[39m
-[32m[2014-07-15T19:20:42.359Z][info] REPLACEM: 53039e806beea4863d0100fb,"amount.amount::,1037","extensions.tenant.agreeMasterAccntId.value::,1-293P-5_1"[39m
-[32m[2014-07-15T19:20:43.008Z][info] update _id on record '53039e806beea4863d0100fb': with 1037,1-293P-5_1[39m
-[32m[2014-07-15T19:20:43.049Z][info] update _id on record '53039e806beea4863d0100fb': with 1038,1-293P-5_2[39m
-[32m[2014-07-15T19:20:43.049Z][info] DONE undefined[39m

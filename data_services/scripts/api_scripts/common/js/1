@@ -1,1 +1,0 @@
-./buildJSONfromdotnotation.js  -f "singleAttrib:firstOne,extensions.master.targetPeriod.value.name:fy15Q1,extensions.master.businessLine.value.name:AV,extensions.master.externalIds.tenant.sellingPeriod.value.name:fy14q4,_id:23474373,extensions.master.businessLine.state.name:CA,external:test"

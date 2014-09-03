@@ -1,9 +1,0 @@
-QuotePK==_id+_id
-Tenant==systemProperties/tenant+systemProperties/tenant
-QuoteName==displayName+diplayName
-CustomField1==
-CustomField2==
-CustomField3==
-CustomField4==
-CustomField5==
-CustomField6==
